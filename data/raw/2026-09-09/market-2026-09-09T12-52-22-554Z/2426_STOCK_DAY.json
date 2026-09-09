@@ -1,9 +1,9 @@
 {
-  "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260901&stockNo=2426",
-  "fetchedAt": "2026-09-09T12:52:35.331Z",
-  "payload": {
+  "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260909&stockNo=2426",
+  "retrieved_at": "2026-09-09T12:52:25.814Z",
+  "response": {
     "stat": "OK",
-    "date": "20260901",
+    "date": "20260909",
     "title": "115年09月 2426 鼎元             各日成交資訊",
     "fields": [
       "日期",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "asOf": "2026-09-09",
-  "checkedAt": "2026-09-09T12:13:55.683Z",
+  "checkedAt": "2026-09-09T12:52:22.554Z",
   "verification": "verified",
   "marketOpen": true,
   "baselineNote": "延續9/7已核對研究快照，补齐单季可比历史及公司事件基準；不把舊公告或既有條件當今日新事件。",
@@ -28,8 +28,8 @@
           "label": "證交所估值",
           "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260909&stockNo=2426"
         },
-        "rawFile": "data/raw/2026-09-09/market-2026-09-09T12-13-55-683Z/2426_STOCK_DAY.json",
-        "valuationRawFile": "data/raw/2026-09-09/market-2026-09-09T12-13-55-683Z/2426_BWIBBU.json"
+        "rawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/2426_STOCK_DAY.json",
+        "valuationRawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/2426_BWIBBU.json"
       },
       "quoteHistory": [
         {
@@ -246,8 +246,8 @@
           "label": "證交所估值",
           "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260909&stockNo=3714"
         },
-        "rawFile": "data/raw/2026-09-09/market-2026-09-09T12-13-55-683Z/3714_STOCK_DAY.json",
-        "valuationRawFile": "data/raw/2026-09-09/market-2026-09-09T12-13-55-683Z/3714_BWIBBU.json"
+        "rawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/3714_STOCK_DAY.json",
+        "valuationRawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/3714_BWIBBU.json"
       },
       "quoteHistory": [
         {
@@ -610,8 +610,8 @@
           "label": "證交所估值",
           "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260909&stockNo=2409"
         },
-        "rawFile": "data/raw/2026-09-09/market-2026-09-09T12-13-55-683Z/2409_STOCK_DAY.json",
-        "valuationRawFile": "data/raw/2026-09-09/market-2026-09-09T12-13-55-683Z/2409_BWIBBU.json"
+        "rawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/2409_STOCK_DAY.json",
+        "valuationRawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/2409_BWIBBU.json"
       },
       "quoteHistory": [
         {

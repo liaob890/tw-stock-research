@@ -1,6 +1,6 @@
 {
   "source": "https://www.twse.com.tw/announcement/notice?response=json&startDate=20260909&endDate=20260909&querytype=1&sortKind=STKNO",
-  "retrievedAt": "2026-09-09T12:13:56.560Z",
+  "retrievedAt": "2026-09-09T12:52:28.990Z",
   "requestedAsOf": "2026-09-09",
   "response": {
     "stat": "OK",
