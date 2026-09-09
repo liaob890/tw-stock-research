@@ -11,8 +11,10 @@ on:
         options: [publish, intraday, close]
         default: publish
   schedule:
-    # UTC+8: weekdays 09:00–13:30, every 30 minutes.
-    - cron: '0,30 1-5 * * 1-5'
+    # UTC+8: weekdays 09:00–12:55, every 5 minutes.
+    - cron: '*/5 1-4 * * 1-5'
+    # UTC+8: weekdays 13:00–13:30, every 5 minutes.
+    - cron: '0-30/5 5 * * 1-5'
     # UTC+8: weekdays 18:00.
     - cron: '0 10 * * 1-5'
 
