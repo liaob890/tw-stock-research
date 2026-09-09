@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {updateMode,latestCommonTradeDate,INTRADAY_CRON,CLOSE_CRON} from './cloud-core.mjs';
-assert.equal(updateMode('schedule',INTRADAY_CRON),'intraday');
+import {updateMode,latestCommonTradeDate,INTRADAY_CRONS,CLOSE_CRON} from './cloud-core.mjs';
+assert.deepEqual(INTRADAY_CRONS,['*/5 1-4 * * 1-5','0-30/5 5 * * 1-5']);
+for(const cron of INTRADAY_CRONS)assert.equal(updateMode('schedule',cron),'intraday');
 assert.equal(updateMode('schedule',CLOSE_CRON),'close');
 assert.equal(updateMode('push',undefined,'close'),'publish');
 assert.equal(updateMode('workflow_dispatch',undefined,'close'),'close');
@@ -17,6 +18,7 @@ assert.ok(session.includes("import.meta.env.BASE_URL+'update-status.json?ts='"))
 assert.ok(!session.includes('/api/update-status'));
 console.log('PASS: cloud schedule mapping, delayed job identity, real trading dates, missing data, Pages subpath refresh.');
 const workflow=await readFile(new URL('../../.github/workflows/stock-research.yml',import.meta.url),'utf8');
+for(const cron of INTRADAY_CRONS)assert.ok(workflow.includes(`cron: '${cron}'`));
 assert.ok(!workflow.includes('OPENAI_API_KEY'));
 assert.ok(!workflow.includes('openai/codex-action'));
 console.log('PASS: free scheduled workflow has no OpenAI API key or paid AI action.');

@@ -1,7 +1,8 @@
 import {WATCHLIST} from '../lib/watchlist.mjs';
 export {WATCHLIST};
-export const SLOT_MINUTES=[540,570,600,630,660,690,720,750,780,810,1080];
-export const schedule={timezone:'Asia/Taipei',startDate:'2026-09-08',weekdays:[1,2,3,4,5],intradayStart:'09:00',intradayEnd:'13:30',intervalMinutes:30,disposalTime:'18:00',maxQuoteAgeMinutes:20};
+export const INTRADAY_SLOT_MINUTES=Array.from({length:55},(_,index)=>540+index*5);
+export const SLOT_MINUTES=[...INTRADAY_SLOT_MINUTES,1080];
+export const schedule={timezone:'Asia/Taipei',startDate:'2026-09-08',weekdays:[1,2,3,4,5],intradayStart:'09:00',intradayEnd:'13:30',intervalMinutes:5,disposalTime:'18:00',maxQuoteAgeMinutes:20};
 export const taipeiDate=now=>new Date(new Date(now).getTime()+28800000).toISOString().slice(0,10);
 export function nextSlots(now,count=1){
   const result=[],base=new Date(taipeiDate(now)+'T00:00:00Z');

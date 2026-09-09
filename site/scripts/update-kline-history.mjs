@@ -10,6 +10,7 @@ const intradayOnly=args.includes('--intraday-only'),dailyInput=arg('--daily-inpu
 const read=async p=>JSON.parse((await readFile(p,'utf8')).replace(/^\uFEFF/,''));
 const save=async(p,v)=>{await mkdir(path.dirname(p),{recursive:true});await writeFile(p+'.tmp',JSON.stringify(v,null,2)+'\n');await rename(p+'.tmp',p);};
 const get=async url=>{const r=await fetch(url,{signal:AbortSignal.timeout(30000),headers:{Accept:'application/json','User-Agent':'Mozilla/5.0 StockAnalysis/1.0'}});if(!r.ok)throw new Error('K線 HTTP '+r.status);return {url,fetchedAt:new Date().toISOString(),payload:await r.json()};};
+const intradayPeriods=['5m','15m','30m','60m'];
 const market=await read(path.join(site,'lib/market-snapshot.json')),calendar=await read(path.join(site,'lib/trading-calendar.json'));
 let prior;try{prior=await read(path.join(site,'lib/kline-history.json'));}catch(e){if(e.code!=='ENOENT')throw e;}
 const checkedAt=new Date().toISOString(),asOf=intradayOnly?prior?.asOf:market.stocks.map(s=>s.quote.tradingDate).sort()[0];
@@ -39,14 +40,15 @@ try{
     let intradayByInterval;
     if(result.history.length){
       const five=reconcileIntradayClosing(result.history,daily,5);
-      intradayByInterval={'5m':five,'10m':aggregateIntraday(five,10),'15m':aggregateIntraday(five,15),'30m':aggregateIntraday(five,30)};
-      for(const period of ['5m','10m','15m','30m'])if(previousIntervals[period]?.at(-1)?.date>intradayByInterval[period]?.at(-1)?.date)throw new Error(stock.id+' '+period+' 資料時間倒退，保留前次成功版本');
+      intradayByInterval={'5m':five,'15m':aggregateIntraday(five,15),'30m':aggregateIntraday(five,30),'60m':aggregateIntraday(five,60)};
+      for(const period of intradayPeriods)if(previousIntervals[period]?.at(-1)?.date>intradayByInterval[period]?.at(-1)?.date)throw new Error(stock.id+' '+period+' 資料時間倒退，保留前次成功版本');
     }else{
-      intradayByInterval={'5m':previousIntervals['5m']??[],'10m':previousIntervals['10m']??[],'15m':previousIntervals['15m']??[],'30m':previousIntervals['30m']??[]};
+      const five=previousIntervals['5m']??[];
+      intradayByInterval={'5m':five,'15m':previousIntervals['15m']??aggregateIntraday(five,15),'30m':previousIntervals['30m']??aggregateIntraday(five,30),'60m':previousIntervals['60m']??aggregateIntraday(five,60)};
       check.status='pending';check.messages.push(stock.name+' 尚無新的已完成5分K，沿用上次成功資料');
     }
     const intradayMetaByInterval={};
-    for(const period of ['5m','10m','15m','30m']){
+    for(const period of intradayPeriods){
       const history=intradayByInterval[period],missingBars=history.filter(r=>r.missing).length;
       intradayMetaByInterval[period]={checkedAt,fetchedAt:envelope.fetchedAt,lastCompletedAt:history.at(-1)?.to??history.at(-1)?.date??null,delayMinutes:20,missingBars,source:url};
       if(missingBars){check.status='pending';check.messages.push(stock.name+' '+period.replace('m','分K')+' 有 '+missingBars+' 根資料待確認，不繪製該棒與涉及的均線');}

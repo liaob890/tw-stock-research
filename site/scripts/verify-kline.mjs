@@ -4,7 +4,7 @@ import os from 'node:os';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
-import {aggregateCandles,aggregateIntraday,timeframeSeries,parseIntraday,reconcileIntradayClosing,validOHLC} from './kline-core.mjs';
+import {TIMEFRAMES,aggregateCandles,aggregateIntraday,timeframeSeries,parseIntraday,reconcileIntradayClosing,validOHLC} from './kline-core.mjs';
 import {WATCHLIST} from '../lib/watchlist.mjs';
 const site=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=name=>JSON.parse(fs.readFileSync(path.join(site,name),'utf8'));
@@ -27,9 +27,13 @@ const boundary=makeEnvelope(regular,'2026-09-08T01:25:00Z');const boundaryResult
 const parsed=parseIntraday(envelope,'2426',envelope.fetchedAt,cal,5,20);assert.equal(parsed.history.length,54);assert.equal(parsed.history.filter(r=>r.missing).length,0);assert.equal(parsed.history.at(-1).date,'2026-09-08 13:25');assert.equal(parsed.history.at(-1).closingAuctionMerged,true);assert.equal(parsed.history.at(-1).volumeShares,null);
 const official=[{date:'2026-09-08',open:parsed.history[0].open,high:Math.max(...parsed.history.map(r=>r.high)),low:Math.min(...parsed.history.map(r=>r.low)),close:parsed.history.at(-1).close+.01,source:'https://www.twse.com.tw/'}];
 const merged=reconcileIntradayClosing(parsed.history,official,5);assert.equal(merged.at(-1).close,official[0].close);assert.equal(merged.at(-1).closingSource,official[0].source);
-for(const minutes of [10,15,30]){const rows=aggregateIntraday(merged,minutes);assert.equal(rows.length,270/minutes);assert.equal(rows.at(-1).to,'2026-09-08 13:30');assert.equal(rows.at(-1).close,official[0].close);assert.equal(rows.at(-1).closingSource,official[0].source);}
-const synthetic={daily,intradayByInterval:{'5m':merged,'10m':aggregateIntraday(merged,10),'15m':aggregateIntraday(merged,15),'30m':aggregateIntraday(merged,30)},intraday:aggregateIntraday(merged,30)};
-for(const period of ['5m','10m','15m','30m']){const rows=timeframeSeries(synthetic,period,'2026-09-08');assert.ok(rows.length);assert.ok(rows.every(r=>r.missing||validOHLC(r)));}
+for(const minutes of [15,30,60]){const rows=aggregateIntraday(merged,minutes);assert.equal(rows.length,Math.ceil(270/minutes));assert.equal(rows.at(-1).to,'2026-09-08 13:30');assert.equal(rows.at(-1).close,official[0].close);assert.equal(rows.at(-1).closingSource,official[0].source);}
+const synthetic={daily,intradayByInterval:{'5m':merged,'15m':aggregateIntraday(merged,15),'30m':aggregateIntraday(merged,30),'60m':aggregateIntraday(merged,60)},intraday:aggregateIntraday(merged,30)};
+const visibleIntradayPeriods=['5m','15m','30m','60m'];
+assert.deepEqual(TIMEFRAMES.filter(period=>period.intervalMinutes).map(period=>period.value),visibleIntradayPeriods);
+for(const period of visibleIntradayPeriods){const rows=timeframeSeries(synthetic,period,'2026-09-08');assert.ok(rows.length);assert.ok(rows.every(r=>r.missing||validOHLC(r)));}
+const legacy={daily,intradayByInterval:{'5m':merged,'15m':aggregateIntraday(merged,15),'30m':aggregateIntraday(merged,30)},intraday:aggregateIntraday(merged,30)};
+assert.equal(timeframeSeries(legacy,'60m','2026-09-08').length,5);
 const noAuction=makeEnvelope(regular.slice(0,-1));const pending=reconcileIntradayClosing(parseIntraday(noAuction,'2426',noAuction.fetchedAt,cal,5,20).history,[],5);assert.equal(pending.at(-1).missing,true);assert.equal(pending.at(-1).close,undefined);
 const missing=makeEnvelope(regular.filter(t=>!t.includes('09:10')));assert.equal(parseIntraday(missing,'2426',missing.fetchedAt,cal,5,20).history.filter(r=>r.missing).length,1);
 const dup=structuredClone(envelope);dup.payload.chart.result[0].timestamp[1]=dup.payload.chart.result[0].timestamp[0];assert.throws(()=>parseIntraday(dup,'2426',dup.fetchedAt,cal,5,20));
@@ -42,9 +46,9 @@ for(const stock of data.stocks){
   assert.ok(stock.daily.every(validOHLC));
   for(const row of prices.stocks.find(s=>s.id===stock.id).history){const other=stock.daily.find(r=>r.date===row.date);assert.ok(other);for(const k of ['open','high','low','close'])assert.equal(other[k],row[k]);}
   const intervals=stock.intradayByInterval??{'30m':stock.intraday};
-  for(const period of ['day','week','month',...Object.keys(intervals)]){
+  for(const period of ['day','week','month',...visibleIntradayPeriods]){
     const series=timeframeSeries(stock,period,data.asOf);assert.ok(series.length>0);assert.ok(series.every(row=>row.missing||validOHLC(row)));
-    const full=period.endsWith('m')?intervals[period]:aggregateCandles(stock.daily,period,data.asOf),last20=full.slice(-20);
+    const full=period.endsWith('m')?(intervals[period]??aggregateIntraday(intervals['5m']??[],Number.parseInt(period,10))):aggregateCandles(stock.daily,period,data.asOf),last20=full.slice(-20);
     const expected=last20.length===20&&last20.every(r=>Number.isFinite(r.close))?last20.reduce((sum,r)=>sum+r.close,0)/20:null;
     expected===null?assert.equal(series.at(-1).ma20,null):assert.ok(Math.abs(series.at(-1).ma20-expected)<1e-8);
   }
@@ -62,4 +66,4 @@ const preserved=JSON.stringify({...data,stocks:data.stocks.map(s=>({...s,daily:s
 const failure=spawnSync(process.execPath,[path.join(testSite,'scripts/update-kline-history.mjs'),'--intraday-only','--intraday-input-dir',path.join(temp,'missing-input')],{encoding:'utf8'});assert.equal(failure.status,1);assert.equal(fs.readFileSync(path.join(testSite,'lib/kline-history.json'),'utf8'),preserved);
 assert.equal(JSON.parse(fs.readFileSync(path.join(testSite,'lib/kline-check.json'),'utf8')).status,'failed');
 const resolved=path.resolve(temp);if(!resolved.startsWith(path.resolve(os.tmpdir())+path.sep)||!path.basename(resolved).startsWith('stock-kline-test-'))throw new Error('Unsafe test cleanup path');fs.rmSync(resolved,{recursive:true});
-console.log('PASS: 5/10/15/30-minute boundaries and aggregation, delayed feed, closing auction reconciliation, holidays, nulls/duplicates, week/year and month aggregation, 5/10/20-period averages, official OHLC and failure retention.');
+console.log('PASS: 5/15/30/60-minute boundaries and aggregation, delayed feed, closing auction reconciliation, holidays, nulls/duplicates, week/year and month aggregation, 5/10/20-period averages, official OHLC and failure retention.');

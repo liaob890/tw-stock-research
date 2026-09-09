@@ -2,9 +2,9 @@ import {addMovingAverages} from './chart-series-core.mjs';
 
 export const TIMEFRAMES=[
   {value:'5m',label:'5分',title:'5 分 K 線',unit:'×5分',count:54,intervalMinutes:5},
-  {value:'10m',label:'10分',title:'10 分 K 線',unit:'×10分',count:54,intervalMinutes:10},
   {value:'15m',label:'15分',title:'15 分 K 線',unit:'×15分',count:54,intervalMinutes:15},
-  {value:'30m',label:'30分',title:'30 分 K 線',unit:'×30分',count:27,intervalMinutes:30},
+  {value:'30m',label:'30分',title:'30 分 K 線',unit:'×30分',count:54,intervalMinutes:30},
+  {value:'60m',label:'60分',title:'60 分 K 線',unit:'×60分',count:54,intervalMinutes:60},
   {value:'day',label:'日',title:'日 K 線',unit:'日',count:10},
   {value:'week',label:'週',title:'週 K 線',unit:'週',count:26},
   {value:'month',label:'月',title:'月 K 線',unit:'月',count:24}
@@ -35,8 +35,8 @@ export function aggregateCandles(history,period,asOf){
 }
 
 export function aggregateIntraday(history,intervalMinutes){
-  if(![10,15,30].includes(intervalMinutes))throw new Error('不支援的分時彙整週期');
-  const expected=intervalMinutes/5,groups=new Map();
+  if(![10,15,30,60].includes(intervalMinutes))throw new Error('不支援的分時彙整週期');
+  const groups=new Map();
   for(const row of [...history].sort((a,b)=>a.date.localeCompare(b.date))){
     const match=/^(\d{4}-\d{2}-\d{2}) (\d{2}):(\d{2})$/.exec(row.date);
     if(!match)throw new Error('分時K線時間無效');
@@ -48,10 +48,11 @@ export function aggregateIntraday(history,intervalMinutes){
   }
   const out=[];
   for(const [key,items] of groups){
+    const start=Number(key.slice(11,13))*60+Number(key.slice(14,16)),end=Math.min(start+intervalMinutes,sessionEnd),expected=(end-start)/5;
     if(items.length!==expected)continue;
-    const first=items[0],last=items.at(-1),day=key.slice(0,10),start=Number(key.slice(11,13))*60+Number(key.slice(14,16));
+    const first=items[0],last=items.at(-1),day=key.slice(0,10);
     const missing=items.some(r=>r.missing||!validOHLC(r));
-    const base={date:key,from:key,to:day+' '+minuteLabel(start+intervalMinutes),source:last.source,missing};
+    const base={date:key,from:key,to:day+' '+minuteLabel(end),source:last.source,missing};
     if(last.closingSource)base.closingSource=last.closingSource;
     if(last.closingAuctionMerged)base.closingAuctionMerged=true;
     out.push(missing?base:{...base,open:first.open,high:Math.max(...items.map(r=>r.high)),low:Math.min(...items.map(r=>r.low)),close:last.close,volumeShares:items.every(r=>finite(r.volumeShares))?items.reduce((sum,r)=>sum+r.volumeShares,0):null});
@@ -61,7 +62,8 @@ export function aggregateIntraday(history,intervalMinutes){
 
 export function timeframeSeries(stock,period,asOf){
   const config=TIMEFRAMES.find(p=>p.value===period);if(!config)throw new Error('不支援的K線週期');
-  const rows=config.intervalMinutes?(stock.intradayByInterval?.[period]??(period==='30m'?stock.intraday:[])):aggregateCandles(stock.daily,period,asOf);
+  const stored=stock.intradayByInterval?.[period]??(period==='30m'?stock.intraday:undefined),five=stock.intradayByInterval?.['5m']??[];
+  const rows=config.intervalMinutes?(stored??(config.intervalMinutes===5?[]:aggregateIntraday(five,config.intervalMinutes))):aggregateCandles(stock.daily,period,asOf);
   return addMovingAverages(rows,'close').slice(-config.count);
 }
 

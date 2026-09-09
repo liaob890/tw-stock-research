@@ -1,8 +1,8 @@
-export const INTRADAY_CRON='0,30 1-5 * * 1-5';
+export const INTRADAY_CRONS=['*/5 1-4 * * 1-5','0-30/5 5 * * 1-5'];
 export const CLOSE_CRON='0 10 * * 1-5';
 export function updateMode(eventName,scheduledCron,inputMode='publish') {
   if(eventName==='schedule') {
-    if(scheduledCron===INTRADAY_CRON)return 'intraday';
+    if(INTRADAY_CRONS.includes(scheduledCron))return 'intraday';
     if(scheduledCron===CLOSE_CRON)return 'close';
     throw new Error('Unknown scheduled slot; cannot infer intraday from delayed start time');
   }

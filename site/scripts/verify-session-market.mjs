@@ -28,9 +28,13 @@ const noBalance=structuredClone(fixture.margin);noBalance.payload.tables[0].data
 const noStock=structuredClone(fixture.margin);noStock.payload.tables[0].data.pop();assert.throws(()=>parseMargins(noStock,'2026-09-08'));
 assert.throws(()=>parseMargins(fixture.margin,'2026-09-09'));
 const wrongField=structuredClone(fixture.margin);wrongField.payload.tables[0].fields[6]='借券';assert.throws(()=>parseMargins(wrongField,'2026-09-08'));
-const slots=nextSlots('2026-09-08T08:59:59+08:00',12);
-assert.deepEqual(slots.slice(0,11).map(s=>s.slice(11,16)),['09:00','09:30','10:00','10:30','11:00','11:30','12:00','12:30','13:00','13:30','18:00']);
-assert.equal(slots[11],'2026-09-09T09:00:00+08:00');
+const slots=nextSlots('2026-09-08T08:59:59+08:00',57);
+assert.equal(slots[0],'2026-09-08T09:00:00+08:00');
+assert.equal(slots[1],'2026-09-08T09:05:00+08:00');
+assert.equal(slots[54],'2026-09-08T13:30:00+08:00');
+assert.equal(slots[55],'2026-09-08T18:00:00+08:00');
+assert.equal(slots[56],'2026-09-09T09:00:00+08:00');
+assert.deepEqual(nextSlots('2026-09-08T13:27:00+08:00',2),['2026-09-08T13:30:00+08:00','2026-09-08T18:00:00+08:00']);
 assert.equal(nextSlots('2026-09-11T18:00:00+08:00')[0],'2026-09-14T09:00:00+08:00');
 assert.equal(marketDayState('2026-09-08T10:00:00+08:00',calendar),'weekday');
 assert.equal(marketDayState('2026-09-12T10:00:00+08:00',calendar),'closed');
@@ -48,4 +52,4 @@ assert.throws(()=>execFileSync(process.execPath,[path.join(testSite,'scripts/upd
 assert.deepEqual(['session-market','margin-data'].map(n=>readFileSync(path.join(testSite,'lib',n+'.json'),'utf8')),before);
 assert.equal(read(path.join(testSite,'lib/session-check.json')).quotes,'failed');
 assert.equal(read(path.join(testSite,'lib/session-check.json')).margins,'failed');
-console.log('PASS: actual quote times, stale boundary, missing/zero values, margin units and ratio, duplicate dates, failure preservation, weekday half-hour/18:00 slots and holidays.');
+console.log('PASS: actual quote times, stale boundary, missing/zero values, margin units and ratio, duplicate dates, failure preservation, weekday five-minute/18:00 slots and holidays.');
