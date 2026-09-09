@@ -67,7 +67,7 @@ jobs:
       - name: Install locked dependencies
         working-directory: site
         run: pnpm install --frozen-lockfile --ignore-scripts
-      - name: Fetch and compare verified data
+      - name: Fetch free official data
         id: collect
         working-directory: site
         env:
@@ -75,37 +75,6 @@ jobs:
           UPDATE_MODE: ${{ inputs.mode || 'publish' }}
           COLLECT_ONLY: 'true'
         run: pnpm run update
-      - name: Check AI configuration
-        id: ai_config
-        env:
-          API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          if [ -n "$API_KEY" ]; then echo 'enabled=true' >> "$GITHUB_OUTPUT"; else echo 'enabled=false' >> "$GITHUB_OUTPUT"; fi
-          git add .
-          echo "tree=$(git write-tree)" >> "$GITHUB_OUTPUT"
-      - name: Review new quarterly reports and official company events
-        if: steps.collect.outputs.mode == 'close' && steps.ai_config.outputs.enabled == 'true'
-        timeout-minutes: 15
-        uses: openai/codex-action@v1
-        with:
-          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
-          prompt-file: prompts/daily-research.md
-          output-file: .migration/codex-summary.md
-          sandbox: workspace-write
-          safety-strategy: drop-sudo
-          effort: medium
-          codex-args: '["--config", "sandbox_workspace_write.network_access=true", "--config", "web_search=\"live\""]'
-      - name: Validate and apply reviewed research data
-        if: steps.collect.outputs.mode == 'close' && steps.ai_config.outputs.enabled == 'true'
-        run: |
-          test "$(git write-tree)" = '${{ steps.ai_config.outputs.tree }}'
-          git diff --exit-code -- . ':!data/incoming/**' ':!data/raw/**' ':!data/ai/**'
-          python - <<'PY'
-          import subprocess
-          files = subprocess.check_output(['git', 'ls-files', '--others', '--exclude-standard', '-z']).decode().split('\0')
-          assert all(not f or f.startswith(('data/incoming/', 'data/raw/', 'data/ai/')) for f in files), 'Unexpected AI-created file'
-          PY
-          node site/scripts/apply-ai-review.mjs
       - name: Complete closing comparison
         if: steps.collect.outputs.mode == 'close'
         working-directory: site
