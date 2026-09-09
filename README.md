@@ -8,15 +8,15 @@
 
 GitHub Actions 在台北時間週一至週五 09:00–13:30 每半小時擷取行情，18:00 核對收盤行情、營收與注意／處置名單。GitHub 排程可能延遲，頁面保留實際資料日期及時間；不表示即時串流。電腦關機不影響已啟用的 GitHub 排程。
 
-排程先以儲存庫變數 `ENABLE_UPDATES` 關閉；完成 Pages 發布及雲端抓取驗證、停用舊本機排程後，才設為 `true`。可在 Actions 手動選擇 `publish`、`intraday` 或 `close`。只有測試與建置通過才發布，成功後才把新快照提交為下次比較基準。失敗步驟與每次成功摘要可在 Actions 查看；開啟的網頁每分鐘檢查新版並顯示更新提示。
+排程以儲存庫變數 `ENABLE_UPDATES=true` 啟用。可在 Actions 手動選擇 `publish`、`intraday` 或 `close`。只有測試與建置通過才發布，成功後才把新快照提交為下次比較基準。失敗步驟與每次成功摘要可在 Actions 查看；開啟的網頁每分鐘檢查新版並顯示更新提示。
 
 ## 研究核對
 
 門檻在 `settings/alerts.json`，基準為 `data/last-successful-snapshot.json`，去重狀態在 `data/change-state.json`。保留每日報告、歷史變化及原始來源。休市沿用實際交易日；缺資料不補零；股價波動不直接改寫基本面結論。
 
-18:00 使用 OpenAI 官方 Codex Action 核對新季報、公司公告與研究判斷，完整指示在 `prompts/daily-research.md`。AI 只能補入候選資料、來源證據與研究 JSON；固定驗證程序檢查日期、欄位、官方來源數值、提醒去重，成功後才發布。未完成範圍標示待確認，API 或檢查失敗保留舊版。
+18:00 使用免費的證交所、公開資訊觀測站與公司官方公開資料，由固定規則核對收盤行情、月營收、融資融券、注意／處置與既有重要變化門檻。流程不使用 OpenAI API，不需要 API 金鑰，也不產生 OpenAI API 費用。
 
-使用者需在儲存庫 Settings → Secrets and variables → Actions 新增 `OPENAI_API_KEY`（OpenAI API 用量另計費）。金鑰僅供收盤 AI 工作使用，不寫進公開程式。未設定金鑰時仍可手動驗證資料更新，季報與公司事件維持待確認。設定金鑰後先手動執行 close 驗證，再切換舊排程與啟用 ENABLE_UPDATES。詳見 [OpenAI 官方文件](https://learn.chatgpt.com/docs/github-action)。
+新季報與公司事件只有在固定程式能從官方欄位完成核對時才更新；目前無法自動判讀的敘述維持「待確認」，不補零、不猜測，也不宣稱沒有變化。
 
 ## 本機開發與驗證
 
