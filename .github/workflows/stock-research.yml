@@ -1,0 +1,150 @@
+name: 台股股票研究更新與發布
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['data/**', 'reports/**']
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'publish 僅發布已核對資料；intraday 盤中；close 收盤與處置'
+        type: choice
+        options: [publish, intraday, close]
+        default: publish
+  schedule:
+    # UTC+8: weekdays 09:00–13:30, every 30 minutes.
+    - cron: '0,30 1-5 * * 1-5'
+    # UTC+8: weekdays 18:00.
+    - cron: '0 10 * * 1-5'
+
+concurrency:
+  group: stock-research-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    if: github.event_name != 'schedule' || vars.ENABLE_UPDATES == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Expand reviewed migration package on first deployment
+        if: hashFiles('site/package.json') == ''
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, zipfile
+          root = pathlib.Path.cwd().resolve()
+          for line in pathlib.Path('migration-packages.sha256').read_text(encoding='utf-8-sig').splitlines():
+              expected, name = line.split()
+              assert name in ['migration-app.zip', 'migration-evidence.zip', 'migration-ai.zip'], 'Unknown package'
+              archive = pathlib.Path(name)
+              assert hashlib.sha256(archive.read_bytes()).hexdigest() == expected, 'Migration package checksum mismatch'
+              with zipfile.ZipFile(archive) as package:
+                  for entry in package.infolist():
+                      target = (root / entry.filename).resolve()
+                      assert target.is_relative_to(root), 'Unsafe archive path'
+                      assert entry.filename.split('/')[0] not in ['.git', '.github', '.openai'], 'Unexpected archive metadata'
+                      assert (entry.external_attr >> 16) & 0o170000 != 0o120000, 'Symlinks not allowed'
+                  package.extractall(root)
+          PY
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Install package manager
+        run: npm install --global pnpm@11.19.0
+      - name: Install locked dependencies
+        working-directory: site
+        run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Fetch and compare verified data
+        id: collect
+        working-directory: site
+        env:
+          SCHEDULE_CRON: ${{ github.event.schedule }}
+          UPDATE_MODE: ${{ inputs.mode || 'publish' }}
+          COLLECT_ONLY: 'true'
+        run: pnpm run update
+      - name: Check AI configuration
+        id: ai_config
+        env:
+          API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -n "$API_KEY" ]; then echo 'enabled=true' >> "$GITHUB_OUTPUT"; else echo 'enabled=false' >> "$GITHUB_OUTPUT"; fi
+          git add .
+          echo "tree=$(git write-tree)" >> "$GITHUB_OUTPUT"
+      - name: Review new quarterly reports and official company events
+        if: steps.collect.outputs.mode == 'close' && steps.ai_config.outputs.enabled == 'true'
+        timeout-minutes: 15
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          prompt-file: prompts/daily-research.md
+          output-file: .migration/codex-summary.md
+          sandbox: workspace-write
+          safety-strategy: drop-sudo
+          effort: medium
+          codex-args: '["--config", "sandbox_workspace_write.network_access=true", "--config", "web_search=\"live\""]'
+      - name: Validate and apply reviewed research data
+        if: steps.collect.outputs.mode == 'close' && steps.ai_config.outputs.enabled == 'true'
+        run: |
+          test "$(git write-tree)" = '${{ steps.ai_config.outputs.tree }}'
+          git diff --exit-code -- . ':!data/incoming/**' ':!data/raw/**' ':!data/ai/**'
+          python - <<'PY'
+          import subprocess
+          files = subprocess.check_output(['git', 'ls-files', '--others', '--exclude-standard', '-z']).decode().split('\0')
+          assert all(not f or f.startswith(('data/incoming/', 'data/raw/', 'data/ai/')) for f in files), 'Unexpected AI-created file'
+          PY
+          node site/scripts/apply-ai-review.mjs
+      - name: Complete closing comparison
+        if: steps.collect.outputs.mode == 'close'
+        working-directory: site
+        env:
+          SCHEDULE_CRON: ${{ github.event.schedule }}
+          UPDATE_MODE: close
+          FINALIZE_ONLY: 'true'
+        run: pnpm run update
+      - name: Verify source data and edge cases
+        working-directory: site
+        run: pnpm test
+      - name: Build static website
+        working-directory: site
+        env:
+          PAGES_BASE_PATH: /tw-stock-research/
+        run: pnpm build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site/dist
+      - name: Publish verified website
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Save successful snapshot and report
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node site/scripts/mark-cloud-published.mjs
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .gitignore README.md RESEARCH-REVIEW.md watchlist.json settings data reports site prompts
+          if git ls-files --error-unmatch migration-app.zip >/dev/null 2>&1; then
+            git rm migration-app.zip migration-evidence.zip migration-ai.zip migration-packages.sha256
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update verified stock data after successful Pages publication'
+            git -c credential.helper='!f() { echo username=x-access-token; echo "password=$GH_TOKEN"; }; f' push origin HEAD:main
+          fi
+      - name: Report failed update
+        if: failure()
+        run: echo '資料核對、建置或發布失敗；請查看失敗步驟。若尚未完成發布，網站保留上一成功版本。' >> "$GITHUB_STEP_SUMMARY"
