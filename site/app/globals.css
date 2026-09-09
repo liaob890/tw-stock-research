@@ -64,3 +64,11 @@ body{background:#edf1f7}.topbar{height:82px;border-bottom:0;background:#122743;c
 
 /* Share card row heights so company copy never shifts the comparison charts. */
 @media(min-width:1151px){.quotes:not(.single){align-items:stretch;row-gap:0}.quotes:not(.single) .quote-v2{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:subgrid;grid-row:span 6;row-gap:0;align-items:start;min-width:0}.quotes:not(.single) .quote-top{align-items:flex-start}.quotes:not(.single) .quote-top>div{min-width:0}.quotes:not(.single) .quote-market{align-self:start}.quotes:not(.single) .metrics{align-self:start}.quotes:not(.single) .verdict{align-self:stretch}.quotes:not(.single) .technical-chart{grid-row:5;align-self:start}.quotes:not(.single) .quote-source{grid-row:6;align-self:end}}.metrics .metric-unavailable{font-size:16px!important;white-space:nowrap;line-height:1.8}
+
+/* Yahoo-style K-line readout stays above the plot, so hover never covers adjacent candles. */
+.candle-readout{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px 16px;min-height:38px;padding:6px 1px 8px;border-bottom:1px solid #e2e8f0;color:#5d7089;font-size:13px;font-variant-numeric:tabular-nums}.candle-readout>b{color:#203a60;font-size:14px}.candle-readout strong{margin-left:3px;color:#1f3656;font-size:14px}.candle-readout .rise,.candle-readout .rise strong{color:#d12d49}.candle-readout .fall,.candle-readout .fall strong{color:#087665}.candle-readout .pending,.candle-readout .pending strong{color:#97671c}.candlestick-chart{position:relative;background:repeating-linear-gradient(90deg,#fff 0,#fff 12.5%,#f4f7fa 12.5%,#f4f7fa 25%);border:1px solid #dfe5ed;border-radius:6px;padding-top:3px;overflow:hidden}.candlestick-chart .recharts-cartesian-grid-vertical line{stroke:#e7ecf2}
+
+/* Keep every warning result, including 處置公告, on the same left-aligned columns. */
+.surveillance-status>div{display:grid;grid-template-columns:minmax(96px,.75fr) minmax(0,1.25fr);align-items:start;gap:15px}.surveillance-status dt,.surveillance-status dd{min-width:0}.surveillance-status dd{text-align:left}.surveillance-links{align-items:flex-start;justify-content:flex-start}.surveillance-links a{justify-content:flex-start}
+
+@media(max-width:760px){.candle-readout{gap:6px 12px}.candle-readout>b{flex-basis:100%}}
