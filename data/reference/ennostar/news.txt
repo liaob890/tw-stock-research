@@ -1,0 +1,301 @@
+最新消息 | 新聞與活動 | 富采光電 Ennostar｜垂直整合全光譜LED/VCSEL、光通訊、自動化感測廠商
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CB8LJZRFTT');
+繁體中文
+English
+简体中文
+關於富采
+富采公司簡介
+經營團隊
+公司沿革
+下載中心
+產品型錄
+永續報告書
+認證證書
+政策與宣言
+虛擬專利標示
+應用領域
+全部應用領域
+車用
+先進顯示
+智能感測
+新領域
+車用總覽
+車外照明
+車內照明
+智慧互動顯示 ISD
+車用顯示背光
+抬頭顯示器
+車用感測
+車用照明模組
+車用背光模組
+先進顯示總覽
+顯示器背光
+Smart Display
+Micro LED
+i-Pixel
+智能感測總覽
+穿戴式裝置
+安防
+車用感測
+IT 應用
+智能家居
+工業
+專業照明
+光通訊
+專業照明總覽
+商用照明
+戶外照明
+人因照明
+工業照明
+UV
+警示燈
+專業照明模組
+光通訊總覽
+產品類別
+晶粒
+封裝
+模組
+White
+Color/Multi Color
+UV
+IR
+Tx
+Rx
+VCSEL
+Smart Display
+Micro LED
+車用照明模組
+專業照明模組
+i-Pixel
+車用背光模組
+創新技術
+新聞與活動
+最新消息
+歷史新聞
+投資人專區
+公司治理
+財務資訊
+股東服務
+法說會
+董事會
+內部稽核
+委員會
+重要規章
+董事會成員
+董事會運作情形
+績效評估
+接班規劃
+主要股東名單
+審計委員會
+薪資報酬委員會
+公司治理暨提名委員會
+企業永續暨風險管理委員會
+營運報告行事曆
+月營收報告
+合併財務報告
+股東會
+股利資訊
+問答集
+加入富采
+加入我們
+生活與成長
+學生/新鮮人專區
+企業永續
+搜尋
+關於富采
+富采公司簡介
+經營團隊
+公司沿革
+下載中心
+產品型錄
+永續報告書
+認證證書
+政策與宣言
+虛擬專利標示
+應用領域
+全部應用領域
+車用
+車用總覽
+車外照明
+車內照明
+智慧互動顯示 ISD
+車用顯示背光
+抬頭顯示器
+車用感測
+車用照明模組
+車用背光模組
+先進顯示
+先進顯示總覽
+顯示器背光
+Smart Display
+Micro LED
+i-Pixel
+智能感測
+智能感測總覽
+穿戴式裝置
+安防
+車用感測
+IT 應用
+智能家居
+工業
+新領域
+專業照明
+專業照明總覽
+商用照明
+戶外照明
+人因照明
+工業照明
+UV
+警示燈
+專業照明模組
+光通訊
+光通訊總覽
+產品類別
+晶粒
+封裝
+White
+Color/Multi Color
+UV
+IR
+Tx
+Rx
+VCSEL
+模組
+Smart Display
+Micro LED
+車用照明模組
+專業照明模組
+i-Pixel
+車用背光模組
+創新技術
+新聞與活動
+最新消息
+歷史新聞
+投資人專區
+公司治理
+董事會
+董事會成員
+董事會運作情形
+績效評估
+接班規劃
+主要股東名單
+內部稽核
+委員會
+審計委員會
+薪資報酬委員會
+公司治理暨提名委員會
+企業永續暨風險管理委員會
+重要規章
+財務資訊
+營運報告行事曆
+月營收報告
+合併財務報告
+股東服務
+股東會
+股利資訊
+問答集
+法說會
+加入富采
+加入我們
+生活與成長
+學生/新鮮人專區
+企業永續
+新聞與活動
+最新消息
+最新消息
+最新消息
+ESG動態
+活動訊息
+年度
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+最新消息
+2026/08/07
+富采2026年第二季財務報告
+最新消息
+2026/08/05
+富采 Micro LED光通訊技術躍進！藍光調變頻寬衝上2.1 GHz
+最新消息
+2026/05/28
+省電達50%！富采旗下主流電子「AC1®智通網」導入康達盛通北投公館門市
+最新消息
+2026/05/08
+富采2026年第一季財務報告
+最新消息
+2026/04/09
+富采今日董事會通過現金減資案
+最新消息
+2026/04/07
+富采Touch Taiwan 2026聚焦光通訊與感測自動化兩大高值化應用　厚植長期成長潛力
+最新消息
+2026/04/01
+搶攻AI資料中心高速互連　富采攜手友達、鼎元展示Micro LED光通訊技術
+最新消息
+2026/03/26
+富采光電推出像素化車用光源平台  Touch Taiwan首度亮相 打入國際車廠供應鏈、拓展智慧車燈應用版圖
+最新消息
+2026/03/24
+富采結合生態圈夥伴　展出機器人自動化場域之感測系列產品
+最新消息
+2026/03/06
+富采2025年第四季財務報告
+最新消息
+2026/01/19
+富采與德商ALLOS 策略結盟　啟動 8 吋 Micro LED 供應鏈
+富采控股總部
+苗栗縣350402竹南鎮廣源科學園區科義街1號1樓
+Tel
++886 3 567-9000(統一代表號)
+富采光電總部
+新竹市300094東區科學園區力行路21號
+Tel
++886 3 567-8000(統一代表號)
+關於富采
+應用領域
+產品類別
+創新技術
+新聞與活動
+投資人專區
+加入富采
+企業永續
+聯絡我們
+隱私權政策
+網站使用條款
+網站地圖
+Copyright © 2026 Ennostar. All Rights Reserved.
+我們尊重您的隱私
+富采和特定第三方在「www.ennostar.com」上使用 Cookie。有關 Cookie 類型、用途和第三方的詳細信息請參見下文，並參見我們的 Cookie 公告。請點擊「同意全部」，同意我們使用「Cookie」，以便在我們的網站上為您提供最佳用戶體驗。您也可以設置偏好或拒絕接受 Cookie（絕對必要 Cookie 除外）。
+隱私權政策
+偏好設置
+全部拒絕
+同意全部
+嚴格必要
+這些技術是網站核心功能運作所必需的。
+Google Fonts
+XSRF TOKEN
+偏好設定
+這些技術可讓我們分析網站使用情況，以評估並提升效能。
+Youtube Video Iframe
+Vimeo Video Iframe
+統計數據
+這些技術可啟用網站的額外功能。
+Youtube Video Iframe
+Vimeo Video Iframe
+行銷
+這些技術可能被廣告商用來投放與您興趣相關的廣告。
+Youtube Video Iframe
+Vimeo Video Iframe
+Google Analytics
+Google Tag Manager
+確認
+{"@context":"https://schema.org","@type":"Organization","name":"富采光電 Ennostar｜垂直整合全光譜LED/VCSEL、光通訊、自動化感測廠商","url":"https://www.ennostar.com","address":[{"@type":"PostalAddress","streetAddress":"苗栗縣350402竹南鎮廣源科學園區科義街1號1樓"},{"@type":"PostalAddress","streetAddress":"新竹市300094東區科學園區力行路21號"}],"sameAs":["https://www.facebook.com/Ennostar","https://www.linkedin.com/company/ennostar","https://www.youtube.com/channel/UCrYXK-uIFr3isXc9MXdp-jQ"],"description":"富采光電（Ennostar Corp.）由晶元光電與隆達電子合併成立，具備從磊晶、晶粒到模組垂直整合能力，全光譜佈局涵蓋UVC至eSWIR，技術應用於Micro LED顯示、AI光通訊、感測自動化機器人與車用領域，為全球前五大光電解決方案供應商。富采光電母公司為富采控股(TWSE:3714)。","logo":"https://www.ennostar.com/images/logo.svg"}
+{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"SiteNavigationElement","position":0,"name":"關於富采","url":"https://www.ennostar.com/about"},{"@type":"SiteNavigationElement","position":1,"name":"應用領域","url":"https://www.ennostar.com/domain"},{"@type":"SiteNavigationElement","position":3,"name":"產品類別","url":"https://www.ennostar.com/products/chip"},{"@type":"SiteNavigationElement","position":5,"name":"創新技術","url":"https://www.ennostar.com/innovation"},{"@type":"SiteNavigationElement","position":6,"name":"新聞與活動","url":"https://www.ennostar.com/news/news"},{"@type":"SiteNavigationElement","position":8,"name":"投資人專區"},{"@type":"SiteNavigationElement","position":17,"name":"加入富采","url":"https://www.ennostar.com/join-ennostar"},{"@type":"SiteNavigationElement","position":26,"name":"企業永續","url":"https://esg.ennostar.com/"}]}

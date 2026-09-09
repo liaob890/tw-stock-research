@@ -1,0 +1,16 @@
+**/node_modules/
+**/dist/
+**/*.tsbuildinfo
+**/.env*
+**/.openai/
+**/.wrangler/
+**/.vinext/
+**/.next/
+**/*.tmp
+.migration/
+MIGRATION-STATUS.json
+site/public/update-status.json
+data/*-publication.json
+data/*-verification.json
+data/site-url-change.json
+data/schedule-verification.json

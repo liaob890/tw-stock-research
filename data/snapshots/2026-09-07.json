@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-09-07",
+  "checkedAt": "2026-09-07T14:52:53.125Z",
+  "verification": "verified",
+  "marketOpen": true,
+  "baselineNote": "延續9/7已核對研究快照，补齐单季可比历史及公司事件基準；不把舊公告或既有條件當今日新事件。",
+  "stocks": [
+    {
+      "id": "2426",
+      "name": "鼎元",
+      "quote": {
+        "verified": true,
+        "tradingDate": "2026-09-07",
+        "previousTradingDate": "2026-09-04",
+        "close": 99.1,
+        "previousClose": 104.5,
+        "dailyChangePct": -5.1674641148325415,
+        "volume": 61028043,
+        "pe": 991,
+        "pb": 7.77,
+        "dividendYieldPct": 0.1,
+        "source": {
+          "label": "證交所每日行情",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260907&stockNo=2426"
+        },
+        "valuationSource": {
+          "label": "證交所估值",
+          "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260907&stockNo=2426"
+        },
+        "rawFile": "data/raw/2026-09-07/2426_STOCK_DAY.json",
+        "valuationRawFile": "data/raw/2026-09-07/2426_BWIBBU.json"
+      },
+      "quoteHistory": [
+        {
+          "date": "2026-09-01",
+          "close": 107.5,
+          "volume": 68553081
+        },
+        {
+          "date": "2026-09-02",
+          "close": 104.5,
+          "volume": 78465633
+        },
+        {
+          "date": "2026-09-03",
+          "close": 95,
+          "volume": 52236548
+        },
+        {
+          "date": "2026-09-04",
+          "close": 104.5,
+          "volume": 62192930
+        },
+        {
+          "date": "2026-09-07",
+          "close": 99.1,
+          "volume": 61028043
+        }
+      ],
+      "monthly": {
+        "verified": true,
+        "period": "2026-07",
+        "yoyPct": 36.31696631072261,
+        "ytdYoyPct": 2.305503158448851,
+        "revenue": 255443,
+        "source": {
+          "label": "證交所月營收",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
+        },
+        "rawFile": "data/raw/2026-09-07/t187ap05_L.json"
+      },
+      "monthlyHistory": [],
+      "quarters": [
+        {
+          "period": "2025Q4",
+          "revenue": 514697,
+          "grossProfit": 55503,
+          "operatingIncome": -14975,
+          "grossMarginPct": 10.783626094576032,
+          "sourceIds": [
+            "tyntek-2025FY",
+            "tyntek-2025Q3"
+          ],
+          "directQuarter": false,
+          "method": "2025全年合併累計減2025前三季合併累計；再以單季毛利除單季營收，不相減百分比",
+          "notes": [],
+          "basis": "single_quarter",
+          "verified": true,
+          "operatingProfit": -14975,
+          "sources": [
+            {
+              "url": "https://www.tyntek.com.tw/fckimages/1776249211458365398.pdf",
+              "label": "鼎元2025年合併財務報告",
+              "publishedOn": null,
+              "page": 9
+            },
+            {
+              "url": "https://www.tyntek.com.tw/fckimages/1766374768346743175.pdf",
+              "label": "鼎元2025年前三季合併財務報告",
+              "publishedOn": null,
+              "page": 6
+            }
+          ],
+          "unit": "TWD thousand"
+        },
+        {
+          "period": "2026Q1",
+          "revenue": 545147,
+          "grossProfit": 107038,
+          "operatingIncome": 16725,
+          "grossMarginPct": 19.634704033957814,
+          "sourceIds": [
+            "tyntek-2026Q1"
+          ],
+          "directQuarter": true,
+          "method": "第一季累計期間即單季",
+          "notes": [],
+          "basis": "single_quarter",
+          "verified": true,
+          "operatingProfit": 16725,
+          "sources": [
+            {
+              "url": "https://www.tyntek.com.tw/fckimages/1778569581225567793.pdf",
+              "label": "鼎元2026年第一季合併財務報告",
+              "publishedOn": null,
+              "page": 6
+            }
+          ],
+          "unit": "TWD thousand"
+        },
+        {
+          "period": "2026Q2",
+          "revenue": 691990,
+          "grossProfit": 155594,
+          "operatingIncome": 55631,
+          "grossMarginPct": 22.485007008771802,
+          "sourceIds": [
+            "twse-2026H1",
+            "tyntek-2026Q1"
+          ],
+          "directQuarter": false,
+          "method": "2026上半年合併累計減2026第一季合併數字；再以單季毛利除單季營收，不相減百分比",
+          "notes": [],
+          "basis": "single_quarter",
+          "verified": true,
+          "operatingProfit": 55631,
+          "sources": [
+            {
+              "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+              "label": "證交所綜合損益表2026Q2累計快照",
+              "publishedOn": null
+            },
+            {
+              "url": "https://www.tyntek.com.tw/fckimages/1778569581225567793.pdf",
+              "label": "鼎元2026年第一季合併財務報告",
+              "publishedOn": null,
+              "page": 6
+            }
+          ],
+          "unit": "TWD thousand"
+        }
+      ],
+      "events": [],
+      "eventCoverage": [
+        {
+          "topic": "high_speed_optical_mass_revenue",
+          "label": "高速光通訊量產營收",
+          "detail": "官網已列技術開發；量產營收、出貨量或占比尚無已核對揭露。",
+          "sources": [
+            {
+              "label": "鼎元公司沿革",
+              "url": "https://www.tyntek.com.tw/about_01.php"
+            }
+          ],
+          "status": "pending"
+        },
+        {
+          "topic": "capacity_expansion",
+          "label": "擴產進度",
+          "detail": "既有預算重訊轉載已建基準；原始公告及設備到位、投產進度待確認。",
+          "sources": [
+            {
+              "label": "鼎元重大訊息",
+              "url": "https://www.tyntek.com.tw/investor.php?cs=2&sn=7"
+            }
+          ],
+          "status": "pending"
+        },
+        {
+          "topic": "equity_raise",
+          "label": "現增進度",
+          "detail": "尚待核對申報生效、定價、認股、收足股款與完成發行。",
+          "sources": [
+            {
+              "label": "鼎元重大訊息",
+              "url": "https://www.tyntek.com.tw/investor.php?cs=2&sn=7"
+            }
+          ],
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2409",
+      "name": "友達",
+      "quote": {
+        "verified": true,
+        "tradingDate": "2026-09-07",
+        "previousTradingDate": "2026-09-04",
+        "close": 28.7,
+        "previousClose": 26.8,
+        "dailyChangePct": 7.089552238805965,
+        "volume": 523099639,
+        "pe": 119.58,
+        "pb": 1.4,
+        "dividendYieldPct": 1.39,
+        "source": {
+          "label": "證交所每日行情",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260907&stockNo=2409"
+        },
+        "valuationSource": {
+          "label": "證交所估值",
+          "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260907&stockNo=2409"
+        },
+        "rawFile": "data/raw/2026-09-07/2409_STOCK_DAY.json",
+        "valuationRawFile": "data/raw/2026-09-07/2409_BWIBBU.json"
+      },
+      "quoteHistory": [
+        {
+          "date": "2026-09-01",
+          "close": 26.4,
+          "volume": 107148029
+        },
+        {
+          "date": "2026-09-02",
+          "close": 26.4,
+          "volume": 117900028
+        },
+        {
+          "date": "2026-09-03",
+          "close": 26.55,
+          "volume": 440835576
+        },
+        {
+          "date": "2026-09-04",
+          "close": 26.8,
+          "volume": 158253125
+        },
+        {
+          "date": "2026-09-07",
+          "close": 28.7,
+          "volume": 523099639
+        }
+      ],
+      "monthly": {
+        "verified": true,
+        "period": "2026-07",
+        "yoyPct": -2.641163488049543,
+        "ytdYoyPct": -1.213273334386655,
+        "revenue": 20370071,
+        "source": {
+          "label": "證交所月營收",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
+        },
+        "rawFile": "data/raw/2026-09-07/t187ap05_L.json"
+      },
+      "monthlyHistory": [],
+      "quarters": [
+        {
+          "period": "2025Q4",
+          "revenue": 70142000,
+          "grossProfit": 7525000,
+          "operatingIncome": -1893000,
+          "grossMarginPct": 10.72823700493285,
+          "sourceIds": [
+            "auo-2025Q4"
+          ],
+          "directQuarter": true,
+          "method": "官方摘要直接列示單季；百萬元乘1000正規化為仟元",
+          "notes": [
+            "來源為百萬元四捨五入，非仟元精確財報金額；毛利率顯示宜使用官方已公布百分比"
+          ],
+          "grossMarginPctReported": 10.7,
+          "sourcePrecisionTwd": 1000000,
+          "basis": "single_quarter",
+          "verified": true,
+          "operatingProfit": -1893000,
+          "sources": [
+            {
+              "url": "https://www.auo.com/upload/media/ir/Financial_Information/4Q25_Finance_Statement_Chinese.pdf",
+              "label": "友達2025年第四季財務摘要",
+              "publishedOn": "2026-02-10",
+              "page": 1
+            }
+          ],
+          "unit": "TWD thousand"
+        },
+        {
+          "period": "2026Q1",
+          "revenue": 69031000,
+          "grossProfit": 8183000,
+          "operatingIncome": -636000,
+          "grossMarginPct": 11.854094537236893,
+          "sourceIds": [
+            "auo-2026Q1"
+          ],
+          "directQuarter": true,
+          "method": "官方摘要直接列示單季；百萬元乘1000正規化為仟元",
+          "notes": [
+            "來源為百萬元四捨五入，非仟元精確財報金額；毛利率顯示宜使用官方已公布百分比"
+          ],
+          "grossMarginPctReported": 11.9,
+          "sourcePrecisionTwd": 1000000,
+          "basis": "single_quarter",
+          "verified": true,
+          "operatingProfit": -636000,
+          "sources": [
+            {
+              "url": "https://www.auo.com/upload/media/ir/Financial_Information/1Q26_Finance_Statement_Chinese.pdf",
+              "label": "友達2026年第一季財務摘要",
+              "publishedOn": "2026-04-30",
+              "page": 1
+            }
+          ],
+          "unit": "TWD thousand"
+        },
+        {
+          "period": "2026Q2",
+          "revenue": 70891000,
+          "grossProfit": 9248000,
+          "operatingIncome": 218000,
+          "grossMarginPct": 13.045379526315045,
+          "sourceIds": [
+            "auo-2026Q2"
+          ],
+          "directQuarter": true,
+          "method": "官方摘要直接列示單季；百萬元乘1000正規化為仟元",
+          "notes": [
+            "來源為百萬元四捨五入，非仟元精確財報金額；毛利率顯示宜使用官方已公布百分比"
+          ],
+          "grossMarginPctReported": 13,
+          "sourcePrecisionTwd": 1000000,
+          "basis": "single_quarter",
+          "verified": true,
+          "operatingProfit": 218000,
+          "sources": [
+            {
+              "url": "https://www.auo.com/upload/media/ir/Financial_Information/2Q26_Finance_Statement_Chinese.pdf",
+              "label": "友達2026年第二季財務摘要",
+              "publishedOn": "2026-07-30",
+              "page": 1
+            }
+          ],
+          "unit": "TWD thousand"
+        }
+      ],
+      "events": [
+        {
+          "id": "2409-2026-04-13-energy-disposal-plan",
+          "topic": "asset_disposal",
+          "verified": true,
+          "publishedOn": "2026-04-13",
+          "headline": "董事會通過能源事業分割與擬處分股權",
+          "fact": "董事會通過能源事業分割及擬處分：達耀能源以企業價值 7.8 億元、其他相關標的合計不低於 0.8 億元；旗下星河能源擬處分森勁與永勁股權 10.34 億元。前兩案執行需股東會同意。",
+          "classification": "official_fact",
+          "source": {
+            "label": "友達董事會公告",
+            "url": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260413"
+          },
+          "stage": "board_plan"
+        }
+      ],
+      "eventCoverage": [
+        {
+          "topic": "mobility_profit",
+          "label": "智慧移動獲利揭露",
+          "detail": "Q2新聞稿列營收季增3%；可比較的分部獲利仍待確認。",
+          "sources": [
+            {
+              "label": "友達Q2營運說明",
+              "url": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260730"
+            }
+          ],
+          "status": "pending"
+        },
+        {
+          "topic": "vertical_profit",
+          "label": "垂直場域獲利揭露",
+          "detail": "Q2新聞稿列營收季增11%；營收成長不能代替已實現獲利。",
+          "sources": [
+            {
+              "label": "友達Q2營運說明",
+              "url": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260730"
+            }
+          ],
+          "status": "pending"
+        },
+        {
+          "topic": "asset_disposal",
+          "label": "重大資產處分",
+          "detail": "4/13能源事業處分計畫已建立基準；完成交割、認列損益及後續公告待確認。",
+          "sources": [
+            {
+              "label": "友達能源事業處分計畫",
+              "url": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260413"
+            }
+          ],
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

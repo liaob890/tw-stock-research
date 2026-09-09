@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-07",
+  "focus": "中長期基本面與估值",
+  "currency": "TWD",
+  "stocks": [
+    {
+      "symbol": "2426.TW",
+      "name": "鼎元"
+    },
+    {
+      "symbol": "2409.TW",
+      "name": "友達"
+    }
+  ]
+}

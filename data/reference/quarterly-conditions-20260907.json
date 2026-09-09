@@ -1,0 +1,261 @@
+{
+  "asOf": "2026-09-07",
+  "researchedAt": "2026-09-07T14:50:17.703Z",
+  "currency": "TWD",
+  "normalizedAmountUnit": "TWD thousand",
+  "sources": [
+    {
+      "id": "tyntek-2025FY",
+      "url": "https://www.tyntek.com.tw/fckimages/1776249211458365398.pdf",
+      "title": "鼎元2025年合併財務報告",
+      "incomeStatementPage": 9,
+      "sourceUnit": "TWD thousand",
+      "announcedAt": null,
+      "boardApprovedAt": "2026-03-04",
+      "dateEvidence": "財報附註二；未把董事會通過日當作官網上傳日",
+      "file": "tyntek-2025FY.pdf",
+      "values": {
+        "revenue": 2335859,
+        "grossProfit": 289108,
+        "operatingIncome": -38117
+      },
+      "period": "2025-01-01/2025-12-31"
+    },
+    {
+      "id": "tyntek-2025Q3",
+      "url": "https://www.tyntek.com.tw/fckimages/1766374768346743175.pdf",
+      "title": "鼎元2025年前三季合併財務報告",
+      "incomeStatementPage": 6,
+      "sourceUnit": "TWD thousand",
+      "announcedAt": null,
+      "boardApprovedAt": "2025-11-10",
+      "dateEvidence": "財報附註二；未把董事會通過日當作官網上傳日",
+      "file": "tyntek-2025Q3.pdf",
+      "values": {
+        "revenue": 1821162,
+        "grossProfit": 233605,
+        "operatingIncome": -23142
+      },
+      "period": "2025-01-01/2025-09-30"
+    },
+    {
+      "id": "tyntek-2026Q1",
+      "url": "https://www.tyntek.com.tw/fckimages/1778569581225567793.pdf",
+      "title": "鼎元2026年第一季合併財務報告",
+      "incomeStatementPage": 6,
+      "sourceUnit": "TWD thousand",
+      "announcedAt": null,
+      "boardApprovedAt": "2026-05-04",
+      "dateEvidence": "財報附註二；未把董事會通過日當作官網上傳日",
+      "file": "tyntek-2026Q1.pdf",
+      "values": {
+        "revenue": 545147,
+        "grossProfit": 107038,
+        "operatingIncome": 16725
+      },
+      "period": "2026-01-01/2026-03-31"
+    },
+    {
+      "id": "twse-2026H1",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+      "title": "證交所綜合損益表2026Q2累計快照",
+      "sourceUnit": "TWD thousand",
+      "announcedAt": null,
+      "reportGeneratedAt": "2026-09-07",
+      "dateEvidence": "原始出表日期1150907是資料出表日，不是財報公告日",
+      "file": "D:/StockAnalysis/data/raw/2026-09-07/t187ap06_L_ci.json",
+      "stock": "2426",
+      "values": {
+        "revenue": 1237137,
+        "grossProfit": 262632,
+        "operatingIncome": 72356
+      },
+      "period": "2026-01-01/2026-06-30"
+    },
+    {
+      "id": "auo-2025Q4",
+      "url": "https://www.auo.com/upload/media/ir/Financial_Information/4Q25_Finance_Statement_Chinese.pdf",
+      "announcementUrl": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260210",
+      "title": "友達2025年第四季財務摘要",
+      "sourceUnit": "TWD million",
+      "incomeStatementPage": 1,
+      "announcedAt": "2026-02-10",
+      "file": "auo-2025Q4.pdf",
+      "values": {
+        "revenue": 70142,
+        "grossProfit": 7525,
+        "operatingIncome": -1893,
+        "grossMarginPctReported": 10.7
+      },
+      "period": "2025-10-01/2025-12-31"
+    },
+    {
+      "id": "auo-2026Q1",
+      "url": "https://www.auo.com/upload/media/ir/Financial_Information/1Q26_Finance_Statement_Chinese.pdf",
+      "announcementUrl": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260430",
+      "title": "友達2026年第一季財務摘要",
+      "sourceUnit": "TWD million",
+      "incomeStatementPage": 1,
+      "announcedAt": "2026-04-30",
+      "file": "auo-2026Q1.pdf",
+      "values": {
+        "revenue": 69031,
+        "grossProfit": 8183,
+        "operatingIncome": -636,
+        "grossMarginPctReported": 11.9
+      },
+      "period": "2026-01-01/2026-03-31"
+    },
+    {
+      "id": "auo-2026Q2",
+      "url": "https://www.auo.com/upload/media/ir/Financial_Information/2Q26_Finance_Statement_Chinese.pdf",
+      "announcementUrl": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260730",
+      "title": "友達2026年第二季財務摘要",
+      "sourceUnit": "TWD million",
+      "incomeStatementPage": 1,
+      "announcedAt": "2026-07-30",
+      "file": "auo-2026Q2.pdf",
+      "values": {
+        "revenue": 70891,
+        "grossProfit": 9248,
+        "operatingIncome": 218,
+        "grossMarginPctReported": 13
+      },
+      "period": "2026-04-01/2026-06-30"
+    }
+  ],
+  "stocks": [
+    {
+      "stockId": "2426",
+      "name": "鼎元",
+      "quarters": [
+        {
+          "period": "2025Q4",
+          "revenue": 514697,
+          "grossProfit": 55503,
+          "operatingIncome": -14975,
+          "grossMarginPct": 10.783626094576032,
+          "sourceIds": [
+            "tyntek-2025FY",
+            "tyntek-2025Q3"
+          ],
+          "directQuarter": false,
+          "method": "2025全年合併累計減2025前三季合併累計；再以單季毛利除單季營收，不相減百分比",
+          "notes": []
+        },
+        {
+          "period": "2026Q1",
+          "revenue": 545147,
+          "grossProfit": 107038,
+          "operatingIncome": 16725,
+          "grossMarginPct": 19.634704033957814,
+          "sourceIds": [
+            "tyntek-2026Q1"
+          ],
+          "directQuarter": true,
+          "method": "第一季累計期間即單季",
+          "notes": []
+        },
+        {
+          "period": "2026Q2",
+          "revenue": 691990,
+          "grossProfit": 155594,
+          "operatingIncome": 55631,
+          "grossMarginPct": 22.485007008771802,
+          "sourceIds": [
+            "twse-2026H1",
+            "tyntek-2026Q1"
+          ],
+          "directQuarter": false,
+          "method": "2026上半年合併累計減2026第一季合併數字；再以單季毛利除單季營收，不相減百分比",
+          "notes": []
+        }
+      ],
+      "condition": {
+        "id": "gross-margin-improved-two-consecutive-quarters",
+        "rule": "2025Q4毛利率 < 2026Q1毛利率 < 2026Q2毛利率；需要連續三季",
+        "status": true,
+        "checkedPeriods": [
+          "2025Q4",
+          "2026Q1",
+          "2026Q2"
+        ],
+        "message": "已達成連續兩季毛利率改善；這是截至2026Q2的已知基準，不是9/7新發生事件"
+      }
+    },
+    {
+      "stockId": "2409",
+      "name": "友達",
+      "quarters": [
+        {
+          "period": "2025Q4",
+          "revenue": 70142000,
+          "grossProfit": 7525000,
+          "operatingIncome": -1893000,
+          "grossMarginPct": 10.72823700493285,
+          "sourceIds": [
+            "auo-2025Q4"
+          ],
+          "directQuarter": true,
+          "method": "官方摘要直接列示單季；百萬元乘1000正規化為仟元",
+          "notes": [
+            "來源為百萬元四捨五入，非仟元精確財報金額；毛利率顯示宜使用官方已公布百分比"
+          ],
+          "grossMarginPctReported": 10.7,
+          "sourcePrecisionTwd": 1000000
+        },
+        {
+          "period": "2026Q1",
+          "revenue": 69031000,
+          "grossProfit": 8183000,
+          "operatingIncome": -636000,
+          "grossMarginPct": 11.854094537236893,
+          "sourceIds": [
+            "auo-2026Q1"
+          ],
+          "directQuarter": true,
+          "method": "官方摘要直接列示單季；百萬元乘1000正規化為仟元",
+          "notes": [
+            "來源為百萬元四捨五入，非仟元精確財報金額；毛利率顯示宜使用官方已公布百分比"
+          ],
+          "grossMarginPctReported": 11.9,
+          "sourcePrecisionTwd": 1000000
+        },
+        {
+          "period": "2026Q2",
+          "revenue": 70891000,
+          "grossProfit": 9248000,
+          "operatingIncome": 218000,
+          "grossMarginPct": 13.045379526315045,
+          "sourceIds": [
+            "auo-2026Q2"
+          ],
+          "directQuarter": true,
+          "method": "官方摘要直接列示單季；百萬元乘1000正規化為仟元",
+          "notes": [
+            "來源為百萬元四捨五入，非仟元精確財報金額；毛利率顯示宜使用官方已公布百分比"
+          ],
+          "grossMarginPctReported": 13,
+          "sourcePrecisionTwd": 1000000
+        }
+      ],
+      "condition": {
+        "id": "positive-operating-income-two-consecutive-quarters",
+        "rule": "最近兩個已公告連續季度單季營業利益均>0",
+        "status": false,
+        "checkedPeriods": [
+          "2026Q1",
+          "2026Q2"
+        ],
+        "message": "未達成；2026Q1營業損失6.36億元，Q2營業利益2.18億元，只連續一季為正"
+      }
+    }
+  ],
+  "qualityNotes": [
+    "所有數值均為合併財報口徑；不混用個體財報。",
+    "鼎元2025Q4、2026Q2為可核對累計相減推導，未把全年或上半年累計當單季。",
+    "友達自2025/6/30納入凌華，所比較2025Q4至2026Q2均已納入；仍非保證其他合併範圍完全不變。",
+    "此檔建立首次比較基準，沒有前次條件快照時不應宣稱條件今日轉為達成。",
+    "未核對得到實際公告日的鼎元PDF以announcedAt:null保留，董事會通過日另列，來源下載日期也未冒充公告日期。"
+  ]
+}

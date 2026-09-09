@@ -1,0 +1,26 @@
+{
+  "mode": "publish",
+  "checkedAt": "2026-09-09T12:33:14.936Z",
+  "status": "published",
+  "quotes": [
+    {
+      "id": "2426",
+      "date": "2026-09-09",
+      "time": "13:30:00"
+    },
+    {
+      "id": "3714",
+      "date": "2026-09-09",
+      "time": "13:30:00"
+    },
+    {
+      "id": "2409",
+      "date": "2026-09-09",
+      "time": "13:30:00"
+    }
+  ],
+  "note": "Only mark published after Pages deployment succeeds. New quarterly reports and company-event interpretation require verified review; pending coverage stays visible.",
+  "publishedAt": "2026-09-09T12:33:38.304Z",
+  "url": "https://liaob890.github.io/tw-stock-research/",
+  "workflowRun": "34351656016"
+}

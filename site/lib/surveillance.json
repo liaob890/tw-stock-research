@@ -1,0 +1,53 @@
+{
+  "asOf": "2026-09-09",
+  "checkedAt": "2026-09-09T12:13:56.713Z",
+  "status": "verified",
+  "sources": {
+    "notice": {
+      "url": "https://www.twse.com.tw/announcement/notice?response=json&startDate=20260909&endDate=20260909&querytype=1&sortKind=STKNO",
+      "title": "公布注意有價證券資訊 (115年09月09日 至 115年09月09日 全部上市有價證券)",
+      "rows": 10
+    },
+    "notetrans": {
+      "url": "https://www.twse.com.tw/announcement/notetrans?date=20260909&response=json",
+      "title": "115年09月09日 公布注意累計次數可能達處置標準之有價證券一覽表",
+      "rows": 0
+    },
+    "punish": {
+      "url": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260909&endDate=20261108&querytype=1&sortKind=STKNO",
+      "title": "公布處置有價證券資訊 (115/09/09 至 115/11/08)\n資訊更新日期：115/09/09",
+      "rows": 5
+    }
+  },
+  "records": [
+    {
+      "id": "2426",
+      "name": "鼎元",
+      "level": "attention",
+      "notices": [
+        {
+          "date": "2026-09-09",
+          "reason": "最近六個營業日之累積週轉率為116.43% 。且09月09日之週轉率為18.68% ﹝第十款﹞ 。09月08日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率62.99%，且09月08日當日沖銷成交量占該日總成交量比率69.47% ﹝第十三款﹞ 。"
+        }
+      ],
+      "punishments": [],
+      "trigger": null
+    },
+    {
+      "id": "3714",
+      "name": "富采",
+      "level": "clear",
+      "notices": [],
+      "punishments": [],
+      "trigger": null
+    },
+    {
+      "id": "2409",
+      "name": "友達",
+      "level": "clear",
+      "notices": [],
+      "punishments": [],
+      "trigger": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "asOf": "2026-09-08",
+  "retrievedAt": "2026-09-08T13:48:11.172643+00:00",
+  "sources": {
+    "quote3714": {
+      "label": "富采官方收盤價",
+      "detail": "TWSE · 2026-09-08",
+      "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260908&stockNo=3714"
+    },
+    "value3714": {
+      "label": "富采官方估值",
+      "detail": "TWSE · 本益比未公布，並非零倍",
+      "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260908&stockNo=3714"
+    },
+    "ennIdentity": {
+      "label": "富采公司基本資料",
+      "detail": "上市公司富采控股股份有限公司 · 3714",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
+    },
+    "ennH1": {
+      "label": "富采2026上半年合併財報",
+      "detail": "公司官方PDF · 損益頁9–10；現金流頁12–13；減資頁40",
+      "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/115年度/115Q2合併(上傳版).pdf"
+    },
+    "ennFY": {
+      "label": "富采2025全年合併財報",
+      "detail": "公司官方PDF · 損益頁12",
+      "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/114年度/114Q4合併(上傳版).pdf"
+    },
+    "enn9m": {
+      "label": "富采2025前三季合併財報",
+      "detail": "公司官方PDF · 損益頁9",
+      "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/114年度/114Q3合併(上傳版).pdf"
+    },
+    "ennQ2": {
+      "label": "富采Q2營運說明",
+      "detail": "公司公告 · 2026/08/07",
+      "url": "https://www.ennostar.com/news/news/6a7574ddd7614"
+    },
+    "ennMonthly": {
+      "label": "富采官方月營收",
+      "detail": "公司官方月報 · 最新2026年8月；金額千元",
+      "url": "https://www.ennostar.com/monthly-report"
+    },
+    "ennMicroLED": {
+      "label": "富采Micro LED光通訊技術進度",
+      "detail": "公司公告 · 2026/08/05 · 技術成果不等同量產收入",
+      "url": "https://www.ennostar.com/news/news/6a72d45d24fe3"
+    },
+    "ennCapital": {
+      "label": "富采現金減資案",
+      "detail": "公司4/9董事會公告；5/26股東會通過另見H1財報",
+      "url": "https://www.ennostar.com/news/news/69dc4b8a376bd"
+    }
+  },
+  "unit": "TWD thousand except EPS/BVPS/price TWD; ratios percent",
+  "suggestedReferenceDirectory": "data/reference/ennostar/",
+  "quarterMethod": "Q4 = FY - 9M; Q1 = H1 - direct Q2; Q2 = direct April–June in H1 PDF",
+  "peNote": "TWSE PE is dash; retain null and render unavailable, never zero",
+  "monthlyNote": "Official company August data is newer than TWSE batch July; preserve month monotonicity. Exact YTD totals are sums of official month rows. Future TWSE same-period replaces rounding only, not a new event.",
+  "baselineNote": "This is initial 3714 baseline; do not reannounce already existing facts or historical threshold conditions as new daily changes."
+}

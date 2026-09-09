@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-09-08T13:12:13.276Z",
+  "fetchedAt": "2026-09-08T13:00:34.5096023Z",
+  "quotes": [
+    {
+      "id": "2426",
+      "name": "鼎元",
+      "tradingDate": "2026-09-08",
+      "time": "13:30:00",
+      "timestamp": "2026-09-08T13:30:00+08:00",
+      "last": 97.5,
+      "previousClose": 99.1,
+      "change": -1.5999999999999943,
+      "changePct": -1.6145307769929285,
+      "volumeLots": 39642,
+      "state": "closed",
+      "source": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2426.tw%7Ctse_2409.tw&json=1&delay=0"
+    },
+    {
+      "id": "2409",
+      "name": "友達",
+      "tradingDate": "2026-09-08",
+      "time": "13:30:00",
+      "timestamp": "2026-09-08T13:30:00+08:00",
+      "last": 29.6,
+      "previousClose": 28.7,
+      "change": 0.9000000000000021,
+      "changePct": 3.1358885017421567,
+      "volumeLots": 621190,
+      "state": "closed",
+      "source": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2426.tw%7Ctse_2409.tw&json=1&delay=0"
+    }
+  ]
+}

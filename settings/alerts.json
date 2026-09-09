@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "timezone": "Asia/Taipei",
+  "price": {
+    "absoluteDailyChangePct": 5
+  },
+  "monthlyRevenue": {
+    "upwardYoyThresholdPct": 30,
+    "absoluteYoyChangePercentagePoints": 10,
+    "nonnegativeToNegative": true
+  },
+  "quarterly": {
+    "operatingProfitSignChange": true,
+    "tyntekMarginImprovementQuarters": 2,
+    "auoOperatingProfitPositiveQuarters": 2,
+    "ennostarOperatingProfitPositiveQuarters": 2
+  },
+  "companyTopics": {
+    "2409": [
+      "mobility_profit",
+      "vertical_profit",
+      "asset_disposal"
+    ],
+    "2426": [
+      "high_speed_optical_mass_revenue",
+      "capacity_expansion",
+      "equity_raise"
+    ],
+    "3714": [
+      "high_value_profitability",
+      "microled_optical_mass_revenue",
+      "capital_reduction_execution"
+    ]
+  },
+  "deduplicate": true,
+  "historyDaysOnWebsite": 60
+}

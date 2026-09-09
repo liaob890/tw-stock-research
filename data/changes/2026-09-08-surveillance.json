@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-09-08T13:50:34.811Z",
+  "asOf": "2026-09-08",
+  "baselineDate": "2026-09-08",
+  "changed": true,
+  "changes": [
+    {
+      "id": "3714",
+      "name": "富采",
+      "kind": "baseline",
+      "before": null,
+      "after": {
+        "id": "3714",
+        "name": "富采",
+        "level": "clear",
+        "notices": [],
+        "punishments": [],
+        "trigger": null
+      }
+    }
+  ],
+  "publicationStatus": "pending",
+  "note": "發布成功後由每日任務記錄 published 與網址；此程式不發布網站。"
+}

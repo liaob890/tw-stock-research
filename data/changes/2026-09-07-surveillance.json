@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-09-07T14:44:48.615Z",
+  "asOf": "2026-09-07",
+  "baselineDate": null,
+  "changed": true,
+  "changes": [
+    {
+      "id": "2426",
+      "name": "鼎元",
+      "kind": "baseline",
+      "before": null,
+      "after": {
+        "id": "2426",
+        "name": "鼎元",
+        "level": "imminent",
+        "notices": [],
+        "punishments": [],
+        "trigger": {
+          "summary": "115年8月26日至115年9月7日等九個營業日已有五次"
+        }
+      }
+    },
+    {
+      "id": "2409",
+      "name": "友達",
+      "kind": "baseline",
+      "before": null,
+      "after": {
+        "id": "2409",
+        "name": "友達",
+        "level": "clear",
+        "notices": [],
+        "punishments": [],
+        "trigger": null
+      }
+    }
+  ],
+  "publicationStatus": "published",
+  "note": "發布成功後由每日任務記錄 published 與網址；此程式不發布網站。",
+  "lastPublishedAt": "2026-09-07T15:14:14.611836+00:00",
+  "url": "https://tw-stock-research-2426-2409.liaob890.chatgpt.site"
+}

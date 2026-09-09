@@ -1,0 +1,240 @@
+{
+  "asOf": "2026-09-07",
+  "checkedAt": "2026-09-07T14:52:53.125Z",
+  "status": "partial",
+  "events": [],
+  "checks": [
+    {
+      "stockId": "2426",
+      "stock": "鼎元",
+      "item": "行情",
+      "status": "verified",
+      "detail": "沿用 2026-09-07 實際交易日；未製造新的價格異動。",
+      "sources": [
+        {
+          "label": "證交所每日行情",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260907&stockNo=2426"
+        }
+      ]
+    },
+    {
+      "stockId": "2426",
+      "stock": "鼎元",
+      "item": "月營收",
+      "status": "verified",
+      "detail": "2026-07 為最近已核對月份；與前次快照相同。",
+      "sources": [
+        {
+          "label": "證交所月營收",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
+        }
+      ]
+    },
+    {
+      "stockId": "2426",
+      "stock": "鼎元",
+      "item": "單季營業利益",
+      "status": "verified",
+      "detail": "2026Q2 單季營業利益與前次快照相同。",
+      "sources": [
+        {
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+          "label": "證交所綜合損益表2026Q2累計快照",
+          "publishedOn": null
+        },
+        {
+          "url": "https://www.tyntek.com.tw/fckimages/1778569581225567793.pdf",
+          "label": "鼎元2026年第一季合併財務報告",
+          "publishedOn": null,
+          "page": 6
+        }
+      ]
+    },
+    {
+      "stockId": "2426",
+      "stock": "鼎元",
+      "item": "毛利率連續 2 季改善",
+      "status": "verified",
+      "detail": "條件已成立；未改變時不重複提醒。",
+      "sources": [
+        {
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+          "label": "證交所綜合損益表2026Q2累計快照",
+          "publishedOn": null
+        },
+        {
+          "url": "https://www.tyntek.com.tw/fckimages/1778569581225567793.pdf",
+          "label": "鼎元2026年第一季合併財務報告",
+          "publishedOn": null,
+          "page": 6
+        }
+      ]
+    },
+    {
+      "stockId": "2426",
+      "stock": "鼎元",
+      "item": "高速光通訊量產營收",
+      "status": "pending",
+      "detail": "官網已列技術開發；量產營收、出貨量或占比尚無已核對揭露。",
+      "sources": [
+        {
+          "label": "鼎元公司沿革",
+          "url": "https://www.tyntek.com.tw/about_01.php"
+        }
+      ]
+    },
+    {
+      "stockId": "2426",
+      "stock": "鼎元",
+      "item": "擴產進度",
+      "status": "pending",
+      "detail": "既有預算重訊轉載已建基準；原始公告及設備到位、投產進度待確認。",
+      "sources": [
+        {
+          "label": "鼎元重大訊息",
+          "url": "https://www.tyntek.com.tw/investor.php?cs=2&sn=7"
+        }
+      ]
+    },
+    {
+      "stockId": "2426",
+      "stock": "鼎元",
+      "item": "現增進度",
+      "status": "pending",
+      "detail": "尚待核對申報生效、定價、認股、收足股款與完成發行。",
+      "sources": [
+        {
+          "label": "鼎元重大訊息",
+          "url": "https://www.tyntek.com.tw/investor.php?cs=2&sn=7"
+        }
+      ]
+    },
+    {
+      "stockId": "2409",
+      "stock": "友達",
+      "item": "行情",
+      "status": "verified",
+      "detail": "沿用 2026-09-07 實際交易日；未製造新的價格異動。",
+      "sources": [
+        {
+          "label": "證交所每日行情",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260907&stockNo=2409"
+        }
+      ]
+    },
+    {
+      "stockId": "2409",
+      "stock": "友達",
+      "item": "月營收",
+      "status": "verified",
+      "detail": "2026-07 為最近已核對月份；與前次快照相同。",
+      "sources": [
+        {
+          "label": "證交所月營收",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
+        }
+      ]
+    },
+    {
+      "stockId": "2409",
+      "stock": "友達",
+      "item": "單季營業利益",
+      "status": "verified",
+      "detail": "2026Q2 單季營業利益與前次快照相同。",
+      "sources": [
+        {
+          "url": "https://www.auo.com/upload/media/ir/Financial_Information/2Q26_Finance_Statement_Chinese.pdf",
+          "label": "友達2026年第二季財務摘要",
+          "publishedOn": "2026-07-30",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "stockId": "2409",
+      "stock": "友達",
+      "item": "連續 2 季本業獲利",
+      "status": "verified",
+      "detail": "目前條件未成立。",
+      "sources": [
+        {
+          "url": "https://www.auo.com/upload/media/ir/Financial_Information/2Q26_Finance_Statement_Chinese.pdf",
+          "label": "友達2026年第二季財務摘要",
+          "publishedOn": "2026-07-30",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "stockId": "2409",
+      "stock": "友達",
+      "item": "智慧移動獲利揭露",
+      "status": "pending",
+      "detail": "Q2新聞稿列營收季增3%；可比較的分部獲利仍待確認。",
+      "sources": [
+        {
+          "label": "友達Q2營運說明",
+          "url": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260730"
+        }
+      ]
+    },
+    {
+      "stockId": "2409",
+      "stock": "友達",
+      "item": "垂直場域獲利揭露",
+      "status": "pending",
+      "detail": "Q2新聞稿列營收季增11%；營收成長不能代替已實現獲利。",
+      "sources": [
+        {
+          "label": "友達Q2營運說明",
+          "url": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260730"
+        }
+      ]
+    },
+    {
+      "stockId": "2409",
+      "stock": "友達",
+      "item": "重大資產處分",
+      "status": "pending",
+      "detail": "4/13能源事業處分計畫已建立基準；完成交割、認列損益及後續公告待確認。",
+      "sources": [
+        {
+          "label": "友達能源事業處分計畫",
+          "url": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260413"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "version": 1,
+    "timezone": "Asia/Taipei",
+    "price": {
+      "absoluteDailyChangePct": 5
+    },
+    "monthlyRevenue": {
+      "upwardYoyThresholdPct": 30,
+      "absoluteYoyChangePercentagePoints": 10,
+      "nonnegativeToNegative": true
+    },
+    "quarterly": {
+      "operatingProfitSignChange": true,
+      "tyntekMarginImprovementQuarters": 2,
+      "auoOperatingProfitPositiveQuarters": 2
+    },
+    "companyTopics": {
+      "2409": [
+        "mobility_profit",
+        "vertical_profit",
+        "asset_disposal"
+      ],
+      "2426": [
+        "high_speed_optical_mass_revenue",
+        "capacity_expansion",
+        "equity_raise"
+      ]
+    },
+    "deduplicate": true,
+    "historyDaysOnWebsite": 60
+  },
+  "baselineDate": "2026-09-07"
+}

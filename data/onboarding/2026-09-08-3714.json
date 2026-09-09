@@ -1,0 +1,363 @@
+{
+  "asOf": "2026-09-08",
+  "note": "新增追蹤基準，既有資料與歷史條件不重新提醒。",
+  "stock": {
+    "id": "3714",
+    "name": "富采",
+    "quote": {
+      "verified": true,
+      "tradingDate": "2026-09-08",
+      "previousTradingDate": "2026-09-07",
+      "close": 64.9,
+      "previousClose": 67.2,
+      "dailyChangePct": -3.4226190476190474,
+      "volume": 11427655,
+      "pe": null,
+      "pb": 1.1,
+      "dividendYieldPct": 1.39,
+      "source": {
+        "label": "證交所每日行情",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260908&stockNo=3714"
+      },
+      "valuationSource": {
+        "label": "證交所估值",
+        "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260908&stockNo=3714"
+      },
+      "rawFile": "data/reference/ennostar/3714_STOCK_DAY.json",
+      "valuationRawFile": "data/reference/ennostar/3714_BWIBBU.json"
+    },
+    "quoteHistory": [
+      {
+        "date": "2026-09-01",
+        "close": 62.5,
+        "volume": 8785743
+      },
+      {
+        "date": "2026-09-02",
+        "close": 62,
+        "volume": 4428993
+      },
+      {
+        "date": "2026-09-03",
+        "close": 61.5,
+        "volume": 50253672
+      },
+      {
+        "date": "2026-09-04",
+        "close": 66.8,
+        "volume": 35248872
+      },
+      {
+        "date": "2026-09-07",
+        "close": 67.2,
+        "volume": 26485957
+      },
+      {
+        "date": "2026-09-08",
+        "close": 64.9,
+        "volume": 11427655
+      }
+    ],
+    "monthly": {
+      "verified": true,
+      "period": "2026-08",
+      "revenue": 2171584,
+      "previousYearRevenue": 1901002,
+      "ytdRevenue": 16128658,
+      "previousYearYtdRevenue": 15184765,
+      "yoyPct": 14.233651516410827,
+      "ytdYoyPct": 6.216052734434818,
+      "source": {
+        "label": "富采官方月營收",
+        "url": "https://www.ennostar.com/monthly-report"
+      },
+      "rawFile": "data/reference/ennostar/monthly.html",
+      "reportedYoyPct": 14.23,
+      "reportedYtdYoyPct": 6.22,
+      "calculation": "依公司月報逐月精確金額計算；累計為1月至當月加總，與公司披露的兩位小數百分比核對",
+      "unit": "TWD thousand"
+    },
+    "monthlyHistory": [
+      {
+        "verified": true,
+        "period": "2026-01",
+        "revenue": 1889232,
+        "previousYearRevenue": 1843712,
+        "ytdRevenue": 1889232,
+        "previousYearYtdRevenue": 1843712,
+        "yoyPct": 2.468932241044164,
+        "ytdYoyPct": 2.468932241044164,
+        "source": {
+          "label": "富采官方月營收",
+          "url": "https://www.ennostar.com/monthly-report"
+        },
+        "rawFile": "data/reference/ennostar/monthly.html",
+        "reportedYoyPct": 2.47,
+        "reportedYtdYoyPct": 2.47,
+        "calculation": "依公司月報逐月精確金額計算；累計為1月至當月加總，與公司披露的兩位小數百分比核對",
+        "unit": "TWD thousand"
+      },
+      {
+        "verified": true,
+        "period": "2026-02",
+        "revenue": 1464736,
+        "previousYearRevenue": 1764878,
+        "ytdRevenue": 3353968,
+        "previousYearYtdRevenue": 3608590,
+        "yoyPct": -17.006387976959314,
+        "ytdYoyPct": -7.0559969406333245,
+        "source": {
+          "label": "富采官方月營收",
+          "url": "https://www.ennostar.com/monthly-report"
+        },
+        "rawFile": "data/reference/ennostar/monthly.html",
+        "reportedYoyPct": -17.01,
+        "reportedYtdYoyPct": -7.06,
+        "calculation": "依公司月報逐月精確金額計算；累計為1月至當月加總，與公司披露的兩位小數百分比核對",
+        "unit": "TWD thousand"
+      },
+      {
+        "verified": true,
+        "period": "2026-03",
+        "revenue": 1891516,
+        "previousYearRevenue": 2023165,
+        "ytdRevenue": 5245484,
+        "previousYearYtdRevenue": 5631755,
+        "yoyPct": -6.5070817259096465,
+        "ytdYoyPct": -6.858803339278785,
+        "source": {
+          "label": "富采官方月營收",
+          "url": "https://www.ennostar.com/monthly-report"
+        },
+        "rawFile": "data/reference/ennostar/monthly.html",
+        "reportedYoyPct": -6.51,
+        "reportedYtdYoyPct": -6.86,
+        "calculation": "依公司月報逐月精確金額計算；累計為1月至當月加總，與公司披露的兩位小數百分比核對",
+        "unit": "TWD thousand"
+      },
+      {
+        "verified": true,
+        "period": "2026-04",
+        "revenue": 2100067,
+        "previousYearRevenue": 2014063,
+        "ytdRevenue": 7345551,
+        "previousYearYtdRevenue": 7645818,
+        "yoyPct": 4.27017426962315,
+        "ytdYoyPct": -3.9272056959765433,
+        "source": {
+          "label": "富采官方月營收",
+          "url": "https://www.ennostar.com/monthly-report"
+        },
+        "rawFile": "data/reference/ennostar/monthly.html",
+        "reportedYoyPct": 4.27,
+        "reportedYtdYoyPct": -3.93,
+        "calculation": "依公司月報逐月精確金額計算；累計為1月至當月加總，與公司披露的兩位小數百分比核對",
+        "unit": "TWD thousand"
+      },
+      {
+        "verified": true,
+        "period": "2026-05",
+        "revenue": 2089663,
+        "previousYearRevenue": 1932732,
+        "ytdRevenue": 9435214,
+        "previousYearYtdRevenue": 9578550,
+        "yoyPct": 8.119646179604834,
+        "ytdYoyPct": -1.4964269122153095,
+        "source": {
+          "label": "富采官方月營收",
+          "url": "https://www.ennostar.com/monthly-report"
+        },
+        "rawFile": "data/reference/ennostar/monthly.html",
+        "reportedYoyPct": 8.12,
+        "reportedYtdYoyPct": -1.5,
+        "calculation": "依公司月報逐月精確金額計算；累計為1月至當月加總，與公司披露的兩位小數百分比核對",
+        "unit": "TWD thousand"
+      },
+      {
+        "verified": true,
+        "period": "2026-06",
+        "revenue": 2133834,
+        "previousYearRevenue": 1793544,
+        "ytdRevenue": 11569048,
+        "previousYearYtdRevenue": 11372094,
+        "yoyPct": 18.97305000602161,
+        "ytdYoyPct": 1.7319061907156152,
+        "source": {
+          "label": "富采官方月營收",
+          "url": "https://www.ennostar.com/monthly-report"
+        },
+        "rawFile": "data/reference/ennostar/monthly.html",
+        "reportedYoyPct": 18.97,
+        "reportedYtdYoyPct": 1.73,
+        "calculation": "依公司月報逐月精確金額計算；累計為1月至當月加總，與公司披露的兩位小數百分比核對",
+        "unit": "TWD thousand"
+      },
+      {
+        "verified": true,
+        "period": "2026-07",
+        "revenue": 2388026,
+        "previousYearRevenue": 1911669,
+        "ytdRevenue": 13957074,
+        "previousYearYtdRevenue": 13283763,
+        "yoyPct": 24.918382837196184,
+        "ytdYoyPct": 5.068676699516539,
+        "source": {
+          "label": "富采官方月營收",
+          "url": "https://www.ennostar.com/monthly-report"
+        },
+        "rawFile": "data/reference/ennostar/monthly.html",
+        "reportedYoyPct": 24.92,
+        "reportedYtdYoyPct": 5.07,
+        "calculation": "依公司月報逐月精確金額計算；累計為1月至當月加總，與公司披露的兩位小數百分比核對",
+        "unit": "TWD thousand"
+      },
+      {
+        "verified": true,
+        "period": "2026-08",
+        "revenue": 2171584,
+        "previousYearRevenue": 1901002,
+        "ytdRevenue": 16128658,
+        "previousYearYtdRevenue": 15184765,
+        "yoyPct": 14.233651516410827,
+        "ytdYoyPct": 6.216052734434818,
+        "source": {
+          "label": "富采官方月營收",
+          "url": "https://www.ennostar.com/monthly-report"
+        },
+        "rawFile": "data/reference/ennostar/monthly.html",
+        "reportedYoyPct": 14.23,
+        "reportedYtdYoyPct": 6.22,
+        "calculation": "依公司月報逐月精確金額計算；累計為1月至當月加總，與公司披露的兩位小數百分比核對",
+        "unit": "TWD thousand"
+      }
+    ],
+    "quarters": [
+      {
+        "period": "2025Q4",
+        "revenue": 5207730,
+        "grossProfit": -137755,
+        "operatingIncome": -1314618,
+        "operatingProfit": -1314618,
+        "grossMarginPct": -2.6452024202483613,
+        "sourceIds": [
+          "ennFY",
+          "enn9m"
+        ],
+        "directQuarter": false,
+        "method": "2025全年合併累計減2025前三季合併累計；以單季毛利除單季營收計算毛利率",
+        "notes": [],
+        "basis": "single_quarter",
+        "verified": true,
+        "sources": [
+          {
+            "label": "富采2025全年合併財報",
+            "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/114年度/114Q4合併(上傳版).pdf",
+            "publishedOn": null,
+            "page": 12
+          },
+          {
+            "label": "富采2025前三季合併財報",
+            "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/114年度/114Q3合併(上傳版).pdf",
+            "publishedOn": null,
+            "page": 9
+          }
+        ],
+        "unit": "TWD thousand"
+      },
+      {
+        "period": "2026Q1",
+        "revenue": 5245484,
+        "grossProfit": 584329,
+        "operatingIncome": -306588,
+        "operatingProfit": -306588,
+        "grossMarginPct": 11.139658418555848,
+        "sourceIds": [
+          "ennH1"
+        ],
+        "directQuarter": false,
+        "method": "2026上半年合併累計減同一份財報直接列示的2026第二季單季；以單季毛利除單季營收計算毛利率",
+        "notes": [],
+        "basis": "single_quarter",
+        "verified": true,
+        "sources": [
+          {
+            "label": "富采2026上半年合併財報",
+            "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/115年度/115Q2合併(上傳版).pdf",
+            "publishedOn": null,
+            "page": 9
+          }
+        ],
+        "unit": "TWD thousand"
+      },
+      {
+        "period": "2026Q2",
+        "revenue": 6323564,
+        "grossProfit": 686206,
+        "operatingIncome": -378503,
+        "operatingProfit": -378503,
+        "grossMarginPct": 10.85157041187533,
+        "sourceIds": [
+          "ennH1"
+        ],
+        "directQuarter": true,
+        "method": "直接使用2026H1合併財報的115年4月1日至6月30日單季欄，非上半年累計欄",
+        "notes": [],
+        "basis": "single_quarter",
+        "verified": true,
+        "sources": [
+          {
+            "label": "富采2026上半年合併財報",
+            "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/115年度/115Q2合併(上傳版).pdf",
+            "publishedOn": null,
+            "page": 9
+          }
+        ],
+        "unit": "TWD thousand"
+      }
+    ],
+    "events": [],
+    "eventCoverage": [
+      {
+        "topic": "high_value_profitability",
+        "label": "車用與感測獲利貢獻",
+        "detail": "已核對Q2財報及8/7公司展望；個別應用的正式獲利貢獻尚待揭露，不能用營收增長替代。",
+        "sources": [
+          {
+            "label": "富采Q2營運說明",
+            "url": "https://www.ennostar.com/news/news/6a7574ddd7614"
+          }
+        ],
+        "status": "pending"
+      },
+      {
+        "topic": "microled_optical_mass_revenue",
+        "label": "Micro LED及光通訊量產收入",
+        "detail": "8/5公告為技術頻寬成果；光通訊量產收入、占比、訂單規模仍待正式揭露。",
+        "sources": [
+          {
+            "label": "富采Micro LED光通訊技術進度",
+            "url": "https://www.ennostar.com/news/news/6a72d45d24fe3"
+          }
+        ],
+        "status": "pending"
+      },
+      {
+        "topic": "capital_reduction_execution",
+        "label": "現金減資執行與每股基準",
+        "detail": "H1財報確認5/26股東會通過約45.7951%現金減資；截至本次核對之核准、基準日與換股執行狀態尚待確認。",
+        "sources": [
+          {
+            "label": "富采2026上半年合併財報",
+            "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/115年度/115Q2合併(上傳版).pdf"
+          }
+        ],
+        "status": "pending"
+      }
+    ],
+    "financialRawFiles": {
+      "income": "data/reference/ennostar/t187ap06_L_ci.json",
+      "balance": "data/reference/ennostar/t187ap07_L_ci.json"
+    },
+    "baselineAddedOn": "2026-09-08"
+  }
+}

@@ -1,0 +1,10 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {validateReview} from './ai-review-core.mjs';
+import {taipeiDate} from './market-session-core.mjs';
+const file=new URL('../lib/research.ts',import.meta.url);
+const current=await import('data:text/javascript;base64,'+Buffer.from(await readFile(file,'utf8')).toString('base64'));
+const review=validateReview(JSON.parse(await readFile(new URL('../../data/ai/review.json',import.meta.url),'utf8')),current,taipeiDate(new Date()));
+await writeFile(file,'// Verified research data; serialized from validated JSON.\nexport const sources = '+JSON.stringify(review.sources,null,2)+';\nexport const stocks = '+JSON.stringify(review.stocks,null,2)+';\n');
+await mkdir(new URL('../../reports/',import.meta.url),{recursive:true});
+await writeFile(new URL('../../reports/'+review.asOf+'-ai-review.md',import.meta.url),`# AI 研究核對｜${review.asOf}\n\n查核狀態：${review.status}\n\n${review.summary}\n`);
+console.log(JSON.stringify({asOf:review.asOf,status:review.status}));

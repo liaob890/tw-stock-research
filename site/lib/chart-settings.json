@@ -1,0 +1,5 @@
+{
+  "displayTradingDays": 10,
+  "maPeriods": [5, 10, 20],
+  "description": "近兩週按最近10個週一至週五交易日呈現，排除休市；均線採完整歷史各交易日數值的簡單平均。"
+}
