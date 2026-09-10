@@ -1,9 +1,9 @@
 {
-  "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260901&stockNo=3714",
-  "fetchedAt": "2026-09-10T14:07:30.933Z",
-  "payload": {
+  "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260910&stockNo=3714",
+  "retrieved_at": "2026-09-10T14:07:23.160Z",
+  "response": {
     "stat": "OK",
-    "date": "20260901",
+    "date": "20260910",
     "title": "115年09月 3714 富采             各日成交資訊",
     "fields": [
       "日期",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-09-09",
-  "checkedAt": "2026-09-09T12:52:22.554Z",
+  "asOf": "2026-09-10",
+  "checkedAt": "2026-09-10T14:07:14.514Z",
   "verification": "verified",
   "marketOpen": true,
   "baselineNote": "延續9/7已核對研究快照，补齐单季可比历史及公司事件基準；不把舊公告或既有條件當今日新事件。",
@@ -11,25 +11,25 @@
       "name": "鼎元",
       "quote": {
         "verified": true,
-        "tradingDate": "2026-09-09",
-        "previousTradingDate": "2026-09-08",
-        "close": 99.5,
-        "previousClose": 97.5,
-        "dailyChangePct": 2.051282051282051,
-        "volume": 56170188,
-        "pe": 995,
-        "pb": 7.8,
+        "tradingDate": "2026-09-10",
+        "previousTradingDate": "2026-09-09",
+        "close": 96.1,
+        "previousClose": 99.5,
+        "dailyChangePct": -3.4170854271356785,
+        "volume": 27182324,
+        "pe": 961,
+        "pb": 7.53,
         "dividendYieldPct": 0.1,
         "source": {
           "label": "證交所每日行情",
-          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260909&stockNo=2426"
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260910&stockNo=2426"
         },
         "valuationSource": {
           "label": "證交所估值",
-          "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260909&stockNo=2426"
+          "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260910&stockNo=2426"
         },
-        "rawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/2426_STOCK_DAY.json",
-        "valuationRawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/2426_BWIBBU.json"
+        "rawFile": "data/raw/2026-09-10/market-2026-09-10T14-07-14-514Z/2426_STOCK_DAY.json",
+        "valuationRawFile": "data/raw/2026-09-10/market-2026-09-10T14-07-14-514Z/2426_BWIBBU.json"
       },
       "quoteHistory": [
         {
@@ -66,6 +66,11 @@
           "date": "2026-09-09",
           "close": 99.5,
           "volume": 56170188
+        },
+        {
+          "date": "2026-09-10",
+          "close": 96.1,
+          "volume": 27182324
         }
       ],
       "monthly": {
@@ -229,25 +234,25 @@
       "name": "富采",
       "quote": {
         "verified": true,
-        "tradingDate": "2026-09-09",
-        "previousTradingDate": "2026-09-08",
-        "close": 63.7,
-        "previousClose": 64.9,
-        "dailyChangePct": -1.8489984591679505,
-        "volume": 14622469,
+        "tradingDate": "2026-09-10",
+        "previousTradingDate": "2026-09-09",
+        "close": 62,
+        "previousClose": 63.7,
+        "dailyChangePct": -2.668759811616954,
+        "volume": 5708987,
         "pe": null,
-        "pb": 1.08,
-        "dividendYieldPct": 1.41,
+        "pb": 1.05,
+        "dividendYieldPct": 1.45,
         "source": {
           "label": "證交所每日行情",
-          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260909&stockNo=3714"
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260910&stockNo=3714"
         },
         "valuationSource": {
           "label": "證交所估值",
-          "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260909&stockNo=3714"
+          "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260910&stockNo=3714"
         },
-        "rawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/3714_STOCK_DAY.json",
-        "valuationRawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/3714_BWIBBU.json"
+        "rawFile": "data/raw/2026-09-10/market-2026-09-10T14-07-14-514Z/3714_STOCK_DAY.json",
+        "valuationRawFile": "data/raw/2026-09-10/market-2026-09-10T14-07-14-514Z/3714_BWIBBU.json"
       },
       "quoteHistory": [
         {
@@ -284,6 +289,11 @@
           "date": "2026-09-09",
           "close": 63.7,
           "volume": 14622469
+        },
+        {
+          "date": "2026-09-10",
+          "close": 62,
+          "volume": 5708987
         }
       ],
       "monthly": {
@@ -593,25 +603,25 @@
       "name": "友達",
       "quote": {
         "verified": true,
-        "tradingDate": "2026-09-09",
-        "previousTradingDate": "2026-09-08",
-        "close": 30.5,
-        "previousClose": 29.6,
-        "dailyChangePct": 3.0405405405405403,
-        "volume": 590064949,
-        "pe": 127.08,
-        "pb": 1.49,
-        "dividendYieldPct": 1.31,
+        "tradingDate": "2026-09-10",
+        "previousTradingDate": "2026-09-09",
+        "close": 31.2,
+        "previousClose": 30.5,
+        "dailyChangePct": 2.2950819672131146,
+        "volume": 497017089,
+        "pe": 130,
+        "pb": 1.52,
+        "dividendYieldPct": 1.28,
         "source": {
           "label": "證交所每日行情",
-          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260909&stockNo=2409"
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260910&stockNo=2409"
         },
         "valuationSource": {
           "label": "證交所估值",
-          "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260909&stockNo=2409"
+          "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260910&stockNo=2409"
         },
-        "rawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/2409_STOCK_DAY.json",
-        "valuationRawFile": "data/raw/2026-09-09/market-2026-09-09T12-52-22-554Z/2409_BWIBBU.json"
+        "rawFile": "data/raw/2026-09-10/market-2026-09-10T14-07-14-514Z/2409_STOCK_DAY.json",
+        "valuationRawFile": "data/raw/2026-09-10/market-2026-09-10T14-07-14-514Z/2409_BWIBBU.json"
       },
       "quoteHistory": [
         {
@@ -648,6 +658,11 @@
           "date": "2026-09-09",
           "close": 30.5,
           "volume": 590064949
+        },
+        {
+          "date": "2026-09-10",
+          "close": 31.2,
+          "volume": 497017089
         }
       ],
       "monthly": {
