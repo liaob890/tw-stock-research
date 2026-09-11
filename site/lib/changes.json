@@ -1,50 +1,20 @@
 {
   "today": {
-    "asOf": "2026-09-10",
-    "checkedAt": "2026-09-10T14:07:14.514Z",
+    "asOf": "2026-09-11",
+    "checkedAt": "2026-09-11T14:06:43.351Z",
     "status": "partial",
-    "events": [
-      {
-        "id": "surveillance-2026-09-10-2426-8e2d86c48d32ce33",
-        "stockId": "2426",
-        "stock": "鼎元",
-        "item": "注意／處置狀態變化",
-        "before": "公布注意",
-        "after": "本次名單未列入",
-        "period": "2026-09-10",
-        "reason": "與前次成功核對的證交所注意、處置及可能達處置標準名單比較，官方狀態或公告內容已改變。",
-        "classification": "官方事實",
-        "sources": [
-          {
-            "url": "https://www.twse.com.tw/announcement/notice?response=json&startDate=20260910&endDate=20260910&querytype=1&sortKind=STKNO",
-            "label": "公布注意有價證券資訊 (115年09月10日 至 115年09月10日 全部上市有價證券)"
-          },
-          {
-            "url": "https://www.twse.com.tw/announcement/notetrans?date=20260910&response=json",
-            "label": "115年09月10日 公布注意累計次數可能達處置標準之有價證券一覽表"
-          },
-          {
-            "url": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260910&endDate=20261109&querytype=1&sortKind=STKNO",
-            "label": "公布處置有價證券資訊 (115/09/10 至 115/11/09)\n資訊更新日期：115/09/10"
-          }
-        ],
-        "impact": {
-          "status": "交易風險更新",
-          "reason": "官方名單變化影響交易風險追蹤；不直接代表基本面改善或惡化，原中長期研究仍依財報與營運證據判斷。"
-        }
-      }
-    ],
+    "events": [],
     "checks": [
       {
         "stockId": "2426",
         "stock": "鼎元",
         "item": "行情",
         "status": "verified",
-        "detail": "2026-09-10 單日漲跌 -3.42%；門檻 5%。",
+        "detail": "2026-09-11 單日漲跌 1.04%；門檻 5%。",
         "sources": [
           {
             "label": "證交所每日行情",
-            "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260910&stockNo=2426"
+            "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260911&stockNo=2426"
           }
         ]
       },
@@ -145,11 +115,11 @@
         "stock": "富采",
         "item": "行情",
         "status": "verified",
-        "detail": "2026-09-10 單日漲跌 -2.67%；門檻 5%。",
+        "detail": "2026-09-11 單日漲跌 -0.48%；門檻 5%。",
         "sources": [
           {
             "label": "證交所每日行情",
-            "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260910&stockNo=3714"
+            "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260911&stockNo=3714"
           }
         ]
       },
@@ -240,11 +210,11 @@
         "stock": "友達",
         "item": "行情",
         "status": "verified",
-        "detail": "2026-09-10 單日漲跌 2.3%；門檻 5%。",
+        "detail": "2026-09-11 單日漲跌 -3.21%；門檻 5%。",
         "sources": [
           {
             "label": "證交所每日行情",
-            "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260910&stockNo=2409"
+            "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260911&stockNo=2409"
           }
         ]
       },
@@ -368,9 +338,350 @@
       "deduplicate": true,
       "historyDaysOnWebsite": 60
     },
-    "baselineDate": "2026-09-09"
+    "baselineDate": "2026-09-10"
   },
   "history": [
+    {
+      "asOf": "2026-09-11",
+      "checkedAt": "2026-09-11T14:06:43.351Z",
+      "status": "partial",
+      "events": [],
+      "checks": [
+        {
+          "stockId": "2426",
+          "stock": "鼎元",
+          "item": "行情",
+          "status": "verified",
+          "detail": "2026-09-11 單日漲跌 1.04%；門檻 5%。",
+          "sources": [
+            {
+              "label": "證交所每日行情",
+              "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260911&stockNo=2426"
+            }
+          ]
+        },
+        {
+          "stockId": "2426",
+          "stock": "鼎元",
+          "item": "月營收",
+          "status": "verified",
+          "detail": "2026-07 為最近已核對月份；與前次快照相同。",
+          "sources": [
+            {
+              "label": "證交所月營收",
+              "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
+            }
+          ]
+        },
+        {
+          "stockId": "2426",
+          "stock": "鼎元",
+          "item": "單季營業利益",
+          "status": "verified",
+          "detail": "2026Q2 單季營業利益與前次快照相同。",
+          "sources": [
+            {
+              "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+              "label": "證交所綜合損益表2026Q2累計快照",
+              "publishedOn": null
+            },
+            {
+              "url": "https://www.tyntek.com.tw/fckimages/1778569581225567793.pdf",
+              "label": "鼎元2026年第一季合併財務報告",
+              "publishedOn": null,
+              "page": 6
+            }
+          ]
+        },
+        {
+          "stockId": "2426",
+          "stock": "鼎元",
+          "item": "毛利率連續 2 季改善",
+          "status": "verified",
+          "detail": "條件已成立；未改變時不重複提醒。",
+          "sources": [
+            {
+              "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+              "label": "證交所綜合損益表2026Q2累計快照",
+              "publishedOn": null
+            },
+            {
+              "url": "https://www.tyntek.com.tw/fckimages/1778569581225567793.pdf",
+              "label": "鼎元2026年第一季合併財務報告",
+              "publishedOn": null,
+              "page": 6
+            }
+          ]
+        },
+        {
+          "stockId": "2426",
+          "stock": "鼎元",
+          "item": "高速光通訊量產營收",
+          "status": "pending",
+          "detail": "本次公司公告尚待研究流程查核。前次追蹤：官網已列技術開發；量產營收、出貨量或占比尚無已核對揭露。",
+          "sources": [
+            {
+              "label": "鼎元公司沿革",
+              "url": "https://www.tyntek.com.tw/about_01.php"
+            }
+          ]
+        },
+        {
+          "stockId": "2426",
+          "stock": "鼎元",
+          "item": "擴產進度",
+          "status": "pending",
+          "detail": "本次公司公告尚待研究流程查核。前次追蹤：既有預算重訊轉載已建基準；原始公告及設備到位、投產進度待確認。",
+          "sources": [
+            {
+              "label": "鼎元重大訊息",
+              "url": "https://www.tyntek.com.tw/investor.php?cs=2&sn=7"
+            }
+          ]
+        },
+        {
+          "stockId": "2426",
+          "stock": "鼎元",
+          "item": "現增進度",
+          "status": "pending",
+          "detail": "本次公司公告尚待研究流程查核。前次追蹤：尚待核對申報生效、定價、認股、收足股款與完成發行。",
+          "sources": [
+            {
+              "label": "鼎元重大訊息",
+              "url": "https://www.tyntek.com.tw/investor.php?cs=2&sn=7"
+            }
+          ]
+        },
+        {
+          "stockId": "3714",
+          "stock": "富采",
+          "item": "行情",
+          "status": "verified",
+          "detail": "2026-09-11 單日漲跌 -0.48%；門檻 5%。",
+          "sources": [
+            {
+              "label": "證交所每日行情",
+              "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260911&stockNo=3714"
+            }
+          ]
+        },
+        {
+          "stockId": "3714",
+          "stock": "富采",
+          "item": "月營收",
+          "status": "verified",
+          "detail": "2026-08 為最近已核對月份；與前次快照相同。",
+          "sources": [
+            {
+              "label": "富采官方月營收",
+              "url": "https://www.ennostar.com/monthly-report"
+            }
+          ]
+        },
+        {
+          "stockId": "3714",
+          "stock": "富采",
+          "item": "單季營業利益",
+          "status": "verified",
+          "detail": "2026Q2 單季營業利益與前次快照相同。",
+          "sources": [
+            {
+              "label": "富采2026上半年合併財報",
+              "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/115年度/115Q2合併(上傳版).pdf",
+              "publishedOn": null,
+              "page": 9
+            }
+          ]
+        },
+        {
+          "stockId": "3714",
+          "stock": "富采",
+          "item": "連續 2 季本業獲利",
+          "status": "verified",
+          "detail": "目前條件未成立。",
+          "sources": [
+            {
+              "label": "富采2026上半年合併財報",
+              "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/115年度/115Q2合併(上傳版).pdf",
+              "publishedOn": null,
+              "page": 9
+            }
+          ]
+        },
+        {
+          "stockId": "3714",
+          "stock": "富采",
+          "item": "車用與感測獲利貢獻",
+          "status": "pending",
+          "detail": "本次公司公告尚待研究流程查核。前次追蹤：已核對Q2財報及8/7公司展望；個別應用的正式獲利貢獻尚待揭露，不能用營收增長替代。",
+          "sources": [
+            {
+              "label": "富采Q2營運說明",
+              "url": "https://www.ennostar.com/news/news/6a7574ddd7614"
+            }
+          ]
+        },
+        {
+          "stockId": "3714",
+          "stock": "富采",
+          "item": "Micro LED及光通訊量產收入",
+          "status": "pending",
+          "detail": "本次公司公告尚待研究流程查核。前次追蹤：8/5公告為技術頻寬成果；光通訊量產收入、占比、訂單規模仍待正式揭露。",
+          "sources": [
+            {
+              "label": "富采Micro LED光通訊技術進度",
+              "url": "https://www.ennostar.com/news/news/6a72d45d24fe3"
+            }
+          ]
+        },
+        {
+          "stockId": "3714",
+          "stock": "富采",
+          "item": "現金減資執行與每股基準",
+          "status": "pending",
+          "detail": "本次公司公告尚待研究流程查核。前次追蹤：H1財報確認5/26股東會通過約45.7951%現金減資；截至本次核對之核准、基準日與換股執行狀態尚待確認。",
+          "sources": [
+            {
+              "label": "富采2026上半年合併財報",
+              "url": "https://www.ennostar.com/uploads/files/shares/Investors/financial-report/115年度/115Q2合併(上傳版).pdf"
+            }
+          ]
+        },
+        {
+          "stockId": "2409",
+          "stock": "友達",
+          "item": "行情",
+          "status": "verified",
+          "detail": "2026-09-11 單日漲跌 -3.21%；門檻 5%。",
+          "sources": [
+            {
+              "label": "證交所每日行情",
+              "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260911&stockNo=2409"
+            }
+          ]
+        },
+        {
+          "stockId": "2409",
+          "stock": "友達",
+          "item": "月營收",
+          "status": "verified",
+          "detail": "2026-07 為最近已核對月份；與前次快照相同。",
+          "sources": [
+            {
+              "label": "證交所月營收",
+              "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
+            }
+          ]
+        },
+        {
+          "stockId": "2409",
+          "stock": "友達",
+          "item": "單季營業利益",
+          "status": "verified",
+          "detail": "2026Q2 單季營業利益與前次快照相同。",
+          "sources": [
+            {
+              "url": "https://www.auo.com/upload/media/ir/Financial_Information/2Q26_Finance_Statement_Chinese.pdf",
+              "label": "友達2026年第二季財務摘要",
+              "publishedOn": "2026-07-30",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "stockId": "2409",
+          "stock": "友達",
+          "item": "連續 2 季本業獲利",
+          "status": "verified",
+          "detail": "目前條件未成立。",
+          "sources": [
+            {
+              "url": "https://www.auo.com/upload/media/ir/Financial_Information/2Q26_Finance_Statement_Chinese.pdf",
+              "label": "友達2026年第二季財務摘要",
+              "publishedOn": "2026-07-30",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "stockId": "2409",
+          "stock": "友達",
+          "item": "智慧移動獲利揭露",
+          "status": "pending",
+          "detail": "本次公司公告尚待研究流程查核。前次追蹤：Q2新聞稿列營收季增3%；可比較的分部獲利仍待確認。",
+          "sources": [
+            {
+              "label": "友達Q2營運說明",
+              "url": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260730"
+            }
+          ]
+        },
+        {
+          "stockId": "2409",
+          "stock": "友達",
+          "item": "垂直場域獲利揭露",
+          "status": "pending",
+          "detail": "本次公司公告尚待研究流程查核。前次追蹤：Q2新聞稿列營收季增11%；營收成長不能代替已實現獲利。",
+          "sources": [
+            {
+              "label": "友達Q2營運說明",
+              "url": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260730"
+            }
+          ]
+        },
+        {
+          "stockId": "2409",
+          "stock": "友達",
+          "item": "重大資產處分",
+          "status": "pending",
+          "detail": "本次公司公告尚待研究流程查核。前次追蹤：4/13能源事業處分計畫已建立基準；完成交割、認列損益及後續公告待確認。",
+          "sources": [
+            {
+              "label": "友達能源事業處分計畫",
+              "url": "https://www.auo.com/zh-TW/News_Archive/detail/news_IR_20260413"
+            }
+          ]
+        }
+      ],
+      "settings": {
+        "version": 1,
+        "timezone": "Asia/Taipei",
+        "price": {
+          "absoluteDailyChangePct": 5
+        },
+        "monthlyRevenue": {
+          "upwardYoyThresholdPct": 30,
+          "absoluteYoyChangePercentagePoints": 10,
+          "nonnegativeToNegative": true
+        },
+        "quarterly": {
+          "operatingProfitSignChange": true,
+          "tyntekMarginImprovementQuarters": 2,
+          "auoOperatingProfitPositiveQuarters": 2,
+          "ennostarOperatingProfitPositiveQuarters": 2
+        },
+        "companyTopics": {
+          "2409": [
+            "mobility_profit",
+            "vertical_profit",
+            "asset_disposal"
+          ],
+          "2426": [
+            "high_speed_optical_mass_revenue",
+            "capacity_expansion",
+            "equity_raise"
+          ],
+          "3714": [
+            "high_value_profitability",
+            "microled_optical_mass_revenue",
+            "capital_reduction_execution"
+          ]
+        },
+        "deduplicate": true,
+        "historyDaysOnWebsite": 60
+      },
+      "baselineDate": "2026-09-10"
+    },
     {
       "asOf": "2026-09-10",
       "checkedAt": "2026-09-10T14:07:14.514Z",

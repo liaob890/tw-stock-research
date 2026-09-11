@@ -2,23 +2,23 @@
 export const sources = {
   "quote2426": {
     "label": "鼎元官方收盤價",
-    "detail": "TWSE · 2026-09-10",
-    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260910&stockNo=2426"
+    "detail": "TWSE · 2026-09-11",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260911&stockNo=2426"
   },
   "quote2409": {
     "label": "友達官方收盤價",
-    "detail": "TWSE · 2026-09-10",
-    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260910&stockNo=2409"
+    "detail": "TWSE · 2026-09-11",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260911&stockNo=2409"
   },
   "value2426": {
     "label": "鼎元官方估值",
     "detail": "TWSE · 本益比、淨值比、殖利率",
-    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260910&stockNo=2426"
+    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260911&stockNo=2426"
   },
   "value2409": {
     "label": "友達官方估值",
     "detail": "TWSE · 本益比、淨值比、殖利率",
-    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260910&stockNo=2409"
+    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260911&stockNo=2409"
   },
   "income": {
     "label": "證交所綜合損益表",
@@ -72,13 +72,13 @@ export const sources = {
   },
   "quote3714": {
     "label": "富采官方收盤價",
-    "detail": "TWSE · 2026-09-10",
-    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260910&stockNo=3714"
+    "detail": "TWSE · 2026-09-11",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260911&stockNo=3714"
   },
   "value3714": {
     "label": "富采官方估值",
     "detail": "TWSE · 本益比未公布，並非零倍",
-    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260910&stockNo=3714"
+    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260911&stockNo=3714"
   },
   "ennIdentity": {
     "label": "富采公司基本資料",
@@ -127,11 +127,11 @@ export const stocks = [
     "name": "鼎元",
     "english": "TYNTEK",
     "business": "光電半導體",
-    "price": 96.1,
-    "change": -3.4,
-    "changePct": -3.4170854271356785,
-    "pe": 961,
-    "pb": 7.53,
+    "price": 97.1,
+    "change": 1,
+    "changePct": 1.040582726326743,
+    "pe": 971,
+    "pb": 7.61,
     "yield": 0.1,
     "revenue": 1237137,
     "gross": 262632,
@@ -184,20 +184,20 @@ export const stocks = [
     "conclusion": "研究判斷：列入成長觀察，現有獲利尚難支撐價格；等待量產與獲利證據再重新評估。",
     "takeawayTitle": "成長要夠快，才能追上期待",
     "takeaway": "低負債與毛利改善是優點，但目前淨值評價反映較高期待。優先驗證光通訊量產、擴產回報與現金增資稀釋。",
-    "priceDate": "2026-09-10"
+    "priceDate": "2026-09-11"
   },
   {
     "id": "3714",
     "name": "富采",
     "english": "ENNOSTAR",
     "business": "光電半導體與感測",
-    "price": 62,
-    "priceDate": "2026-09-10",
-    "change": -1.7,
-    "changePct": -2.668759811616954,
+    "price": 61.7,
+    "priceDate": "2026-09-11",
+    "change": -0.3,
+    "changePct": -0.4838709677419355,
     "pe": null,
     "pb": 1.05,
-    "yield": 1.45,
+    "yield": 1.46,
     "revenue": 11569048,
     "gross": 1270535,
     "operating": -685091,
@@ -257,12 +257,12 @@ export const stocks = [
     "name": "友達",
     "english": "AUO",
     "business": "顯示科技與解決方案",
-    "price": 31.2,
-    "change": 0.7,
-    "changePct": 2.2950819672131146,
-    "pe": 130,
-    "pb": 1.52,
-    "yield": 1.28,
+    "price": 30.2,
+    "change": -1,
+    "changePct": -3.2051282051282057,
+    "pe": 125.83,
+    "pb": 1.48,
+    "yield": 1.32,
     "revenue": 139922549,
     "gross": 17431638,
     "operating": -417279,
@@ -314,6 +314,6 @@ export const stocks = [
     "conclusion": "研究判斷：列入轉型觀察。估值壓力小於鼎元，但仍缺支持穩定高 ROE 的本業紀錄。",
     "takeawayTitle": "轉盈只是開始，持續性才是關鍵",
     "takeaway": "第二季轉盈，上半年本業仍虧損。目前淨值評價需要車用與垂直場域改善持續獲利；無法只憑資產規模認定低估。",
-    "priceDate": "2026-09-10"
+    "priceDate": "2026-09-11"
   }
 ];
