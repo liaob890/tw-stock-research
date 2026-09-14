@@ -1,9 +1,9 @@
 {
-  "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260901&stockNo=2409",
-  "fetchedAt": "2026-09-14T16:12:42.699Z",
-  "payload": {
+  "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260915&stockNo=2409",
+  "retrieved_at": "2026-09-14T16:12:34.814Z",
+  "response": {
     "stat": "OK",
-    "date": "20260901",
+    "date": "20260915",
     "title": "115年09月 2409 友達             各日成交資訊",
     "fields": [
       "日期",
