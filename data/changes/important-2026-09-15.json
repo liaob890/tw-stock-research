@@ -1,15 +1,45 @@
 {
   "asOf": "2026-09-15",
-  "checkedAt": "2026-09-14T16:12:28.867Z",
+  "checkedAt": "2026-09-15T14:40:49.533Z",
   "status": "partial",
-  "events": [],
+  "events": [
+    {
+      "id": "surveillance-2026-09-15-2426-8e2d86c48d32ce33",
+      "stockId": "2426",
+      "stock": "鼎元",
+      "item": "注意／處置狀態變化",
+      "before": "公布注意",
+      "after": "本次名單未列入",
+      "period": "2026-09-15",
+      "reason": "與前次成功核對的證交所注意、處置及可能達處置標準名單比較，官方狀態或公告內容已改變。",
+      "classification": "官方事實",
+      "sources": [
+        {
+          "url": "https://www.twse.com.tw/announcement/notice?response=json&startDate=20260915&endDate=20260915&querytype=1&sortKind=STKNO",
+          "label": "公布注意有價證券資訊 (115年09月15日 至 115年09月15日 全部上市有價證券)"
+        },
+        {
+          "url": "https://www.twse.com.tw/announcement/notetrans?date=20260915&response=json",
+          "label": "115年09月15日 公布注意累計次數可能達處置標準之有價證券一覽表"
+        },
+        {
+          "url": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260915&endDate=20261114&querytype=1&sortKind=STKNO",
+          "label": "公布處置有價證券資訊 (115/09/15 至 115/11/14)\n資訊更新日期：115/09/15"
+        }
+      ],
+      "impact": {
+        "status": "交易風險更新",
+        "reason": "官方名單變化影響交易風險追蹤；不直接代表基本面改善或惡化，原中長期研究仍依財報與營運證據判斷。"
+      }
+    }
+  ],
   "checks": [
     {
       "stockId": "2426",
       "stock": "鼎元",
       "item": "行情",
       "status": "verified",
-      "detail": "沿用 2026-09-14 實際交易日；未製造新的價格異動。",
+      "detail": "2026-09-15 單日漲跌 -2.68%；門檻 5%。",
       "sources": [
         {
           "label": "證交所每日行情",
@@ -22,12 +52,8 @@
       "stock": "鼎元",
       "item": "月營收",
       "status": "verified",
-      "detail": "2026-07 與 2026-08 年增率已比較。",
+      "detail": "2026-08 為最近已核對月份；與前次快照相同。",
       "sources": [
-        {
-          "label": "證交所月營收",
-          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
-        },
         {
           "label": "證交所月營收",
           "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
@@ -118,7 +144,7 @@
       "stock": "富采",
       "item": "行情",
       "status": "verified",
-      "detail": "沿用 2026-09-14 實際交易日；未製造新的價格異動。",
+      "detail": "2026-09-15 單日漲跌 -2.28%；門檻 5%。",
       "sources": [
         {
           "label": "證交所每日行情",
@@ -213,7 +239,7 @@
       "stock": "友達",
       "item": "行情",
       "status": "verified",
-      "detail": "沿用 2026-09-14 實際交易日；未製造新的價格異動。",
+      "detail": "2026-09-15 單日漲跌 -2.79%；門檻 5%。",
       "sources": [
         {
           "label": "證交所每日行情",
@@ -226,12 +252,8 @@
       "stock": "友達",
       "item": "月營收",
       "status": "verified",
-      "detail": "2026-07 與 2026-08 年增率已比較。",
+      "detail": "2026-08 為最近已核對月份；與前次快照相同。",
       "sources": [
-        {
-          "label": "證交所月營收",
-          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
-        },
         {
           "label": "證交所月營收",
           "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
