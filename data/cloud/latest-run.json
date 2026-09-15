@@ -1,6 +1,6 @@
 {
   "mode": "intraday",
-  "checkedAt": "2026-09-15T05:34:17.813Z",
+  "checkedAt": "2026-09-15T09:41:36.290Z",
   "status": "published",
   "quotes": [
     {
@@ -20,7 +20,7 @@
     }
   ],
   "note": "Only mark published after Pages deployment succeeds. Free official-data checks use fixed rules; unsupported quarterly or company-event interpretation stays pending.",
-  "publishedAt": "2026-09-15T05:34:35.761Z",
+  "publishedAt": "2026-09-15T09:41:54.351Z",
   "url": "https://liaob890.github.io/tw-stock-research/",
-  "workflowRun": "34933253191"
+  "workflowRun": "34953870327"
 }
