@@ -1,22 +1,22 @@
 {
-  "asOf": "2026-09-15",
-  "checkedAt": "2026-09-15T14:40:56.829Z",
+  "asOf": "2026-09-16",
+  "checkedAt": "2026-09-16T12:08:56.320Z",
   "status": "verified",
   "sources": {
     "notice": {
-      "url": "https://www.twse.com.tw/announcement/notice?response=json&startDate=20260915&endDate=20260915&querytype=1&sortKind=STKNO",
-      "title": "公布注意有價證券資訊 (115年09月15日 至 115年09月15日 全部上市有價證券)",
-      "rows": 16
+      "url": "https://www.twse.com.tw/announcement/notice?response=json&startDate=20260916&endDate=20260916&querytype=1&sortKind=STKNO",
+      "title": "公布注意有價證券資訊 (115年09月16日 至 115年09月16日 全部上市有價證券)",
+      "rows": 14
     },
     "notetrans": {
-      "url": "https://www.twse.com.tw/announcement/notetrans?date=20260915&response=json",
-      "title": "115年09月15日 公布注意累計次數可能達處置標準之有價證券一覽表",
+      "url": "https://www.twse.com.tw/announcement/notetrans?date=20260916&response=json",
+      "title": "115年09月16日 公布注意累計次數可能達處置標準之有價證券一覽表",
       "rows": 1
     },
     "punish": {
-      "url": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260915&endDate=20261114&querytype=1&sortKind=STKNO",
-      "title": "公布處置有價證券資訊 (115/09/15 至 115/11/14)\n資訊更新日期：115/09/15",
-      "rows": 4
+      "url": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260916&endDate=20261115&querytype=1&sortKind=STKNO",
+      "title": "公布處置有價證券資訊 (115/09/16 至 115/11/15)\n資訊更新日期：115/09/16",
+      "rows": 2
     }
   },
   "records": [
