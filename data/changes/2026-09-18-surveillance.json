@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-09-18T14:09:38.990Z",
+  "asOf": "2026-09-18",
+  "baselineDate": "2026-09-17",
+  "changed": true,
+  "changes": [
+    {
+      "id": "2426",
+      "name": "鼎元",
+      "kind": "changed",
+      "before": {
+        "id": "2426",
+        "name": "鼎元",
+        "level": "attention",
+        "notices": [
+          {
+            "date": "2026-09-17",
+            "reason": "最近六個營業日之累積週轉率為81.96%。且09月17日之週轉率為20.62% ﹝第十款﹞ 。"
+          }
+        ],
+        "punishments": [],
+        "trigger": null
+      },
+      "after": {
+        "id": "2426",
+        "name": "鼎元",
+        "level": "attention",
+        "notices": [
+          {
+            "date": "2026-09-18",
+            "reason": "09月17日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率64.88%，且09月17日當日沖銷成交量占該日總成交量比率62.63% ﹝第十三款﹞ 。"
+          }
+        ],
+        "punishments": [],
+        "trigger": null
+      }
+    }
+  ],
+  "publicationStatus": "pending",
+  "note": "發布成功後由每日任務記錄 published 與網址；此程式不發布網站。"
+}
