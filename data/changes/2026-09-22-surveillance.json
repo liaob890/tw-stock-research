@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-09-22T14:25:29.663Z",
+  "asOf": "2026-09-22",
+  "baselineDate": "2026-09-21",
+  "changed": true,
+  "changes": [
+    {
+      "id": "2409",
+      "name": "友達",
+      "kind": "changed",
+      "before": {
+        "id": "2409",
+        "name": "友達",
+        "level": "clear",
+        "notices": [],
+        "punishments": [],
+        "trigger": null
+      },
+      "after": {
+        "id": "2409",
+        "name": "友達",
+        "level": "attention",
+        "notices": [
+          {
+            "date": "2026-09-22",
+            "reason": "最近六個營業日累積收盤價漲幅達25.56%。且09月22日之週轉率為15.40%﹝第四款﹞。"
+          }
+        ],
+        "punishments": [],
+        "trigger": null
+      }
+    }
+  ],
+  "publicationStatus": "pending",
+  "note": "發布成功後由每日任務記錄 published 與網址；此程式不發布網站。"
+}

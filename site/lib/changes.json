@@ -1,16 +1,68 @@
 {
   "today": {
     "asOf": "2026-09-22",
-    "checkedAt": "2026-09-21T16:17:26.326Z",
+    "checkedAt": "2026-09-22T14:25:20.986Z",
     "status": "partial",
-    "events": [],
+    "events": [
+      {
+        "stockId": "2409",
+        "stock": "友達",
+        "detectedOn": "2026-09-22",
+        "classification": "官方事實",
+        "id": "price:2409:2026-09-22",
+        "item": "價格異動",
+        "before": "33.35 元",
+        "after": "36.65 元（+9.9%）",
+        "period": "2026-09-21 → 2026-09-22",
+        "reason": "單日漲跌幅絕對值 9.9% ≥ 5%",
+        "sources": [
+          {
+            "label": "證交所每日行情",
+            "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260922&stockNo=2409"
+          }
+        ],
+        "impact": {
+          "status": "不直接改變",
+          "reason": "股價異動不直接等同基本面改善或惡化；估值試算已依本次價格更新。"
+        }
+      },
+      {
+        "id": "surveillance-2026-09-22-2409-823a3ad6378d3c8b",
+        "stockId": "2409",
+        "stock": "友達",
+        "item": "注意／處置狀態變化",
+        "before": "本次名單未列入",
+        "after": "公布注意",
+        "period": "2026-09-22",
+        "reason": "與前次成功核對的證交所注意、處置及可能達處置標準名單比較，官方狀態或公告內容已改變。",
+        "classification": "官方事實",
+        "sources": [
+          {
+            "url": "https://www.twse.com.tw/announcement/notice?response=json&startDate=20260922&endDate=20260922&querytype=1&sortKind=STKNO",
+            "label": "公布注意有價證券資訊 (115年09月22日 至 115年09月22日 全部上市有價證券)"
+          },
+          {
+            "url": "https://www.twse.com.tw/announcement/notetrans?date=20260922&response=json",
+            "label": "115年09月22日 公布注意累計次數可能達處置標準之有價證券一覽表"
+          },
+          {
+            "url": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260922&endDate=20261121&querytype=1&sortKind=STKNO",
+            "label": "公布處置有價證券資訊 (115/09/22 至 115/11/21)\n資訊更新日期：115/09/22"
+          }
+        ],
+        "impact": {
+          "status": "交易風險更新",
+          "reason": "官方名單變化影響交易風險追蹤；不直接代表基本面改善或惡化，原中長期研究仍依財報與營運證據判斷。"
+        }
+      }
+    ],
     "checks": [
       {
         "stockId": "2426",
         "stock": "鼎元",
         "item": "行情",
         "status": "verified",
-        "detail": "沿用 2026-09-21 實際交易日；未製造新的價格異動。",
+        "detail": "2026-09-22 單日漲跌 -1%；門檻 5%。",
         "sources": [
           {
             "label": "證交所每日行情",
@@ -115,7 +167,7 @@
         "stock": "富采",
         "item": "行情",
         "status": "verified",
-        "detail": "沿用 2026-09-21 實際交易日；未製造新的價格異動。",
+        "detail": "2026-09-22 單日漲跌 0.15%；門檻 5%。",
         "sources": [
           {
             "label": "證交所每日行情",
@@ -210,7 +262,7 @@
         "stock": "友達",
         "item": "行情",
         "status": "verified",
-        "detail": "沿用 2026-09-21 實際交易日；未製造新的價格異動。",
+        "detail": "2026-09-22 單日漲跌 9.9%；門檻 5%。",
         "sources": [
           {
             "label": "證交所每日行情",
@@ -343,16 +395,68 @@
   "history": [
     {
       "asOf": "2026-09-22",
-      "checkedAt": "2026-09-21T16:17:26.326Z",
+      "checkedAt": "2026-09-22T14:25:20.986Z",
       "status": "partial",
-      "events": [],
+      "events": [
+        {
+          "stockId": "2409",
+          "stock": "友達",
+          "detectedOn": "2026-09-22",
+          "classification": "官方事實",
+          "id": "price:2409:2026-09-22",
+          "item": "價格異動",
+          "before": "33.35 元",
+          "after": "36.65 元（+9.9%）",
+          "period": "2026-09-21 → 2026-09-22",
+          "reason": "單日漲跌幅絕對值 9.9% ≥ 5%",
+          "sources": [
+            {
+              "label": "證交所每日行情",
+              "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260922&stockNo=2409"
+            }
+          ],
+          "impact": {
+            "status": "不直接改變",
+            "reason": "股價異動不直接等同基本面改善或惡化；估值試算已依本次價格更新。"
+          }
+        },
+        {
+          "id": "surveillance-2026-09-22-2409-823a3ad6378d3c8b",
+          "stockId": "2409",
+          "stock": "友達",
+          "item": "注意／處置狀態變化",
+          "before": "本次名單未列入",
+          "after": "公布注意",
+          "period": "2026-09-22",
+          "reason": "與前次成功核對的證交所注意、處置及可能達處置標準名單比較，官方狀態或公告內容已改變。",
+          "classification": "官方事實",
+          "sources": [
+            {
+              "url": "https://www.twse.com.tw/announcement/notice?response=json&startDate=20260922&endDate=20260922&querytype=1&sortKind=STKNO",
+              "label": "公布注意有價證券資訊 (115年09月22日 至 115年09月22日 全部上市有價證券)"
+            },
+            {
+              "url": "https://www.twse.com.tw/announcement/notetrans?date=20260922&response=json",
+              "label": "115年09月22日 公布注意累計次數可能達處置標準之有價證券一覽表"
+            },
+            {
+              "url": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260922&endDate=20261121&querytype=1&sortKind=STKNO",
+              "label": "公布處置有價證券資訊 (115/09/22 至 115/11/21)\n資訊更新日期：115/09/22"
+            }
+          ],
+          "impact": {
+            "status": "交易風險更新",
+            "reason": "官方名單變化影響交易風險追蹤；不直接代表基本面改善或惡化，原中長期研究仍依財報與營運證據判斷。"
+          }
+        }
+      ],
       "checks": [
         {
           "stockId": "2426",
           "stock": "鼎元",
           "item": "行情",
           "status": "verified",
-          "detail": "沿用 2026-09-21 實際交易日；未製造新的價格異動。",
+          "detail": "2026-09-22 單日漲跌 -1%；門檻 5%。",
           "sources": [
             {
               "label": "證交所每日行情",
@@ -457,7 +561,7 @@
           "stock": "富采",
           "item": "行情",
           "status": "verified",
-          "detail": "沿用 2026-09-21 實際交易日；未製造新的價格異動。",
+          "detail": "2026-09-22 單日漲跌 0.15%；門檻 5%。",
           "sources": [
             {
               "label": "證交所每日行情",
@@ -552,7 +656,7 @@
           "stock": "友達",
           "item": "行情",
           "status": "verified",
-          "detail": "沿用 2026-09-21 實際交易日；未製造新的價格異動。",
+          "detail": "2026-09-22 單日漲跌 9.9%；門檻 5%。",
           "sources": [
             {
               "label": "證交所每日行情",
