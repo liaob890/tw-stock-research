@@ -1,22 +1,22 @@
 {
-  "asOf": "2026-09-22",
-  "checkedAt": "2026-09-22T14:25:29.663Z",
+  "asOf": "2026-09-23",
+  "checkedAt": "2026-09-23T14:45:30.103Z",
   "status": "verified",
   "sources": {
     "notice": {
-      "url": "https://www.twse.com.tw/announcement/notice?response=json&startDate=20260922&endDate=20260922&querytype=1&sortKind=STKNO",
-      "title": "公布注意有價證券資訊 (115年09月22日 至 115年09月22日 全部上市有價證券)",
-      "rows": 22
+      "url": "https://www.twse.com.tw/announcement/notice?response=json&startDate=20260923&endDate=20260923&querytype=1&sortKind=STKNO",
+      "title": "公布注意有價證券資訊 (115年09月23日 至 115年09月23日 全部上市有價證券)",
+      "rows": 33
     },
     "notetrans": {
-      "url": "https://www.twse.com.tw/announcement/notetrans?date=20260922&response=json",
-      "title": "115年09月22日 公布注意累計次數可能達處置標準之有價證券一覽表",
-      "rows": 1
+      "url": "https://www.twse.com.tw/announcement/notetrans?date=20260923&response=json",
+      "title": "115年09月23日 公布注意累計次數可能達處置標準之有價證券一覽表",
+      "rows": 4
     },
     "punish": {
-      "url": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260922&endDate=20261121&querytype=1&sortKind=STKNO",
-      "title": "公布處置有價證券資訊 (115/09/22 至 115/11/21)\n資訊更新日期：115/09/22",
-      "rows": 6
+      "url": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260923&endDate=20261122&querytype=1&sortKind=STKNO",
+      "title": "公布處置有價證券資訊 (115/09/23 至 115/11/22)\n資訊更新日期：115/09/23",
+      "rows": 7
     }
   },
   "records": [
@@ -39,13 +39,8 @@
     {
       "id": "2409",
       "name": "友達",
-      "level": "attention",
-      "notices": [
-        {
-          "date": "2026-09-22",
-          "reason": "最近六個營業日累積收盤價漲幅達25.56%。且09月22日之週轉率為15.40%﹝第四款﹞。"
-        }
-      ],
+      "level": "clear",
+      "notices": [],
       "punishments": [],
       "trigger": null
     }
