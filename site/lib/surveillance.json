@@ -1,6 +1,6 @@
 {
   "asOf": "2026-09-24",
-  "checkedAt": "2026-09-24T14:40:51.573Z",
+  "checkedAt": "2026-09-25T15:02:35.163Z",
   "status": "verified",
   "sources": {
     "notice": {
@@ -15,7 +15,7 @@
     },
     "punish": {
       "url": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260924&endDate=20261123&querytype=1&sortKind=STKNO",
-      "title": "公布處置有價證券資訊 (115/09/24 至 115/11/23)\n資訊更新日期：115/09/24",
+      "title": "公布處置有價證券資訊 (115/09/24 至 115/11/23)",
       "rows": 8
     }
   },

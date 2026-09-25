@@ -3,22 +3,22 @@ export const sources = {
   "quote2426": {
     "label": "鼎元官方收盤價",
     "detail": "TWSE · 2026-09-24",
-    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260924&stockNo=2426"
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260925&stockNo=2426"
   },
   "quote2409": {
     "label": "友達官方收盤價",
     "detail": "TWSE · 2026-09-24",
-    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260924&stockNo=2409"
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260925&stockNo=2409"
   },
   "value2426": {
     "label": "鼎元官方估值",
     "detail": "TWSE · 本益比、淨值比、殖利率",
-    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260924&stockNo=2426"
+    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260925&stockNo=2426"
   },
   "value2409": {
     "label": "友達官方估值",
     "detail": "TWSE · 本益比、淨值比、殖利率",
-    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260924&stockNo=2409"
+    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260925&stockNo=2409"
   },
   "income": {
     "label": "證交所綜合損益表",
@@ -73,12 +73,12 @@ export const sources = {
   "quote3714": {
     "label": "富采官方收盤價",
     "detail": "TWSE · 2026-09-24",
-    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260924&stockNo=3714"
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260925&stockNo=3714"
   },
   "value3714": {
     "label": "富采官方估值",
     "detail": "TWSE · 本益比未公布，並非零倍",
-    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260924&stockNo=3714"
+    "url": "https://www.twse.com.tw/exchangeReport/BWIBBU?response=json&date=20260925&stockNo=3714"
   },
   "ennIdentity": {
     "label": "富采公司基本資料",
