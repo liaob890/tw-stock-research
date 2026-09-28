@@ -1,6 +1,6 @@
 {
   "source": "https://www.twse.com.tw/announcement/punish?response=json&startDate=20260924&endDate=20261123&querytype=1&sortKind=STKNO",
-  "retrievedAt": "2026-09-25T15:02:35.162Z",
+  "retrievedAt": "2026-09-28T17:59:16.158Z",
   "requestedAsOf": "2026-09-24",
   "response": {
     "stat": "OK",

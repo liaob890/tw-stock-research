@@ -1,6 +1,6 @@
 {
   "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260701&stockNo=2426",
-  "fetchedAt": "2026-09-25T15:02:36.208Z",
+  "fetchedAt": "2026-09-28T17:59:17.602Z",
   "payload": {
     "stat": "OK",
     "date": "20260701",
