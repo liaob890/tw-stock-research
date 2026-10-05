@@ -1,0 +1,7 @@
+{
+  "url": "https://www.twse.com.tw/rwd/zh/marginTrading/MI_MARGN?date=20261005&selectType=ALL&response=json",
+  "fetchedAt": "2026-10-05T06:24:15.642Z",
+  "payload": {
+    "stat": "很抱歉，沒有符合條件的資料"
+  }
+}

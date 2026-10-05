@@ -1,26 +1,26 @@
 {
   "mode": "intraday",
-  "checkedAt": "2026-10-02T10:47:43.225Z",
+  "checkedAt": "2026-10-05T06:24:16.707Z",
   "status": "published",
   "quotes": [
     {
       "id": "2426",
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "time": "13:30:00"
     },
     {
       "id": "3714",
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "time": "13:30:00"
     },
     {
       "id": "2409",
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "time": "13:30:00"
     }
   ],
   "note": "Only mark published after Pages deployment succeeds. Free official-data checks use fixed rules; unsupported quarterly or company-event interpretation stays pending.",
-  "publishedAt": "2026-10-02T10:47:59.477Z",
+  "publishedAt": "2026-10-05T06:24:36.171Z",
   "url": "https://liaob890.github.io/tw-stock-research/",
-  "workflowRun": "36997397977"
+  "workflowRun": "37272205130"
 }
