@@ -1,6 +1,6 @@
 {
   "asOf": "2026-09-29",
-  "checkedAt": "2026-10-14T05:36:29.128Z",
+  "checkedAt": "2026-10-14T09:50:12.192Z",
   "dailyCheckedAt": "2026-09-29T16:22:32.772Z",
   "adjustment": "unadjusted",
   "timezone": "Asia/Taipei",
@@ -10078,14 +10078,21 @@
           "low": 97.19999694824219,
           "close": 97.5,
           "volumeShares": 680377
+        },
+        {
+          "date": "2026-10-14 13:00",
+          "from": "2026-10-14 13:00",
+          "to": "2026-10-14 13:30",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
+          "missing": true
         }
       ],
       "intradayMeta": {
-        "checkedAt": "2026-10-14T05:36:29.128Z",
-        "fetchedAt": "2026-10-14T05:36:29.247Z",
-        "lastCompletedAt": "2026-10-14 13:00",
+        "checkedAt": "2026-10-14T09:50:12.192Z",
+        "fetchedAt": "2026-10-14T09:50:12.369Z",
+        "lastCompletedAt": "2026-10-14 13:30",
         "delayMinutes": 20,
-        "missingBars": 18,
+        "missingBars": 19,
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
       },
       "intradayByInterval": {
@@ -21270,6 +21277,35 @@
             "close": 98.0999984741211,
             "volumeShares": 581512,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-14 13:15",
+            "from": "2026-10-14 13:15",
+            "to": "2026-10-14 13:20",
+            "open": 98,
+            "high": 98.5,
+            "low": 98,
+            "close": 98.5,
+            "volumeShares": 480489,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-14 13:20",
+            "from": "2026-10-14 13:20",
+            "to": "2026-10-14 13:25",
+            "open": 98.5,
+            "high": 98.5999984741211,
+            "low": 98.19999694824219,
+            "close": 98.5,
+            "volumeShares": 457880,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-14 13:25",
+            "from": "2026-10-14 13:25",
+            "to": "2026-10-14 13:30",
+            "missing": true,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           }
         ],
         "15m": [
@@ -25274,6 +25310,13 @@
             "low": 97.30000305175781,
             "close": 98.0999984741211,
             "volumeShares": 1180117
+          },
+          {
+            "date": "2026-10-14 13:15",
+            "from": "2026-10-14 13:15",
+            "to": "2026-10-14 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ],
         "30m": [
@@ -27226,6 +27269,13 @@
             "low": 97.19999694824219,
             "close": 97.5,
             "volumeShares": 680377
+          },
+          {
+            "date": "2026-10-14 13:00",
+            "from": "2026-10-14 13:00",
+            "to": "2026-10-14 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ],
         "60m": [
@@ -28266,40 +28316,47 @@
             "low": 97,
             "close": 97.5,
             "volumeShares": 1209909
+          },
+          {
+            "date": "2026-10-14 13:00",
+            "from": "2026-10-14 13:00",
+            "to": "2026-10-14 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ]
       },
       "intradayMetaByInterval": {
         "5m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.247Z",
-          "lastCompletedAt": "2026-10-14 13:15",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.369Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
         },
         "15m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.247Z",
-          "lastCompletedAt": "2026-10-14 13:15",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.369Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
         },
         "30m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.247Z",
-          "lastCompletedAt": "2026-10-14 13:00",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.369Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
         },
         "60m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.247Z",
-          "lastCompletedAt": "2026-10-14 13:00",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.369Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
         }
       }
@@ -38377,14 +38434,21 @@
           "low": 64,
           "close": 64.19999694824219,
           "volumeShares": 355931
+        },
+        {
+          "date": "2026-10-14 13:00",
+          "from": "2026-10-14 13:00",
+          "to": "2026-10-14 13:30",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
+          "missing": true
         }
       ],
       "intradayMeta": {
-        "checkedAt": "2026-10-14T05:36:29.128Z",
-        "fetchedAt": "2026-10-14T05:36:29.375Z",
-        "lastCompletedAt": "2026-10-14 13:00",
+        "checkedAt": "2026-10-14T09:50:12.192Z",
+        "fetchedAt": "2026-10-14T09:50:12.570Z",
+        "lastCompletedAt": "2026-10-14 13:30",
         "delayMinutes": 20,
-        "missingBars": 18,
+        "missingBars": 19,
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
       },
       "intradayByInterval": {
@@ -49569,6 +49633,35 @@
             "close": 64.19999694824219,
             "volumeShares": 78334,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-14 13:15",
+            "from": "2026-10-14 13:15",
+            "to": "2026-10-14 13:20",
+            "open": 64.19999694824219,
+            "high": 64.30000305175781,
+            "low": 64.19999694824219,
+            "close": 64.30000305175781,
+            "volumeShares": 151698,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-14 13:20",
+            "from": "2026-10-14 13:20",
+            "to": "2026-10-14 13:25",
+            "open": 64.30000305175781,
+            "high": 64.4000015258789,
+            "low": 64.30000305175781,
+            "close": 64.4000015258789,
+            "volumeShares": 143541,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-14 13:25",
+            "from": "2026-10-14 13:25",
+            "to": "2026-10-14 13:30",
+            "missing": true,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           }
         ],
         "15m": [
@@ -53573,6 +53666,13 @@
             "low": 64.0999984741211,
             "close": 64.19999694824219,
             "volumeShares": 221767
+          },
+          {
+            "date": "2026-10-14 13:15",
+            "from": "2026-10-14 13:15",
+            "to": "2026-10-14 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ],
         "30m": [
@@ -55525,6 +55625,13 @@
             "low": 64,
             "close": 64.19999694824219,
             "volumeShares": 355931
+          },
+          {
+            "date": "2026-10-14 13:00",
+            "from": "2026-10-14 13:00",
+            "to": "2026-10-14 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ],
         "60m": [
@@ -56565,40 +56672,47 @@
             "low": 63.79999923706055,
             "close": 64.19999694824219,
             "volumeShares": 752903
+          },
+          {
+            "date": "2026-10-14 13:00",
+            "from": "2026-10-14 13:00",
+            "to": "2026-10-14 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ]
       },
       "intradayMetaByInterval": {
         "5m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.375Z",
-          "lastCompletedAt": "2026-10-14 13:15",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.570Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
         },
         "15m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.375Z",
-          "lastCompletedAt": "2026-10-14 13:15",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.570Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
         },
         "30m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.375Z",
-          "lastCompletedAt": "2026-10-14 13:00",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.570Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
         },
         "60m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.375Z",
-          "lastCompletedAt": "2026-10-14 13:00",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.570Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
         }
       }
@@ -66690,12 +66804,25 @@
           "low": 35.25,
           "close": 36.099998474121094,
           "volumeShares": 43078185
+        },
+        {
+          "date": "2026-10-14 13:00",
+          "from": "2026-10-14 13:00",
+          "to": "2026-10-14 13:30",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+          "missing": false,
+          "closingAuctionMerged": true,
+          "open": 36.099998474121094,
+          "high": 36.29999923706055,
+          "low": 35.95000076293945,
+          "close": 36.25,
+          "volumeShares": null
         }
       ],
       "intradayMeta": {
-        "checkedAt": "2026-10-14T05:36:29.128Z",
-        "fetchedAt": "2026-10-14T05:36:29.505Z",
-        "lastCompletedAt": "2026-10-14 13:00",
+        "checkedAt": "2026-10-14T09:50:12.192Z",
+        "fetchedAt": "2026-10-14T09:50:12.671Z",
+        "lastCompletedAt": "2026-10-14 13:30",
         "delayMinutes": 20,
         "missingBars": 16,
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
@@ -77900,6 +78027,40 @@
             "close": 36.25,
             "volumeShares": 7541939,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-14 13:15",
+            "from": "2026-10-14 13:15",
+            "to": "2026-10-14 13:20",
+            "open": 36.20000076293945,
+            "high": 36.25,
+            "low": 36.099998474121094,
+            "close": 36.20000076293945,
+            "volumeShares": 6809566,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-14 13:20",
+            "from": "2026-10-14 13:20",
+            "to": "2026-10-14 13:25",
+            "open": 36.25,
+            "high": 36.29999923706055,
+            "low": 36.04999923706055,
+            "close": 36.20000076293945,
+            "volumeShares": 7664526,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-14 13:25",
+            "from": "2026-10-14 13:25",
+            "to": "2026-10-14 13:30",
+            "open": 36.150001525878906,
+            "high": 36.25,
+            "low": 36.150001525878906,
+            "close": 36.25,
+            "volumeShares": null,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+            "closingAuctionMerged": true
           }
         ],
         "15m": [
@@ -81918,6 +82079,19 @@
             "low": 35.95000076293945,
             "close": 36.25,
             "volumeShares": 25017037
+          },
+          {
+            "date": "2026-10-14 13:15",
+            "from": "2026-10-14 13:15",
+            "to": "2026-10-14 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+            "missing": false,
+            "closingAuctionMerged": true,
+            "open": 36.20000076293945,
+            "high": 36.29999923706055,
+            "low": 36.04999923706055,
+            "close": 36.25,
+            "volumeShares": null
           }
         ],
         "30m": [
@@ -83884,6 +84058,19 @@
             "low": 35.25,
             "close": 36.099998474121094,
             "volumeShares": 43078185
+          },
+          {
+            "date": "2026-10-14 13:00",
+            "from": "2026-10-14 13:00",
+            "to": "2026-10-14 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+            "missing": false,
+            "closingAuctionMerged": true,
+            "open": 36.099998474121094,
+            "high": 36.29999923706055,
+            "low": 35.95000076293945,
+            "close": 36.25,
+            "volumeShares": null
           }
         ],
         "60m": [
@@ -84938,38 +85125,51 @@
             "low": 35.20000076293945,
             "close": 36.099998474121094,
             "volumeShares": 48582760
+          },
+          {
+            "date": "2026-10-14 13:00",
+            "from": "2026-10-14 13:00",
+            "to": "2026-10-14 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+            "missing": false,
+            "closingAuctionMerged": true,
+            "open": 36.099998474121094,
+            "high": 36.29999923706055,
+            "low": 35.95000076293945,
+            "close": 36.25,
+            "volumeShares": null
           }
         ]
       },
       "intradayMetaByInterval": {
         "5m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.505Z",
-          "lastCompletedAt": "2026-10-14 13:15",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.671Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
           "missingBars": 16,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
         },
         "15m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.505Z",
-          "lastCompletedAt": "2026-10-14 13:15",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.671Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
           "missingBars": 16,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
         },
         "30m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.505Z",
-          "lastCompletedAt": "2026-10-14 13:00",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.671Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
           "missingBars": 16,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
         },
         "60m": {
-          "checkedAt": "2026-10-14T05:36:29.128Z",
-          "fetchedAt": "2026-10-14T05:36:29.505Z",
-          "lastCompletedAt": "2026-10-14 13:00",
+          "checkedAt": "2026-10-14T09:50:12.192Z",
+          "fetchedAt": "2026-10-14T09:50:12.671Z",
+          "lastCompletedAt": "2026-10-14 13:30",
           "delayMinutes": 20,
           "missingBars": 16,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
