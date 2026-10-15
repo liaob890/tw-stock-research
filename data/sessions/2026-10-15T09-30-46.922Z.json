@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-15T09:30:46.922Z",
+  "fetchedAt": "2026-10-15T09:30:48.320Z",
+  "quotes": [
+    {
+      "id": "2426",
+      "name": "鼎元",
+      "tradingDate": "2026-10-15",
+      "time": "13:30:00",
+      "timestamp": "2026-10-15T13:30:00+08:00",
+      "last": 90.7,
+      "previousClose": 98.5,
+      "change": -7.799999999999997,
+      "changePct": -7.918781725888325,
+      "volumeLots": 16760,
+      "state": "closed",
+      "source": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2426.tw%7Ctse_3714.tw%7Ctse_2409.tw&json=1&delay=0"
+    },
+    {
+      "id": "3714",
+      "name": "富采",
+      "tradingDate": "2026-10-15",
+      "time": "13:30:00",
+      "timestamp": "2026-10-15T13:30:00+08:00",
+      "last": 61.5,
+      "previousClose": 64.2,
+      "change": -2.700000000000003,
+      "changePct": -4.20560747663552,
+      "volumeLots": 6264,
+      "state": "closed",
+      "source": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2426.tw%7Ctse_3714.tw%7Ctse_2409.tw&json=1&delay=0"
+    },
+    {
+      "id": "2409",
+      "name": "友達",
+      "tradingDate": "2026-10-15",
+      "time": "13:30:00",
+      "timestamp": "2026-10-15T13:30:00+08:00",
+      "last": 34.9,
+      "previousClose": 36.25,
+      "change": -1.3500000000000014,
+      "changePct": -3.724137931034488,
+      "volumeLots": 337131,
+      "state": "closed",
+      "source": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2426.tw%7Ctse_3714.tw%7Ctse_2409.tw&json=1&delay=0"
+    }
+  ]
+}
