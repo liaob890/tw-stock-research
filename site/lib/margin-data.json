@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-15T09:30:46.922Z",
-  "asOf": "2026-10-14",
+  "checkedAt": "2026-10-16T09:23:39.540Z",
+  "asOf": "2026-10-15",
   "formula": "融券餘額 ÷ 融資餘額 × 100%",
   "stocks": [
     {
@@ -708,6 +708,19 @@
           "ratioStatus": "verified",
           "unit": "張",
           "source": "https://www.twse.com.tw/rwd/zh/marginTrading/MI_MARGN?date=20261014&selectType=ALL&response=json"
+        },
+        {
+          "id": "2426",
+          "name": "鼎元",
+          "date": "2026-10-15",
+          "financing": 23261,
+          "financingChange": -1394,
+          "short": 930,
+          "shortChange": -119,
+          "ratioPct": 3.998108421821934,
+          "ratioStatus": "verified",
+          "unit": "張",
+          "source": "https://www.twse.com.tw/rwd/zh/marginTrading/MI_MARGN?date=20261015&selectType=ALL&response=json"
         }
       ]
     },
@@ -1416,6 +1429,19 @@
           "ratioStatus": "verified",
           "unit": "張",
           "source": "https://www.twse.com.tw/rwd/zh/marginTrading/MI_MARGN?date=20261014&selectType=ALL&response=json"
+        },
+        {
+          "id": "3714",
+          "name": "富采",
+          "date": "2026-10-15",
+          "financing": 22140,
+          "financingChange": -370,
+          "short": 111,
+          "shortChange": -16,
+          "ratioPct": 0.5013550135501356,
+          "ratioStatus": "verified",
+          "unit": "張",
+          "source": "https://www.twse.com.tw/rwd/zh/marginTrading/MI_MARGN?date=20261015&selectType=ALL&response=json"
         }
       ]
     },
@@ -2124,6 +2150,19 @@
           "ratioStatus": "verified",
           "unit": "張",
           "source": "https://www.twse.com.tw/rwd/zh/marginTrading/MI_MARGN?date=20261014&selectType=ALL&response=json"
+        },
+        {
+          "id": "2409",
+          "name": "友達",
+          "date": "2026-10-15",
+          "financing": 303159,
+          "financingChange": -4176,
+          "short": 18683,
+          "shortChange": 6158,
+          "ratioPct": 6.162772670446861,
+          "ratioStatus": "verified",
+          "unit": "張",
+          "source": "https://www.twse.com.tw/rwd/zh/marginTrading/MI_MARGN?date=20261015&selectType=ALL&response=json"
         }
       ]
     }
