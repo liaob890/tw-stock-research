@@ -1,6 +1,6 @@
 {
   "asOf": "2026-09-29",
-  "checkedAt": "2026-10-20T05:31:05.610Z",
+  "checkedAt": "2026-10-20T09:43:16.008Z",
   "dailyCheckedAt": "2026-09-29T16:22:32.772Z",
   "adjustment": "unadjusted",
   "timezone": "Asia/Taipei",
@@ -8288,7 +8288,7 @@
           "missing": false,
           "open": 101,
           "high": 101,
-          "low": 99.80000305175781,
+          "low": 99.69999694824219,
           "close": 99.80000305175781,
           "volumeShares": 1945113
         },
@@ -8650,11 +8650,11 @@
           "to": "2026-09-30 09:30",
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
           "missing": false,
-          "open": 100.5,
+          "open": 101,
           "high": 107,
           "low": 100,
           "close": 106.5,
-          "volumeShares": 20878132
+          "volumeShares": 18325132
         },
         {
           "date": "2026-09-30 09:30",
@@ -8860,7 +8860,7 @@
           "high": 108,
           "low": 102,
           "close": 104,
-          "volumeShares": 11065720
+          "volumeShares": 8631720
         },
         {
           "date": "2026-10-02 09:30",
@@ -9581,7 +9581,7 @@
           "high": 96,
           "low": 94,
           "close": 95.69999694824219,
-          "volumeShares": 2595394
+          "volumeShares": 4487394
         },
         {
           "date": "2026-10-14 09:30",
@@ -9684,7 +9684,7 @@
           "high": 94.80000305175781,
           "low": 92.69999694824219,
           "close": 94.69999694824219,
-          "volumeShares": 4715550
+          "volumeShares": 3397550
         },
         {
           "date": "2026-10-15 09:30",
@@ -9914,7 +9914,7 @@
           "high": 91.5999984741211,
           "low": 90,
           "close": 90.4000015258789,
-          "volumeShares": 1128207
+          "volumeShares": 7219946
         },
         {
           "date": "2026-10-19 10:30",
@@ -9993,7 +9993,7 @@
           "high": 93.69999694824219,
           "low": 91.9000015258789,
           "close": 92.5,
-          "volumeShares": 2914679
+          "volumeShares": 2239679
         },
         {
           "date": "2026-10-20 09:30",
@@ -10078,14 +10078,21 @@
           "low": 89.5999984741211,
           "close": 89.80000305175781,
           "volumeShares": 1247443
+        },
+        {
+          "date": "2026-10-20 13:00",
+          "from": "2026-10-20 13:00",
+          "to": "2026-10-20 13:30",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
+          "missing": true
         }
       ],
       "intradayMeta": {
-        "checkedAt": "2026-10-20T05:31:05.610Z",
-        "fetchedAt": "2026-10-20T05:31:05.836Z",
-        "lastCompletedAt": "2026-10-20 13:00",
+        "checkedAt": "2026-10-20T09:43:16.008Z",
+        "fetchedAt": "2026-10-20T09:43:16.221Z",
+        "lastCompletedAt": "2026-10-20 13:30",
         "delayMinutes": 20,
-        "missingBars": 18,
+        "missingBars": 19,
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
       },
       "intradayByInterval": {
@@ -10994,7 +11001,7 @@
             "to": "2026-09-22 11:25",
             "open": 100,
             "high": 100.5,
-            "low": 99.80000305175781,
+            "low": 99.69999694824219,
             "close": 100.5,
             "volumeShares": 954463,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
@@ -12502,7 +12509,7 @@
             "high": 99.19999694824219,
             "low": 98.4000015258789,
             "close": 98.9000015258789,
-            "volumeShares": 365427,
+            "volumeShares": 363427,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -12513,7 +12520,7 @@
             "high": 99,
             "low": 98.19999694824219,
             "close": 98.30000305175781,
-            "volumeShares": 136577,
+            "volumeShares": 138577,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -13044,11 +13051,11 @@
             "date": "2026-09-30 09:00",
             "from": "2026-09-30 09:00",
             "to": "2026-09-30 09:05",
-            "open": 100.5,
+            "open": 101,
             "high": 101.5,
             "low": 100,
             "close": 100.5,
-            "volumeShares": 2553000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -13924,7 +13931,7 @@
             "high": 104,
             "low": 103.5,
             "close": 104,
-            "volumeShares": 285805,
+            "volumeShares": 284805,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -13935,7 +13942,7 @@
             "high": 104.5,
             "low": 103.5,
             "close": 104,
-            "volumeShares": 251570,
+            "volumeShares": 252570,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -14228,7 +14235,7 @@
             "high": 104,
             "low": 102,
             "close": 103,
-            "volumeShares": 2434000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -18263,7 +18270,7 @@
             "high": 94.30000305175781,
             "low": 94.0999984741211,
             "close": 94.0999984741211,
-            "volumeShares": 130547,
+            "volumeShares": 131546,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -18274,7 +18281,7 @@
             "high": 94.30000305175781,
             "low": 94,
             "close": 94.19999694824219,
-            "volumeShares": 161293,
+            "volumeShares": 160294,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -18337,10 +18344,10 @@
             "from": "2026-10-13 13:20",
             "to": "2026-10-13 13:25",
             "open": 94.0999984741211,
-            "high": 94.4000015258789,
+            "high": 94.30000305175781,
             "low": 94.0999984741211,
             "close": 94.30000305175781,
-            "volumeShares": 577979,
+            "volumeShares": 423988,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -18358,7 +18365,7 @@
             "high": 95.5999984741211,
             "low": 94.69999694824219,
             "close": 94.9000015258789,
-            "volumeShares": 0,
+            "volumeShares": 1892000,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -18948,7 +18955,7 @@
             "high": 94.4000015258789,
             "low": 93.4000015258789,
             "close": 94.19999694824219,
-            "volumeShares": 1318000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -19300,7 +19307,7 @@
             "high": 92.4000015258789,
             "low": 92,
             "close": 92.19999694824219,
-            "volumeShares": 316661,
+            "volumeShares": 328661,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -19311,7 +19318,7 @@
             "high": 92.19999694824219,
             "low": 91.5,
             "close": 91.5,
-            "volumeShares": 608945,
+            "volumeShares": 596945,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -20293,7 +20300,7 @@
             "high": 90.9000015258789,
             "low": 90.5,
             "close": 90.69999694824219,
-            "volumeShares": 106218,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -20304,7 +20311,7 @@
             "high": 90.9000015258789,
             "low": 90.4000015258789,
             "close": 90.5,
-            "volumeShares": 128930,
+            "volumeShares": 6326887,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -20718,7 +20725,7 @@
             "high": 93.69999694824219,
             "low": 92.5,
             "close": 93.0999984741211,
-            "volumeShares": 675000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           },
           {
@@ -21088,7 +21095,7 @@
             "date": "2026-10-20 11:50",
             "from": "2026-10-20 11:50",
             "to": "2026-10-20 11:55",
-            "open": 91.80000305175781,
+            "open": 91.9000015258789,
             "high": 91.9000015258789,
             "low": 91.5,
             "close": 91.5999984741211,
@@ -21258,6 +21265,46 @@
             "low": 89.5999984741211,
             "close": 90.19999694824219,
             "volumeShares": 337141,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:10",
+            "from": "2026-10-20 13:10",
+            "to": "2026-10-20 13:15",
+            "open": 90.30000305175781,
+            "high": 91,
+            "low": 90,
+            "close": 90.19999694824219,
+            "volumeShares": 572059,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:15",
+            "from": "2026-10-20 13:15",
+            "to": "2026-10-20 13:20",
+            "open": 90.19999694824219,
+            "high": 90.5,
+            "low": 89.9000015258789,
+            "close": 90,
+            "volumeShares": 305412,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:20",
+            "from": "2026-10-20 13:20",
+            "to": "2026-10-20 13:25",
+            "open": 90,
+            "high": 90,
+            "low": 89.5999984741211,
+            "close": 89.69999694824219,
+            "volumeShares": 527750,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:25",
+            "from": "2026-10-20 13:25",
+            "to": "2026-10-20 13:30",
+            "missing": true,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
           }
         ],
@@ -21589,7 +21636,7 @@
             "missing": false,
             "open": 100,
             "high": 100.5,
-            "low": 99.80000305175781,
+            "low": 99.69999694824219,
             "close": 99.80000305175781,
             "volumeShares": 1372139
           },
@@ -22323,11 +22370,11 @@
             "to": "2026-09-30 09:15",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 100.5,
+            "open": 101,
             "high": 101.5,
             "low": 100,
             "close": 100.5,
-            "volumeShares": 3979961
+            "volumeShares": 1426961
           },
           {
             "date": "2026-09-30 09:15",
@@ -22634,7 +22681,7 @@
             "high": 104.5,
             "low": 103.5,
             "close": 104,
-            "volumeShares": 754802
+            "volumeShares": 753802
           },
           {
             "date": "2026-10-01 11:15",
@@ -22646,7 +22693,7 @@
             "high": 104.5,
             "low": 103.5,
             "close": 103.5,
-            "volumeShares": 614542
+            "volumeShares": 615542
           },
           {
             "date": "2026-10-01 11:30",
@@ -22749,7 +22796,7 @@
             "high": 107,
             "low": 102,
             "close": 105,
-            "volumeShares": 6150444
+            "volumeShares": 3716444
           },
           {
             "date": "2026-10-02 09:15",
@@ -24226,7 +24273,7 @@
             "high": 95.5999984741211,
             "low": 94,
             "close": 95.0999984741211,
-            "volumeShares": 1445049
+            "volumeShares": 3337049
           },
           {
             "date": "2026-10-14 09:15",
@@ -24437,7 +24484,7 @@
             "high": 94.4000015258789,
             "low": 92.69999694824219,
             "close": 93.69999694824219,
-            "volumeShares": 3698109
+            "volumeShares": 2380109
           },
           {
             "date": "2026-10-15 09:15",
@@ -24557,7 +24604,7 @@
             "high": 92.69999694824219,
             "low": 92,
             "close": 92.19999694824219,
-            "volumeShares": 730969
+            "volumeShares": 742969
           },
           {
             "date": "2026-10-15 11:45",
@@ -24569,7 +24616,7 @@
             "high": 92.19999694824219,
             "low": 91.19999694824219,
             "close": 91.69999694824219,
-            "volumeShares": 1060154
+            "volumeShares": 1048154
           },
           {
             "date": "2026-10-15 12:00",
@@ -24919,7 +24966,7 @@
             "high": 90.9000015258789,
             "low": 90,
             "close": 90.4000015258789,
-            "volumeShares": 566554
+            "volumeShares": 6658293
           },
           {
             "date": "2026-10-19 10:30",
@@ -25070,7 +25117,7 @@
             "high": 93.69999694824219,
             "low": 91.9000015258789,
             "close": 92.4000015258789,
-            "volumeShares": 1983971
+            "volumeShares": 1308971
           },
           {
             "date": "2026-10-20 09:15",
@@ -25251,6 +25298,25 @@
             "low": 89.5999984741211,
             "close": 89.80000305175781,
             "volumeShares": 751932
+          },
+          {
+            "date": "2026-10-20 13:00",
+            "from": "2026-10-20 13:00",
+            "to": "2026-10-20 13:15",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
+            "missing": false,
+            "open": 89.80000305175781,
+            "high": 91,
+            "low": 89.5999984741211,
+            "close": 90.19999694824219,
+            "volumeShares": 1023759
+          },
+          {
+            "date": "2026-10-20 13:15",
+            "from": "2026-10-20 13:15",
+            "to": "2026-10-20 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ],
         "30m": [
@@ -25413,7 +25479,7 @@
             "missing": false,
             "open": 101,
             "high": 101,
-            "low": 99.80000305175781,
+            "low": 99.69999694824219,
             "close": 99.80000305175781,
             "volumeShares": 1945113
           },
@@ -25775,11 +25841,11 @@
             "to": "2026-09-30 09:30",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 100.5,
+            "open": 101,
             "high": 107,
             "low": 100,
             "close": 106.5,
-            "volumeShares": 20878132
+            "volumeShares": 18325132
           },
           {
             "date": "2026-09-30 09:30",
@@ -25985,7 +26051,7 @@
             "high": 108,
             "low": 102,
             "close": 104,
-            "volumeShares": 11065720
+            "volumeShares": 8631720
           },
           {
             "date": "2026-10-02 09:30",
@@ -26706,7 +26772,7 @@
             "high": 96,
             "low": 94,
             "close": 95.69999694824219,
-            "volumeShares": 2595394
+            "volumeShares": 4487394
           },
           {
             "date": "2026-10-14 09:30",
@@ -26809,7 +26875,7 @@
             "high": 94.80000305175781,
             "low": 92.69999694824219,
             "close": 94.69999694824219,
-            "volumeShares": 4715550
+            "volumeShares": 3397550
           },
           {
             "date": "2026-10-15 09:30",
@@ -27039,7 +27105,7 @@
             "high": 91.5999984741211,
             "low": 90,
             "close": 90.4000015258789,
-            "volumeShares": 1128207
+            "volumeShares": 7219946
           },
           {
             "date": "2026-10-19 10:30",
@@ -27118,7 +27184,7 @@
             "high": 93.69999694824219,
             "low": 91.9000015258789,
             "close": 92.5,
-            "volumeShares": 2914679
+            "volumeShares": 2239679
           },
           {
             "date": "2026-10-20 09:30",
@@ -27203,6 +27269,13 @@
             "low": 89.5999984741211,
             "close": 89.80000305175781,
             "volumeShares": 1247443
+          },
+          {
+            "date": "2026-10-20 13:00",
+            "from": "2026-10-20 13:00",
+            "to": "2026-10-20 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ],
         "60m": [
@@ -27487,11 +27560,11 @@
             "to": "2026-09-30 10:00",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 100.5,
+            "open": 101,
             "high": 107.5,
             "low": 100,
             "close": 104,
-            "volumeShares": 33666324
+            "volumeShares": 31113324
           },
           {
             "date": "2026-09-30 10:00",
@@ -27601,7 +27674,7 @@
             "high": 108,
             "low": 102,
             "close": 103.5,
-            "volumeShares": 14918369
+            "volumeShares": 12484369
           },
           {
             "date": "2026-10-02 10:00",
@@ -27986,7 +28059,7 @@
             "high": 96,
             "low": 94,
             "close": 96,
-            "volumeShares": 3498672
+            "volumeShares": 5390672
           },
           {
             "date": "2026-10-14 10:00",
@@ -28041,7 +28114,7 @@
             "high": 94.9000015258789,
             "low": 92.69999694824219,
             "close": 93.4000015258789,
-            "volumeShares": 6766839
+            "volumeShares": 5448839
           },
           {
             "date": "2026-10-15 10:00",
@@ -28163,7 +28236,7 @@
             "high": 92,
             "low": 90,
             "close": 91.69999694824219,
-            "volumeShares": 1677831
+            "volumeShares": 7769570
           },
           {
             "date": "2026-10-19 11:00",
@@ -28206,7 +28279,7 @@
             "high": 93.69999694824219,
             "low": 91.9000015258789,
             "close": 92.5999984741211,
-            "volumeShares": 3906632
+            "volumeShares": 3231632
           },
           {
             "date": "2026-10-20 10:00",
@@ -28243,40 +28316,47 @@
             "low": 89.5999984741211,
             "close": 89.80000305175781,
             "volumeShares": 2124092
+          },
+          {
+            "date": "2026-10-20 13:00",
+            "from": "2026-10-20 13:00",
+            "to": "2026-10-20 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ]
       },
       "intradayMetaByInterval": {
         "5m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:05.836Z",
-          "lastCompletedAt": "2026-10-20 13:10",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.221Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
         },
         "15m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:05.836Z",
-          "lastCompletedAt": "2026-10-20 13:00",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.221Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
         },
         "30m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:05.836Z",
-          "lastCompletedAt": "2026-10-20 13:00",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.221Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
         },
         "60m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:05.836Z",
-          "lastCompletedAt": "2026-10-20 13:00",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.221Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2426.TW?interval=5m&range=1mo"
         }
       }
@@ -36475,7 +36555,7 @@
           "high": 69.4000015258789,
           "low": 68.69999694824219,
           "close": 69.0999984741211,
-          "volumeShares": 780220
+          "volumeShares": 773220
         },
         {
           "date": "2026-09-21 12:00",
@@ -36487,7 +36567,7 @@
           "high": 69.19999694824219,
           "low": 68.5999984741211,
           "close": 68.5999984741211,
-          "volumeShares": 798790
+          "volumeShares": 805790
         },
         {
           "date": "2026-09-21 12:30",
@@ -36702,7 +36782,7 @@
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
           "missing": false,
           "open": 67.9000015258789,
-          "high": 67.9000015258789,
+          "high": 68,
           "low": 67.5,
           "close": 67.5999984741211,
           "volumeShares": 529624
@@ -36930,7 +37010,7 @@
           "high": 70.9000015258789,
           "low": 68.0999984741211,
           "close": 70.19999694824219,
-          "volumeShares": 8691573
+          "volumeShares": 7809573
         },
         {
           "date": "2026-09-30 09:30",
@@ -37136,7 +37216,7 @@
           "high": 71.4000015258789,
           "low": 68.9000015258789,
           "close": 71.19999694824219,
-          "volumeShares": 7014028
+          "volumeShares": 6584028
         },
         {
           "date": "2026-10-02 09:30",
@@ -37857,7 +37937,7 @@
           "high": 62.29999923706055,
           "low": 60.70000076293945,
           "close": 61.900001525878906,
-          "volumeShares": 1036828
+          "volumeShares": 1318828
         },
         {
           "date": "2026-10-14 09:30",
@@ -37960,7 +38040,7 @@
           "high": 62.400001525878906,
           "low": 61.20000076293945,
           "close": 62.20000076293945,
-          "volumeShares": 1806261
+          "volumeShares": 1202261
         },
         {
           "date": "2026-10-15 09:30",
@@ -37972,7 +38052,7 @@
           "high": 62.900001525878906,
           "low": 61.70000076293945,
           "close": 61.900001525878906,
-          "volumeShares": 2640364
+          "volumeShares": 709822
         },
         {
           "date": "2026-10-15 10:00",
@@ -38269,7 +38349,7 @@
           "high": 64,
           "low": 62.29999923706055,
           "close": 63.79999923706055,
-          "volumeShares": 820024
+          "volumeShares": 706024
         },
         {
           "date": "2026-10-20 09:30",
@@ -38354,14 +38434,21 @@
           "low": 62,
           "close": 62.099998474121094,
           "volumeShares": 437703
+        },
+        {
+          "date": "2026-10-20 13:00",
+          "from": "2026-10-20 13:00",
+          "to": "2026-10-20 13:30",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
+          "missing": true
         }
       ],
       "intradayMeta": {
-        "checkedAt": "2026-10-20T05:31:05.610Z",
-        "fetchedAt": "2026-10-20T05:31:05.982Z",
-        "lastCompletedAt": "2026-10-20 13:00",
+        "checkedAt": "2026-10-20T09:43:16.008Z",
+        "fetchedAt": "2026-10-20T09:43:16.331Z",
+        "lastCompletedAt": "2026-10-20 13:30",
         "delayMinutes": 20,
-        "missingBars": 18,
+        "missingBars": 19,
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
       },
       "intradayByInterval": {
@@ -38759,7 +38846,7 @@
             "high": 69.19999694824219,
             "low": 69.0999984741211,
             "close": 69.0999984741211,
-            "volumeShares": 128719,
+            "volumeShares": 121719,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -38770,7 +38857,7 @@
             "high": 69.19999694824219,
             "low": 68.9000015258789,
             "close": 69,
-            "volumeShares": 218075,
+            "volumeShares": 225075,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -38986,7 +39073,7 @@
             "high": 71.80000305175781,
             "low": 70.30000305175781,
             "close": 71.5,
-            "volumeShares": 3131913,
+            "volumeShares": 3130913,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -38997,7 +39084,7 @@
             "high": 72.30000305175781,
             "low": 71,
             "close": 71,
-            "volumeShares": 4013031,
+            "volumeShares": 4014031,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -40057,7 +40144,7 @@
             "from": "2026-09-23 12:50",
             "to": "2026-09-23 12:55",
             "open": 67.5999984741211,
-            "high": 67.80000305175781,
+            "high": 68,
             "low": 67.5999984741211,
             "close": 67.5999984741211,
             "volumeShares": 149651,
@@ -41324,7 +41411,7 @@
             "high": 69.0999984741211,
             "low": 68.5,
             "close": 68.5999984741211,
-            "volumeShares": 882000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -42504,7 +42591,7 @@
             "high": 69.5999984741211,
             "low": 68.9000015258789,
             "close": 69,
-            "volumeShares": 430000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -45106,7 +45193,7 @@
             "high": 66.9000015258789,
             "low": 66.80000305175781,
             "close": 66.80000305175781,
-            "volumeShares": 89000,
+            "volumeShares": 67000,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -45117,7 +45204,7 @@
             "high": 66.69999694824219,
             "low": 66.5999984741211,
             "close": 66.5999984741211,
-            "volumeShares": 106259,
+            "volumeShares": 128259,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -46614,9 +46701,9 @@
             "to": "2026-10-13 13:25",
             "open": 60.900001525878906,
             "high": 61.099998474121094,
-            "low": 60.70000076293945,
-            "close": 60.70000076293945,
-            "volumeShares": 414990,
+            "low": 60.79999923706055,
+            "close": 60.79999923706055,
+            "volumeShares": 361903,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -46634,7 +46721,7 @@
             "high": 61.599998474121094,
             "low": 61.099998474121094,
             "close": 61.099998474121094,
-            "volumeShares": 0,
+            "volumeShares": 282000,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -47224,7 +47311,7 @@
             "high": 62.400001525878906,
             "low": 61.70000076293945,
             "close": 62,
-            "volumeShares": 604000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -47301,7 +47388,7 @@
             "high": 62.900001525878906,
             "low": 62.29999923706055,
             "close": 62.70000076293945,
-            "volumeShares": 0,
+            "volumeShares": 161627,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -47312,7 +47399,7 @@
             "high": 62.79999923706055,
             "low": 62.20000076293945,
             "close": 62.20000076293945,
-            "volumeShares": 2183926,
+            "volumeShares": 91757,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -48338,7 +48425,7 @@
             "date": "2026-10-16 13:00",
             "from": "2026-10-16 13:00",
             "to": "2026-10-16 13:05",
-            "open": 62.20000076293945,
+            "open": 62.29999923706055,
             "high": 62.5,
             "low": 62.20000076293945,
             "close": 62.29999923706055,
@@ -48994,7 +49081,7 @@
             "high": 63.5,
             "low": 62.29999923706055,
             "close": 63.400001525878906,
-            "volumeShares": 114000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           },
           {
@@ -49535,6 +49622,46 @@
             "close": 62.099998474121094,
             "volumeShares": 221552,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:10",
+            "from": "2026-10-20 13:10",
+            "to": "2026-10-20 13:15",
+            "open": 62.099998474121094,
+            "high": 62.400001525878906,
+            "low": 62.099998474121094,
+            "close": 62.099998474121094,
+            "volumeShares": 127448,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:15",
+            "from": "2026-10-20 13:15",
+            "to": "2026-10-20 13:20",
+            "open": 62.099998474121094,
+            "high": 62.099998474121094,
+            "low": 61.70000076293945,
+            "close": 61.70000076293945,
+            "volumeShares": 151538,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:20",
+            "from": "2026-10-20 13:20",
+            "to": "2026-10-20 13:25",
+            "open": 61.70000076293945,
+            "high": 62,
+            "low": 61.599998474121094,
+            "close": 61.70000076293945,
+            "volumeShares": 140613,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:25",
+            "from": "2026-10-20 13:25",
+            "to": "2026-10-20 13:30",
+            "missing": true,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
           }
         ],
         "15m": [
@@ -49680,7 +49807,7 @@
             "high": 69.4000015258789,
             "low": 69,
             "close": 69.0999984741211,
-            "volumeShares": 411770
+            "volumeShares": 404770
           },
           {
             "date": "2026-09-21 12:00",
@@ -49692,7 +49819,7 @@
             "high": 69.19999694824219,
             "low": 68.80000305175781,
             "close": 68.9000015258789,
-            "volumeShares": 353788
+            "volumeShares": 360788
           },
           {
             "date": "2026-09-21 12:15",
@@ -49759,7 +49886,7 @@
             "high": 71.80000305175781,
             "low": 68.5,
             "close": 71.5,
-            "volumeShares": 10485913
+            "volumeShares": 10484913
           },
           {
             "date": "2026-09-22 09:15",
@@ -49771,7 +49898,7 @@
             "high": 72.30000305175781,
             "low": 70.30000305175781,
             "close": 71.4000015258789,
-            "volumeShares": 10821083
+            "volumeShares": 10822083
           },
           {
             "date": "2026-09-22 09:30",
@@ -50147,7 +50274,7 @@
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
             "missing": false,
             "open": 67.5999984741211,
-            "high": 67.80000305175781,
+            "high": 68,
             "low": 67.5,
             "close": 67.5999984741211,
             "volumeShares": 344225
@@ -50603,7 +50730,7 @@
             "high": 69.5,
             "low": 68.0999984741211,
             "close": 69.4000015258789,
-            "volumeShares": 2437710
+            "volumeShares": 1555710
           },
           {
             "date": "2026-09-30 09:15",
@@ -51025,7 +51152,7 @@
             "high": 70.80000305175781,
             "low": 68.9000015258789,
             "close": 70.69999694824219,
-            "volumeShares": 2775544
+            "volumeShares": 2345544
           },
           {
             "date": "2026-10-02 09:15",
@@ -52502,7 +52629,7 @@
             "high": 61.599998474121094,
             "low": 60.70000076293945,
             "close": 61.20000076293945,
-            "volumeShares": 456842
+            "volumeShares": 738842
           },
           {
             "date": "2026-10-14 09:15",
@@ -52713,7 +52840,7 @@
             "high": 62.400001525878906,
             "low": 61.20000076293945,
             "close": 61.79999923706055,
-            "volumeShares": 1557683
+            "volumeShares": 953683
           },
           {
             "date": "2026-10-15 09:15",
@@ -52737,7 +52864,7 @@
             "high": 62.900001525878906,
             "low": 62.099998474121094,
             "close": 62.20000076293945,
-            "volumeShares": 2308207
+            "volumeShares": 377665
           },
           {
             "date": "2026-10-15 09:45",
@@ -53112,7 +53239,7 @@
             "to": "2026-10-16 13:15",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 62.20000076293945,
+            "open": 62.29999923706055,
             "high": 64,
             "low": 62.20000076293945,
             "close": 63.5,
@@ -53346,7 +53473,7 @@
             "high": 63.5,
             "low": 62.29999923706055,
             "close": 63.20000076293945,
-            "volumeShares": 337880
+            "volumeShares": 223880
           },
           {
             "date": "2026-10-20 09:15",
@@ -53527,6 +53654,25 @@
             "low": 62,
             "close": 62.099998474121094,
             "volumeShares": 225368
+          },
+          {
+            "date": "2026-10-20 13:00",
+            "from": "2026-10-20 13:00",
+            "to": "2026-10-20 13:15",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
+            "missing": false,
+            "open": 62.099998474121094,
+            "high": 62.400001525878906,
+            "low": 61.70000076293945,
+            "close": 62.099998474121094,
+            "volumeShares": 391250
+          },
+          {
+            "date": "2026-10-20 13:15",
+            "from": "2026-10-20 13:15",
+            "to": "2026-10-20 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ],
         "30m": [
@@ -53600,7 +53746,7 @@
             "high": 69.4000015258789,
             "low": 68.69999694824219,
             "close": 69.0999984741211,
-            "volumeShares": 780220
+            "volumeShares": 773220
           },
           {
             "date": "2026-09-21 12:00",
@@ -53612,7 +53758,7 @@
             "high": 69.19999694824219,
             "low": 68.5999984741211,
             "close": 68.5999984741211,
-            "volumeShares": 798790
+            "volumeShares": 805790
           },
           {
             "date": "2026-09-21 12:30",
@@ -53827,7 +53973,7 @@
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
             "missing": false,
             "open": 67.9000015258789,
-            "high": 67.9000015258789,
+            "high": 68,
             "low": 67.5,
             "close": 67.5999984741211,
             "volumeShares": 529624
@@ -54055,7 +54201,7 @@
             "high": 70.9000015258789,
             "low": 68.0999984741211,
             "close": 70.19999694824219,
-            "volumeShares": 8691573
+            "volumeShares": 7809573
           },
           {
             "date": "2026-09-30 09:30",
@@ -54261,7 +54407,7 @@
             "high": 71.4000015258789,
             "low": 68.9000015258789,
             "close": 71.19999694824219,
-            "volumeShares": 7014028
+            "volumeShares": 6584028
           },
           {
             "date": "2026-10-02 09:30",
@@ -54982,7 +55128,7 @@
             "high": 62.29999923706055,
             "low": 60.70000076293945,
             "close": 61.900001525878906,
-            "volumeShares": 1036828
+            "volumeShares": 1318828
           },
           {
             "date": "2026-10-14 09:30",
@@ -55085,7 +55231,7 @@
             "high": 62.400001525878906,
             "low": 61.20000076293945,
             "close": 62.20000076293945,
-            "volumeShares": 1806261
+            "volumeShares": 1202261
           },
           {
             "date": "2026-10-15 09:30",
@@ -55097,7 +55243,7 @@
             "high": 62.900001525878906,
             "low": 61.70000076293945,
             "close": 61.900001525878906,
-            "volumeShares": 2640364
+            "volumeShares": 709822
           },
           {
             "date": "2026-10-15 10:00",
@@ -55394,7 +55540,7 @@
             "high": 64,
             "low": 62.29999923706055,
             "close": 63.79999923706055,
-            "volumeShares": 820024
+            "volumeShares": 706024
           },
           {
             "date": "2026-10-20 09:30",
@@ -55479,6 +55625,13 @@
             "low": 62,
             "close": 62.099998474121094,
             "volumeShares": 437703
+          },
+          {
+            "date": "2026-10-20 13:00",
+            "from": "2026-10-20 13:00",
+            "to": "2026-10-20 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ],
         "60m": [
@@ -55516,7 +55669,7 @@
             "high": 69.4000015258789,
             "low": 68.4000015258789,
             "close": 69.0999984741211,
-            "volumeShares": 2023034
+            "volumeShares": 2016034
           },
           {
             "date": "2026-09-21 12:00",
@@ -55528,7 +55681,7 @@
             "high": 69.19999694824219,
             "low": 68.30000305175781,
             "close": 68.5999984741211,
-            "volumeShares": 1761767
+            "volumeShares": 1768767
           },
           {
             "date": "2026-09-21 13:00",
@@ -55767,7 +55920,7 @@
             "high": 70.9000015258789,
             "low": 68.0999984741211,
             "close": 69.9000015258789,
-            "volumeShares": 12399433
+            "volumeShares": 11517433
           },
           {
             "date": "2026-09-30 10:00",
@@ -55877,7 +56030,7 @@
             "high": 72,
             "low": 68.9000015258789,
             "close": 71.69999694824219,
-            "volumeShares": 14028171
+            "volumeShares": 13598171
           },
           {
             "date": "2026-10-02 10:00",
@@ -56262,7 +56415,7 @@
             "high": 62.400001525878906,
             "low": 60.70000076293945,
             "close": 62.29999923706055,
-            "volumeShares": 1625221
+            "volumeShares": 1907221
           },
           {
             "date": "2026-10-14 10:00",
@@ -56317,7 +56470,7 @@
             "high": 62.900001525878906,
             "low": 61.20000076293945,
             "close": 61.900001525878906,
-            "volumeShares": 4446625
+            "volumeShares": 1912083
           },
           {
             "date": "2026-10-15 10:00",
@@ -56482,7 +56635,7 @@
             "high": 64.30000305175781,
             "low": 62.29999923706055,
             "close": 63.599998474121094,
-            "volumeShares": 1275487
+            "volumeShares": 1161487
           },
           {
             "date": "2026-10-20 10:00",
@@ -56519,40 +56672,47 @@
             "low": 62,
             "close": 62.099998474121094,
             "volumeShares": 840941
+          },
+          {
+            "date": "2026-10-20 13:00",
+            "from": "2026-10-20 13:00",
+            "to": "2026-10-20 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo",
+            "missing": true
           }
         ]
       },
       "intradayMetaByInterval": {
         "5m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:05.982Z",
-          "lastCompletedAt": "2026-10-20 13:10",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.331Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
         },
         "15m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:05.982Z",
-          "lastCompletedAt": "2026-10-20 13:00",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.331Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
         },
         "30m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:05.982Z",
-          "lastCompletedAt": "2026-10-20 13:00",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.331Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
         },
         "60m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:05.982Z",
-          "lastCompletedAt": "2026-10-20 13:00",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.331Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
-          "missingBars": 18,
+          "missingBars": 19,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/3714.TW?interval=5m&range=1mo"
         }
       }
@@ -64715,7 +64875,7 @@
           "high": 32.900001525878906,
           "low": 32.150001525878906,
           "close": 32.650001525878906,
-          "volumeShares": 89624997
+          "volumeShares": 89623997
         },
         {
           "date": "2026-09-21 10:30",
@@ -64727,7 +64887,7 @@
           "high": 33.20000076293945,
           "low": 32.599998474121094,
           "close": 32.75,
-          "volumeShares": 101337026
+          "volumeShares": 101338026
         },
         {
           "date": "2026-09-21 11:00",
@@ -65068,7 +65228,7 @@
           "to": "2026-09-24 12:30",
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
           "missing": false,
-          "open": 34.150001525878906,
+          "open": 34.099998474121094,
           "high": 34.20000076293945,
           "low": 34,
           "close": 34.20000076293945,
@@ -65213,7 +65373,7 @@
           "high": 38.54999923706055,
           "low": 35.650001525878906,
           "close": 38.54999923706055,
-          "volumeShares": 387870205
+          "volumeShares": 275758205
         },
         {
           "date": "2026-09-30 09:30",
@@ -65312,8 +65472,8 @@
           "to": "2026-10-01 09:30",
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
           "missing": false,
-          "open": 39.79999923706055,
-          "high": 40,
+          "open": 39.54999923706055,
+          "high": 39.95000076293945,
           "low": 38.20000076293945,
           "close": 39.400001525878906,
           "volumeShares": 293901812
@@ -65419,7 +65579,7 @@
           "high": 40.099998474121094,
           "low": 38.650001525878906,
           "close": 39.849998474121094,
-          "volumeShares": 246954628
+          "volumeShares": 161392628
         },
         {
           "date": "2026-10-02 09:30",
@@ -65518,7 +65678,7 @@
           "to": "2026-10-05 09:30",
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
           "missing": false,
-          "open": 41.54999923706055,
+          "open": 41.5,
           "high": 43.54999923706055,
           "low": 41.29999923706055,
           "close": 42.099998474121094,
@@ -65811,8 +65971,8 @@
           "open": 37.349998474121094,
           "high": 37.599998474121094,
           "low": 37.29999923706055,
-          "close": 37.599998474121094,
-          "volumeShares": 18390192
+          "close": 37.54999923706055,
+          "volumeShares": 18391192
         },
         {
           "date": "2026-10-07 13:00",
@@ -65875,7 +66035,7 @@
           "to": "2026-10-08 11:30",
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
           "missing": false,
-          "open": 36.95000076293945,
+          "open": 37,
           "high": 37.099998474121094,
           "low": 36.900001525878906,
           "close": 37.04999923706055,
@@ -65899,7 +66059,7 @@
           "to": "2026-10-08 12:30",
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
           "missing": false,
-          "open": 36.95000076293945,
+          "open": 36.900001525878906,
           "high": 36.95000076293945,
           "low": 36.70000076293945,
           "close": 36.849998474121094,
@@ -66120,8 +66280,8 @@
           "open": 34.150001525878906,
           "high": 34.25,
           "low": 33.849998474121094,
-          "close": 33.900001525878906,
-          "volumeShares": 27026513
+          "close": 33.849998474121094,
+          "volumeShares": 27027513
         },
         {
           "date": "2026-10-13 13:00",
@@ -66140,7 +66300,7 @@
           "high": 35.29999923706055,
           "low": 34.45000076293945,
           "close": 35.099998474121094,
-          "volumeShares": 61974188
+          "volumeShares": 95555188
         },
         {
           "date": "2026-10-14 09:30",
@@ -66243,7 +66403,7 @@
           "high": 36.29999923706055,
           "low": 34.900001525878906,
           "close": 35.900001525878906,
-          "volumeShares": 106761027
+          "volumeShares": 73970027
         },
         {
           "date": "2026-10-15 09:30",
@@ -66263,7 +66423,7 @@
           "to": "2026-10-15 10:30",
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
           "missing": false,
-          "open": 35.650001525878906,
+          "open": 35.599998474121094,
           "high": 35.79999923706055,
           "low": 35.54999923706055,
           "close": 35.599998474121094,
@@ -66414,7 +66574,7 @@
           "to": "2026-10-16 12:30",
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
           "missing": false,
-          "open": 35.75,
+          "open": 35.79999923706055,
           "high": 35.849998474121094,
           "low": 35.599998474121094,
           "close": 35.650001525878906,
@@ -66552,7 +66712,7 @@
           "high": 37.650001525878906,
           "low": 36.5,
           "close": 37.349998474121094,
-          "volumeShares": 132797619
+          "volumeShares": 102637619
         },
         {
           "date": "2026-10-20 09:30",
@@ -66637,12 +66797,25 @@
           "low": 35.79999923706055,
           "close": 35.900001525878906,
           "volumeShares": 33989570
+        },
+        {
+          "date": "2026-10-20 13:00",
+          "from": "2026-10-20 13:00",
+          "to": "2026-10-20 13:30",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+          "missing": false,
+          "closingAuctionMerged": true,
+          "open": 35.900001525878906,
+          "high": 36.20000076293945,
+          "low": 35.650001525878906,
+          "close": 35.75,
+          "volumeShares": null
         }
       ],
       "intradayMeta": {
-        "checkedAt": "2026-10-20T05:31:05.610Z",
-        "fetchedAt": "2026-10-20T05:31:06.110Z",
-        "lastCompletedAt": "2026-10-20 13:00",
+        "checkedAt": "2026-10-20T09:43:16.008Z",
+        "fetchedAt": "2026-10-20T09:43:16.420Z",
+        "lastCompletedAt": "2026-10-20 13:30",
         "delayMinutes": 20,
         "missingBars": 17,
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
@@ -66700,8 +66873,8 @@
             "open": 32.099998474121094,
             "high": 32.20000076293945,
             "low": 31.950000762939453,
-            "close": 32.099998474121094,
-            "volumeShares": 13537661,
+            "close": 32.04999923706055,
+            "volumeShares": 13538661,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -66712,7 +66885,7 @@
             "high": 32.29999923706055,
             "low": 31.799999237060547,
             "close": 31.899999618530273,
-            "volumeShares": 16731976,
+            "volumeShares": 16730976,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -66756,7 +66929,7 @@
             "high": 32.599998474121094,
             "low": 32.25,
             "close": 32.25,
-            "volumeShares": 34370383,
+            "volumeShares": 34385383,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -66767,7 +66940,7 @@
             "high": 32.29999923706055,
             "low": 32.099998474121094,
             "close": 32.25,
-            "volumeShares": 5466513,
+            "volumeShares": 5451513,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -66844,7 +67017,7 @@
             "high": 32.75,
             "low": 32.54999923706055,
             "close": 32.650001525878906,
-            "volumeShares": 6527621,
+            "volumeShares": 6526621,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -66855,7 +67028,7 @@
             "high": 33.20000076293945,
             "low": 32.599998474121094,
             "close": 33.150001525878906,
-            "volumeShares": 72834858,
+            "volumeShares": 72835858,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -68013,7 +68186,7 @@
             "high": 34.849998474121094,
             "low": 34.650001525878906,
             "close": 34.75,
-            "volumeShares": 7702240,
+            "volumeShares": 7703240,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -68024,7 +68197,7 @@
             "high": 34.75,
             "low": 34.45000076293945,
             "close": 34.5,
-            "volumeShares": 8162258,
+            "volumeShares": 8161258,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -68460,7 +68633,7 @@
             "high": 34.25,
             "low": 33.79999923706055,
             "close": 34.099998474121094,
-            "volumeShares": 33879174,
+            "volumeShares": 33883174,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -68471,7 +68644,7 @@
             "high": 34.25,
             "low": 33.900001525878906,
             "close": 33.95000076293945,
-            "volumeShares": 19232398,
+            "volumeShares": 19228398,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -68676,7 +68849,7 @@
             "date": "2026-09-24 10:55",
             "from": "2026-09-24 10:55",
             "to": "2026-09-24 11:00",
-            "open": 34.349998474121094,
+            "open": 34.400001525878906,
             "high": 34.45000076293945,
             "low": 34.25,
             "close": 34.29999923706055,
@@ -68819,11 +68992,11 @@
             "date": "2026-09-24 12:00",
             "from": "2026-09-24 12:00",
             "to": "2026-09-24 12:05",
-            "open": 34.150001525878906,
+            "open": 34.099998474121094,
             "high": 34.150001525878906,
             "low": 34,
             "close": 34.04999923706055,
-            "volumeShares": 4708237,
+            "volumeShares": 4799237,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -68834,7 +69007,7 @@
             "high": 34.099998474121094,
             "low": 34,
             "close": 34.04999923706055,
-            "volumeShares": 2359327,
+            "volumeShares": 2268327,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -69512,7 +69685,7 @@
             "high": 35.25,
             "low": 35.099998474121094,
             "close": 35.150001525878906,
-            "volumeShares": 7106764,
+            "volumeShares": 7096764,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -69523,7 +69696,7 @@
             "high": 35.20000076293945,
             "low": 34.849998474121094,
             "close": 34.849998474121094,
-            "volumeShares": 14107804,
+            "volumeShares": 14117804,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -69613,7 +69786,7 @@
             "high": 37.75,
             "low": 35.650001525878906,
             "close": 36.79999923706055,
-            "volumeShares": 112112000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -69623,8 +69796,8 @@
             "open": 36.75,
             "high": 37.5,
             "low": 36.54999923706055,
-            "close": 37.45000076293945,
-            "volumeShares": 60404000,
+            "close": 37.400001525878906,
+            "volumeShares": 60377000,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -69635,7 +69808,7 @@
             "high": 38.5,
             "low": 37.400001525878906,
             "close": 38.400001525878906,
-            "volumeShares": 102358202,
+            "volumeShares": 102385202,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -70199,8 +70372,8 @@
             "date": "2026-10-01 09:00",
             "from": "2026-10-01 09:00",
             "to": "2026-10-01 09:05",
-            "open": 39.79999923706055,
-            "high": 40,
+            "open": 39.54999923706055,
+            "high": 39.599998474121094,
             "low": 38.54999923706055,
             "close": 38.599998474121094,
             "volumeShares": 0,
@@ -70236,7 +70409,7 @@
             "high": 38.849998474121094,
             "low": 38.20000076293945,
             "close": 38.849998474121094,
-            "volumeShares": 37693361,
+            "volumeShares": 37692361,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -70247,7 +70420,7 @@
             "high": 39.95000076293945,
             "low": 38.79999923706055,
             "close": 39.599998474121094,
-            "volumeShares": 100456006,
+            "volumeShares": 100457006,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -70357,7 +70530,7 @@
             "high": 38.849998474121094,
             "low": 38.5,
             "close": 38.650001525878906,
-            "volumeShares": 21282434,
+            "volumeShares": 21278434,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -70368,7 +70541,7 @@
             "high": 38.75,
             "low": 38.54999923706055,
             "close": 38.54999923706055,
-            "volumeShares": 9103942,
+            "volumeShares": 9107942,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -70379,7 +70552,7 @@
             "high": 38.70000076293945,
             "low": 38.400001525878906,
             "close": 38.599998474121094,
-            "volumeShares": 18170979,
+            "volumeShares": 18171929,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -70390,7 +70563,7 @@
             "high": 38.70000076293945,
             "low": 38.54999923706055,
             "close": 38.650001525878906,
-            "volumeShares": 5850159,
+            "volumeShares": 5849209,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -70687,7 +70860,7 @@
             "high": 38.20000076293945,
             "low": 37.849998474121094,
             "close": 37.900001525878906,
-            "volumeShares": 28401034,
+            "volumeShares": 28381034,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -70698,7 +70871,7 @@
             "high": 38,
             "low": 37.900001525878906,
             "close": 38,
-            "volumeShares": 6773090,
+            "volumeShares": 6793090,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -70793,7 +70966,7 @@
             "high": 40,
             "low": 38.650001525878906,
             "close": 39.400001525878906,
-            "volumeShares": 85565000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -70804,7 +70977,7 @@
             "high": 39.79999923706055,
             "low": 39.04999923706055,
             "close": 39.650001525878906,
-            "volumeShares": 42603000,
+            "volumeShares": 42606000,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -71379,7 +71552,7 @@
             "date": "2026-10-05 09:00",
             "from": "2026-10-05 09:00",
             "to": "2026-10-05 09:05",
-            "open": 41.54999923706055,
+            "open": 41.5,
             "high": 42.45000076293945,
             "low": 41.29999923706055,
             "close": 42,
@@ -71680,7 +71853,7 @@
             "high": 40,
             "low": 39.849998474121094,
             "close": 39.900001525878906,
-            "volumeShares": 7459484,
+            "volumeShares": 7469484,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -71691,7 +71864,7 @@
             "high": 39.900001525878906,
             "low": 39.79999923706055,
             "close": 39.849998474121094,
-            "volumeShares": 7703124,
+            "volumeShares": 7693124,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -71724,7 +71897,7 @@
             "high": 39.79999923706055,
             "low": 39.70000076293945,
             "close": 39.75,
-            "volumeShares": 6664391,
+            "volumeShares": 6663391,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -71735,7 +71908,7 @@
             "high": 39.79999923706055,
             "low": 39.20000076293945,
             "close": 39.29999923706055,
-            "volumeShares": 28826221,
+            "volumeShares": 28827221,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -72699,7 +72872,7 @@
             "high": 37.5,
             "low": 37.20000076293945,
             "close": 37.25,
-            "volumeShares": 5962184,
+            "volumeShares": 5962181,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -72710,7 +72883,7 @@
             "high": 37.25,
             "low": 37.099998474121094,
             "close": 37.20000076293945,
-            "volumeShares": 3447518,
+            "volumeShares": 3447521,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -72864,7 +73037,7 @@
             "high": 37.29999923706055,
             "low": 37.25,
             "close": 37.29999923706055,
-            "volumeShares": 822065,
+            "volumeShares": 823065,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -72875,7 +73048,7 @@
             "high": 37.349998474121094,
             "low": 37.25,
             "close": 37.349998474121094,
-            "volumeShares": 2030285,
+            "volumeShares": 2029285,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -73083,8 +73256,8 @@
             "open": 37.45000076293945,
             "high": 37.599998474121094,
             "low": 37.400001525878906,
-            "close": 37.599998474121094,
-            "volumeShares": 6044939,
+            "close": 37.54999923706055,
+            "volumeShares": 6045939,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -73095,7 +73268,7 @@
             "high": 37.79999923706055,
             "low": 37.54999923706055,
             "close": 37.79999923706055,
-            "volumeShares": 10598166,
+            "volumeShares": 10597166,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -73419,7 +73592,7 @@
             "date": "2026-10-08 11:00",
             "from": "2026-10-08 11:00",
             "to": "2026-10-08 11:05",
-            "open": 36.95000076293945,
+            "open": 37,
             "high": 37.04999923706055,
             "low": 36.900001525878906,
             "close": 36.900001525878906,
@@ -73551,7 +73724,7 @@
             "date": "2026-10-08 12:00",
             "from": "2026-10-08 12:00",
             "to": "2026-10-08 12:05",
-            "open": 36.95000076293945,
+            "open": 36.900001525878906,
             "high": 36.95000076293945,
             "low": 36.849998474121094,
             "close": 36.900001525878906,
@@ -73577,7 +73750,7 @@
             "high": 36.900001525878906,
             "low": 36.79999923706055,
             "close": 36.849998474121094,
-            "volumeShares": 4132415,
+            "volumeShares": 4131865,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -73588,7 +73761,7 @@
             "high": 36.849998474121094,
             "low": 36.75,
             "close": 36.75,
-            "volumeShares": 9495766,
+            "volumeShares": 9496316,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -73632,7 +73805,7 @@
             "high": 36.849998474121094,
             "low": 36.70000076293945,
             "close": 36.75,
-            "volumeShares": 5195933,
+            "volumeShares": 5199933,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -73643,7 +73816,7 @@
             "high": 36.79999923706055,
             "low": 36.70000076293945,
             "close": 36.79999923706055,
-            "volumeShares": 2515172,
+            "volumeShares": 2511172,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -74819,7 +74992,7 @@
             "date": "2026-10-13 12:40",
             "from": "2026-10-13 12:40",
             "to": "2026-10-13 12:45",
-            "open": 34.04999923706055,
+            "open": 34,
             "high": 34.04999923706055,
             "low": 33.900001525878906,
             "close": 33.95000076293945,
@@ -74855,8 +75028,8 @@
             "open": 33.900001525878906,
             "high": 33.95000076293945,
             "low": 33.849998474121094,
-            "close": 33.900001525878906,
-            "volumeShares": 4669851,
+            "close": 33.849998474121094,
+            "volumeShares": 4670851,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -74867,7 +75040,7 @@
             "high": 34.04999923706055,
             "low": 33.849998474121094,
             "close": 34,
-            "volumeShares": 7194738,
+            "volumeShares": 7193738,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -74929,7 +75102,7 @@
             "high": 35.099998474121094,
             "low": 34.599998474121094,
             "close": 34.70000076293945,
-            "volumeShares": 0,
+            "volumeShares": 33581000,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -75521,7 +75694,7 @@
             "high": 35.650001525878906,
             "low": 34.900001525878906,
             "close": 35.45000076293945,
-            "volumeShares": 32791000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -75649,7 +75822,7 @@
             "date": "2026-10-15 10:00",
             "from": "2026-10-15 10:00",
             "to": "2026-10-15 10:05",
-            "open": 35.650001525878906,
+            "open": 35.599998474121094,
             "high": 35.75,
             "low": 35.599998474121094,
             "close": 35.599998474121094,
@@ -76250,7 +76423,7 @@
             "date": "2026-10-16 10:05",
             "from": "2026-10-16 10:05",
             "to": "2026-10-16 10:10",
-            "open": 36.25,
+            "open": 36.29999923706055,
             "high": 36.45000076293945,
             "low": 36.20000076293945,
             "close": 36.45000076293945,
@@ -76503,7 +76676,7 @@
             "date": "2026-10-16 12:00",
             "from": "2026-10-16 12:00",
             "to": "2026-10-16 12:05",
-            "open": 35.75,
+            "open": 35.79999923706055,
             "high": 35.849998474121094,
             "low": 35.650001525878906,
             "close": 35.70000076293945,
@@ -76639,7 +76812,7 @@
             "high": 35.599998474121094,
             "low": 35.349998474121094,
             "close": 35.54999923706055,
-            "volumeShares": 4261210,
+            "volumeShares": 4260210,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -76650,7 +76823,7 @@
             "high": 35.599998474121094,
             "low": 35.400001525878906,
             "close": 35.45000076293945,
-            "volumeShares": 4832148,
+            "volumeShares": 4833148,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -76679,7 +76852,7 @@
             "date": "2026-10-16 13:20",
             "from": "2026-10-16 13:20",
             "to": "2026-10-16 13:25",
-            "open": 35.849998474121094,
+            "open": 35.900001525878906,
             "high": 36.20000076293945,
             "low": 35.849998474121094,
             "close": 35.900001525878906,
@@ -77291,7 +77464,7 @@
             "high": 37.25,
             "low": 36.5,
             "close": 37.099998474121094,
-            "volumeShares": 30160000,
+            "volumeShares": 0,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
           },
           {
@@ -77832,6 +78005,51 @@
             "close": 36,
             "volumeShares": 14650867,
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:10",
+            "from": "2026-10-20 13:10",
+            "to": "2026-10-20 13:15",
+            "open": 36,
+            "high": 36.20000076293945,
+            "low": 35.95000076293945,
+            "close": 36.04999923706055,
+            "volumeShares": 6921133,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:15",
+            "from": "2026-10-20 13:15",
+            "to": "2026-10-20 13:20",
+            "open": 36.04999923706055,
+            "high": 36.099998474121094,
+            "low": 35.849998474121094,
+            "close": 35.900001525878906,
+            "volumeShares": 4159934,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:20",
+            "from": "2026-10-20 13:20",
+            "to": "2026-10-20 13:25",
+            "open": 35.900001525878906,
+            "high": 35.95000076293945,
+            "low": 35.70000076293945,
+            "close": 35.75,
+            "volumeShares": 10355436,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
+          },
+          {
+            "date": "2026-10-20 13:25",
+            "from": "2026-10-20 13:25",
+            "to": "2026-10-20 13:30",
+            "open": 35.70000076293945,
+            "high": 35.75,
+            "low": 35.70000076293945,
+            "close": 35.75,
+            "volumeShares": null,
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+            "closingAuctionMerged": true
           }
         ],
         "15m": [
@@ -77905,7 +78123,7 @@
             "high": 32.79999923706055,
             "low": 32.54999923706055,
             "close": 32.650001525878906,
-            "volumeShares": 23119073
+            "volumeShares": 23118073
           },
           {
             "date": "2026-09-21 10:30",
@@ -77917,7 +78135,7 @@
             "high": 33.20000076293945,
             "low": 32.599998474121094,
             "close": 32.79999923706055,
-            "volumeShares": 88821520
+            "volumeShares": 88822520
           },
           {
             "date": "2026-09-21 10:45",
@@ -78618,7 +78836,7 @@
             "to": "2026-09-24 12:15",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 34.150001525878906,
+            "open": 34.099998474121094,
             "high": 34.150001525878906,
             "low": 34,
             "close": 34.099998474121094,
@@ -78907,7 +79125,7 @@
             "high": 38.5,
             "low": 35.650001525878906,
             "close": 38.400001525878906,
-            "volumeShares": 274874202
+            "volumeShares": 162762202
           },
           {
             "date": "2026-09-30 09:15",
@@ -79114,8 +79332,8 @@
             "to": "2026-10-01 09:15",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 39.79999923706055,
-            "high": 40,
+            "open": 39.54999923706055,
+            "high": 39.599998474121094,
             "low": 38.20000076293945,
             "close": 38.20000076293945,
             "volumeShares": 107853445
@@ -79166,7 +79384,7 @@
             "high": 39.5,
             "low": 38.5,
             "close": 38.650001525878906,
-            "volumeShares": 53330402
+            "volumeShares": 53326402
           },
           {
             "date": "2026-10-01 10:15",
@@ -79178,7 +79396,7 @@
             "high": 38.75,
             "low": 38.400001525878906,
             "close": 38.650001525878906,
-            "volumeShares": 33125080
+            "volumeShares": 33129080
           },
           {
             "date": "2026-10-01 10:30",
@@ -79286,7 +79504,7 @@
             "high": 38.20000076293945,
             "low": 37.849998474121094,
             "close": 37.900001525878906,
-            "volumeShares": 50579106
+            "volumeShares": 50559106
           },
           {
             "date": "2026-10-01 12:45",
@@ -79298,7 +79516,7 @@
             "high": 38.099998474121094,
             "low": 37.79999923706055,
             "close": 37.849998474121094,
-            "volumeShares": 25211735
+            "volumeShares": 25231735
           },
           {
             "date": "2026-10-01 13:00",
@@ -79329,7 +79547,7 @@
             "high": 40.099998474121094,
             "low": 38.650001525878906,
             "close": 39.79999923706055,
-            "volumeShares": 193513993
+            "volumeShares": 107951993
           },
           {
             "date": "2026-10-02 09:15",
@@ -79536,7 +79754,7 @@
             "to": "2026-10-05 09:15",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 41.54999923706055,
+            "open": 41.5,
             "high": 42.79999923706055,
             "low": 41.29999923706055,
             "close": 42.45000076293945,
@@ -80141,8 +80359,8 @@
             "open": 37.400001525878906,
             "high": 37.599998474121094,
             "low": 37.400001525878906,
-            "close": 37.599998474121094,
-            "volumeShares": 10519451
+            "close": 37.54999923706055,
+            "volumeShares": 10520451
           },
           {
             "date": "2026-10-07 13:00",
@@ -80154,7 +80372,7 @@
             "high": 38.099998474121094,
             "low": 37.54999923706055,
             "close": 37.95000076293945,
-            "volumeShares": 46478347
+            "volumeShares": 46477347
           },
           {
             "date": "2026-10-07 13:15",
@@ -80265,7 +80483,7 @@
             "to": "2026-10-08 11:15",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 36.95000076293945,
+            "open": 37,
             "high": 37.04999923706055,
             "low": 36.900001525878906,
             "close": 36.95000076293945,
@@ -80313,11 +80531,11 @@
             "to": "2026-10-08 12:15",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 36.95000076293945,
+            "open": 36.900001525878906,
             "high": 36.95000076293945,
             "low": 36.79999923706055,
             "close": 36.849998474121094,
-            "volumeShares": 10820488
+            "volumeShares": 10819938
           },
           {
             "date": "2026-10-08 12:15",
@@ -80329,7 +80547,7 @@
             "high": 36.849998474121094,
             "low": 36.70000076293945,
             "close": 36.849998474121094,
-            "volumeShares": 19961630
+            "volumeShares": 19962180
           },
           {
             "date": "2026-10-08 12:30",
@@ -80774,8 +80992,8 @@
             "open": 33.95000076293945,
             "high": 34,
             "low": 33.849998474121094,
-            "close": 33.900001525878906,
-            "volumeShares": 12979030
+            "close": 33.849998474121094,
+            "volumeShares": 12980030
           },
           {
             "date": "2026-10-13 13:00",
@@ -80787,7 +81005,7 @@
             "high": 34.29999923706055,
             "low": 33.849998474121094,
             "close": 34.150001525878906,
-            "volumeShares": 27529766
+            "volumeShares": 27528766
           },
           {
             "date": "2026-10-13 13:15",
@@ -80806,7 +81024,7 @@
             "high": 35.099998474121094,
             "low": 34.45000076293945,
             "close": 34.650001525878906,
-            "volumeShares": 24780556
+            "volumeShares": 58361556
           },
           {
             "date": "2026-10-14 09:15",
@@ -81017,7 +81235,7 @@
             "high": 36,
             "low": 34.900001525878906,
             "close": 35.95000076293945,
-            "volumeShares": 67668772
+            "volumeShares": 34877772
           },
           {
             "date": "2026-10-15 09:15",
@@ -81061,7 +81279,7 @@
             "to": "2026-10-15 10:15",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 35.650001525878906,
+            "open": 35.599998474121094,
             "high": 35.79999923706055,
             "low": 35.54999923706055,
             "close": 35.650001525878906,
@@ -81368,7 +81586,7 @@
             "to": "2026-10-16 12:15",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 35.75,
+            "open": 35.79999923706055,
             "high": 35.849998474121094,
             "low": 35.599998474121094,
             "close": 35.70000076293945,
@@ -81650,7 +81868,7 @@
             "high": 37.400001525878906,
             "low": 36.5,
             "close": 36.900001525878906,
-            "volumeShares": 75609449
+            "volumeShares": 45449449
           },
           {
             "date": "2026-10-20 09:15",
@@ -81831,6 +82049,31 @@
             "low": 35.79999923706055,
             "close": 35.900001525878906,
             "volumeShares": 12052919
+          },
+          {
+            "date": "2026-10-20 13:00",
+            "from": "2026-10-20 13:00",
+            "to": "2026-10-20 13:15",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+            "missing": false,
+            "open": 35.900001525878906,
+            "high": 36.20000076293945,
+            "low": 35.650001525878906,
+            "close": 36.04999923706055,
+            "volumeShares": 25014483
+          },
+          {
+            "date": "2026-10-20 13:15",
+            "from": "2026-10-20 13:15",
+            "to": "2026-10-20 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+            "missing": false,
+            "closingAuctionMerged": true,
+            "open": 36.04999923706055,
+            "high": 36.099998474121094,
+            "low": 35.70000076293945,
+            "close": 35.75,
+            "volumeShares": null
           }
         ],
         "30m": [
@@ -81868,7 +82111,7 @@
             "high": 32.900001525878906,
             "low": 32.150001525878906,
             "close": 32.650001525878906,
-            "volumeShares": 89624997
+            "volumeShares": 89623997
           },
           {
             "date": "2026-09-21 10:30",
@@ -81880,7 +82123,7 @@
             "high": 33.20000076293945,
             "low": 32.599998474121094,
             "close": 32.75,
-            "volumeShares": 101337026
+            "volumeShares": 101338026
           },
           {
             "date": "2026-09-21 11:00",
@@ -82221,7 +82464,7 @@
             "to": "2026-09-24 12:30",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 34.150001525878906,
+            "open": 34.099998474121094,
             "high": 34.20000076293945,
             "low": 34,
             "close": 34.20000076293945,
@@ -82366,7 +82609,7 @@
             "high": 38.54999923706055,
             "low": 35.650001525878906,
             "close": 38.54999923706055,
-            "volumeShares": 387870205
+            "volumeShares": 275758205
           },
           {
             "date": "2026-09-30 09:30",
@@ -82465,8 +82708,8 @@
             "to": "2026-10-01 09:30",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 39.79999923706055,
-            "high": 40,
+            "open": 39.54999923706055,
+            "high": 39.95000076293945,
             "low": 38.20000076293945,
             "close": 39.400001525878906,
             "volumeShares": 293901812
@@ -82572,7 +82815,7 @@
             "high": 40.099998474121094,
             "low": 38.650001525878906,
             "close": 39.849998474121094,
-            "volumeShares": 246954628
+            "volumeShares": 161392628
           },
           {
             "date": "2026-10-02 09:30",
@@ -82671,7 +82914,7 @@
             "to": "2026-10-05 09:30",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 41.54999923706055,
+            "open": 41.5,
             "high": 43.54999923706055,
             "low": 41.29999923706055,
             "close": 42.099998474121094,
@@ -82964,8 +83207,8 @@
             "open": 37.349998474121094,
             "high": 37.599998474121094,
             "low": 37.29999923706055,
-            "close": 37.599998474121094,
-            "volumeShares": 18390192
+            "close": 37.54999923706055,
+            "volumeShares": 18391192
           },
           {
             "date": "2026-10-07 13:00",
@@ -83028,7 +83271,7 @@
             "to": "2026-10-08 11:30",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 36.95000076293945,
+            "open": 37,
             "high": 37.099998474121094,
             "low": 36.900001525878906,
             "close": 37.04999923706055,
@@ -83052,7 +83295,7 @@
             "to": "2026-10-08 12:30",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 36.95000076293945,
+            "open": 36.900001525878906,
             "high": 36.95000076293945,
             "low": 36.70000076293945,
             "close": 36.849998474121094,
@@ -83273,8 +83516,8 @@
             "open": 34.150001525878906,
             "high": 34.25,
             "low": 33.849998474121094,
-            "close": 33.900001525878906,
-            "volumeShares": 27026513
+            "close": 33.849998474121094,
+            "volumeShares": 27027513
           },
           {
             "date": "2026-10-13 13:00",
@@ -83293,7 +83536,7 @@
             "high": 35.29999923706055,
             "low": 34.45000076293945,
             "close": 35.099998474121094,
-            "volumeShares": 61974188
+            "volumeShares": 95555188
           },
           {
             "date": "2026-10-14 09:30",
@@ -83396,7 +83639,7 @@
             "high": 36.29999923706055,
             "low": 34.900001525878906,
             "close": 35.900001525878906,
-            "volumeShares": 106761027
+            "volumeShares": 73970027
           },
           {
             "date": "2026-10-15 09:30",
@@ -83416,7 +83659,7 @@
             "to": "2026-10-15 10:30",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 35.650001525878906,
+            "open": 35.599998474121094,
             "high": 35.79999923706055,
             "low": 35.54999923706055,
             "close": 35.599998474121094,
@@ -83567,7 +83810,7 @@
             "to": "2026-10-16 12:30",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 35.75,
+            "open": 35.79999923706055,
             "high": 35.849998474121094,
             "low": 35.599998474121094,
             "close": 35.650001525878906,
@@ -83705,7 +83948,7 @@
             "high": 37.650001525878906,
             "low": 36.5,
             "close": 37.349998474121094,
-            "volumeShares": 132797619
+            "volumeShares": 102637619
           },
           {
             "date": "2026-10-20 09:30",
@@ -83790,6 +84033,19 @@
             "low": 35.79999923706055,
             "close": 35.900001525878906,
             "volumeShares": 33989570
+          },
+          {
+            "date": "2026-10-20 13:00",
+            "from": "2026-10-20 13:00",
+            "to": "2026-10-20 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+            "missing": false,
+            "closingAuctionMerged": true,
+            "open": 35.900001525878906,
+            "high": 36.20000076293945,
+            "low": 35.650001525878906,
+            "close": 35.75,
+            "volumeShares": null
           }
         ],
         "60m": [
@@ -84000,7 +84256,7 @@
             "to": "2026-09-24 13:00",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 34.150001525878906,
+            "open": 34.099998474121094,
             "high": 34.5,
             "low": 34,
             "close": 34.20000076293945,
@@ -84085,7 +84341,7 @@
             "high": 38.54999923706055,
             "low": 35.650001525878906,
             "close": 38.54999923706055,
-            "volumeShares": 403211323
+            "volumeShares": 291099323
           },
           {
             "date": "2026-09-30 10:00",
@@ -84136,8 +84392,8 @@
             "to": "2026-10-01 10:00",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 39.79999923706055,
-            "high": 40,
+            "open": 39.54999923706055,
+            "high": 39.95000076293945,
             "low": 38.20000076293945,
             "close": 39.349998474121094,
             "volumeShares": 401879830
@@ -84195,7 +84451,7 @@
             "high": 40.54999923706055,
             "low": 38.650001525878906,
             "close": 40.25,
-            "volumeShares": 388762241
+            "volumeShares": 303200241
           },
           {
             "date": "2026-10-02 10:00",
@@ -84246,7 +84502,7 @@
             "to": "2026-10-05 10:00",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 41.54999923706055,
+            "open": 41.5,
             "high": 43.54999923706055,
             "low": 40.099998474121094,
             "close": 40.45000076293945,
@@ -84395,8 +84651,8 @@
             "open": 37.650001525878906,
             "high": 37.650001525878906,
             "low": 37.29999923706055,
-            "close": 37.599998474121094,
-            "volumeShares": 33855794
+            "close": 37.54999923706055,
+            "volumeShares": 33856794
           },
           {
             "date": "2026-10-07 13:00",
@@ -84435,7 +84691,7 @@
             "to": "2026-10-08 12:00",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 36.95000076293945,
+            "open": 37,
             "high": 37.099998474121094,
             "low": 36.900001525878906,
             "close": 36.95000076293945,
@@ -84447,7 +84703,7 @@
             "to": "2026-10-08 13:00",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 36.95000076293945,
+            "open": 36.900001525878906,
             "high": 36.95000076293945,
             "low": 36.5,
             "close": 36.54999923706055,
@@ -84560,8 +84816,8 @@
             "open": 33.849998474121094,
             "high": 34.25,
             "low": 33.79999923706055,
-            "close": 33.900001525878906,
-            "volumeShares": 50288408
+            "close": 33.849998474121094,
+            "volumeShares": 50289408
           },
           {
             "date": "2026-10-13 13:00",
@@ -84580,7 +84836,7 @@
             "high": 35.349998474121094,
             "low": 34.45000076293945,
             "close": 35.25,
-            "volumeShares": 100442725
+            "volumeShares": 134023725
           },
           {
             "date": "2026-10-14 10:00",
@@ -84635,7 +84891,7 @@
             "high": 36.5,
             "low": 34.900001525878906,
             "close": 35.599998474121094,
-            "volumeShares": 179801343
+            "volumeShares": 147010343
           },
           {
             "date": "2026-10-15 10:00",
@@ -84643,7 +84899,7 @@
             "to": "2026-10-15 11:00",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 35.650001525878906,
+            "open": 35.599998474121094,
             "high": 35.79999923706055,
             "low": 35.349998474121094,
             "close": 35.400001525878906,
@@ -84722,7 +84978,7 @@
             "to": "2026-10-16 13:00",
             "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
             "missing": false,
-            "open": 35.75,
+            "open": 35.79999923706055,
             "high": 35.849998474121094,
             "low": 35.349998474121094,
             "close": 35.400001525878906,
@@ -84800,7 +85056,7 @@
             "high": 37.650001525878906,
             "low": 36.5,
             "close": 37.04999923706055,
-            "volumeShares": 171728698
+            "volumeShares": 141568698
           },
           {
             "date": "2026-10-20 10:00",
@@ -84837,38 +85093,51 @@
             "low": 35.79999923706055,
             "close": 35.900001525878906,
             "volumeShares": 54192166
+          },
+          {
+            "date": "2026-10-20 13:00",
+            "from": "2026-10-20 13:00",
+            "to": "2026-10-20 13:30",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo",
+            "missing": false,
+            "closingAuctionMerged": true,
+            "open": 35.900001525878906,
+            "high": 36.20000076293945,
+            "low": 35.650001525878906,
+            "close": 35.75,
+            "volumeShares": null
           }
         ]
       },
       "intradayMetaByInterval": {
         "5m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:06.110Z",
-          "lastCompletedAt": "2026-10-20 13:10",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.420Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
           "missingBars": 17,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
         },
         "15m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:06.110Z",
-          "lastCompletedAt": "2026-10-20 13:00",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.420Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
           "missingBars": 17,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
         },
         "30m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:06.110Z",
-          "lastCompletedAt": "2026-10-20 13:00",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.420Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
           "missingBars": 17,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
         },
         "60m": {
-          "checkedAt": "2026-10-20T05:31:05.610Z",
-          "fetchedAt": "2026-10-20T05:31:06.110Z",
-          "lastCompletedAt": "2026-10-20 13:00",
+          "checkedAt": "2026-10-20T09:43:16.008Z",
+          "fetchedAt": "2026-10-20T09:43:16.420Z",
+          "lastCompletedAt": "2026-10-20 13:30",
           "delayMinutes": 20,
           "missingBars": 17,
           "source": "https://query1.finance.yahoo.com/v8/finance/chart/2409.TW?interval=5m&range=1mo"
