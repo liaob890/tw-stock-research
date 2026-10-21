@@ -6,6 +6,7 @@ import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
 import {TIMEFRAMES,aggregateCandles,aggregateIntraday,timeframeSeries,parseIntraday,reconcileIntradayClosing,validOHLC} from './kline-core.mjs';
 import {WATCHLIST} from '../lib/watchlist.mjs';
+import {assertDailyPriceMatch} from './kline-daily-core.mjs';
 const site=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=name=>JSON.parse(fs.readFileSync(path.join(site,name),'utf8'));
 const daily=[{date:'2025-12-29',open:10,high:14,low:9,close:12,volumeShares:100},{date:'2025-12-31',open:12,high:16,low:11,close:15,volumeShares:200},{date:'2026-01-02',open:15,high:17,low:13,close:14,volumeShares:300},{date:'2026-01-05',open:14,high:15,low:10,close:11,volumeShares:400}];
@@ -44,13 +45,13 @@ const holiday=makeEnvelope(['2026-09-04T13:25:00','2026-09-08T09:00:00']);assert
 const data=read('lib/kline-history.json'),prices=read('lib/price-history.json');assert.deepEqual(data.stocks.map(s=>s.id),WATCHLIST.map(s=>s.id));
 for(const stock of data.stocks){
   assert.ok(stock.daily.every(validOHLC));
-  for(const row of prices.stocks.find(s=>s.id===stock.id).history){const other=stock.daily.find(r=>r.date===row.date);assert.ok(other);for(const k of ['open','high','low','close'])assert.equal(other[k],row[k]);}
+  assertDailyPriceMatch(stock.id,stock.daily,prices.stocks.find(s=>s.id===stock.id)?.history);
   const intervals=stock.intradayByInterval??{'30m':stock.intraday};
   for(const period of ['day','week','month',...visibleIntradayPeriods]){
     const series=timeframeSeries(stock,period,data.asOf);assert.ok(series.length>0);assert.ok(series.every(row=>row.missing||validOHLC(row)));
     const full=period.endsWith('m')?(intervals[period]??aggregateIntraday(intervals['5m']??[],Number.parseInt(period,10))):aggregateCandles(stock.daily,period,data.asOf),last20=full.slice(-20);
     const expected=last20.length===20&&last20.every(r=>Number.isFinite(r.close))?last20.reduce((sum,r)=>sum+r.close,0)/20:null;
-    expected===null?assert.equal(series.at(-1).ma20,null):assert.ok(Math.abs(series.at(-1).ma20-expected)<1e-8);
+    if(expected===null)assert.equal(series.at(-1).ma20,null);else assert.ok(Math.abs(series.at(-1).ma20-expected)<1e-8);
   }
   assert.equal(timeframeSeries(stock,'month',data.asOf).length,24);
   for(const rows of Object.values(intervals))assert.ok(rows.every(row=>!row.date.endsWith('13:30')));
@@ -59,7 +60,7 @@ for(const stock of data.stocks){
 // A failed acquisition must not replace the last good OHLC snapshot.
 const temp=fs.mkdtempSync(path.join(os.tmpdir(),'stock-kline-test-')),testSite=path.join(temp,'site');
 fs.mkdirSync(path.join(testSite,'scripts'),{recursive:true});fs.mkdirSync(path.join(testSite,'lib'));
-for(const f of ['update-kline-history.mjs','kline-core.mjs','chart-series-core.mjs'])fs.copyFileSync(path.join(site,'scripts',f),path.join(testSite,'scripts',f));
+for(const f of ['update-kline-history.mjs','kline-core.mjs','kline-daily-core.mjs','chart-series-core.mjs'])fs.copyFileSync(path.join(site,'scripts',f),path.join(testSite,'scripts',f));
 fs.copyFileSync(path.join(site,'lib/watchlist.mjs'),path.join(testSite,'lib/watchlist.mjs'));
 for(const name of ['market-snapshot.json','trading-calendar.json'])fs.copyFileSync(path.join(site,'lib',name),path.join(testSite,'lib',name));
 const preserved=JSON.stringify({...data,stocks:data.stocks.map(s=>({...s,daily:s.daily.slice(-30),intraday:s.intraday.slice(-30),intradayByInterval:s.intradayByInterval?Object.fromEntries(Object.entries(s.intradayByInterval).map(([period,rows])=>[period,rows.slice(-30)])):undefined}))});fs.writeFileSync(path.join(testSite,'lib/kline-history.json'),preserved);
