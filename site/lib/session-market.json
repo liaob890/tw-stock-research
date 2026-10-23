@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-22T09:44:09.428Z",
-  "fetchedAt": "2026-10-22T09:44:10.547Z",
+  "checkedAt": "2026-10-23T05:33:44.550Z",
+  "fetchedAt": "2026-10-23T05:33:46.411Z",
   "quotes": [
     {
       "id": "2426",
@@ -13,7 +13,7 @@
       "change": -5.200000000000003,
       "changePct": -5.658324265505987,
       "volumeLots": 9922,
-      "state": "closed",
+      "state": "awaiting",
       "source": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2426.tw%7Ctse_3714.tw%7Ctse_2409.tw&json=1&delay=0"
     },
     {
@@ -27,7 +27,7 @@
       "change": -0.8999999999999986,
       "changePct": -1.4376996805111841,
       "volumeLots": 5486,
-      "state": "closed",
+      "state": "awaiting",
       "source": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2426.tw%7Ctse_3714.tw%7Ctse_2409.tw&json=1&delay=0"
     },
     {
@@ -41,7 +41,7 @@
       "change": -1.8500000000000014,
       "changePct": -4.966442953020134,
       "volumeLots": 290089,
-      "state": "closed",
+      "state": "awaiting",
       "source": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2426.tw%7Ctse_3714.tw%7Ctse_2409.tw&json=1&delay=0"
     }
   ]
