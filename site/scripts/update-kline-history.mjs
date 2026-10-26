@@ -3,6 +3,7 @@ import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {WATCHLIST} from '../lib/watchlist.mjs';
 import {parsePriceMonth} from './chart-series-core.mjs';
+import {canReuseDailyMonth,assertDailyPriceMatch} from './kline-daily-core.mjs';
 import {aggregateIntraday,parseIntraday,reconcileIntradayClosing} from './kline-core.mjs';
 const site=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),root=path.resolve(site,'..');
 const args=process.argv.slice(2),arg=k=>args.includes(k)?args[args.indexOf(k)+1]:null;
@@ -15,8 +16,10 @@ const market=await read(path.join(site,'lib/market-snapshot.json')),calendar=awa
 let prior;try{prior=await read(path.join(site,'lib/kline-history.json'));}catch(e){if(e.code!=='ENOENT')throw e;}
 const checkedAt=new Date().toISOString(),asOf=intradayOnly?prior?.asOf:market.stocks.map(s=>s.quote.tradingDate).sort()[0];
 if(!asOf)throw new Error('請先建立日K歷史基準');
-const stocks=[],check={checkedAt,status:'verified',messages:[]};
+const stocks=[],cacheWrites=[],check={checkedAt,status:'verified',messages:[]};
 try{
+  const prices=intradayOnly?null:await read(path.join(site,'lib/price-history.json'));
+  if(prices&&prices.asOf!==asOf)throw new Error('短期與長期日K基準日期不符：price-history='+prices.asOf+'，daily='+asOf);
   for(const stock of WATCHLIST){
     const previous=prior?.stocks.find(s=>s.id===stock.id);let daily=previous?.daily;
     if(!intradayOnly){
@@ -25,12 +28,16 @@ try{
         const month=new Date(Date.UTC(base.getUTCFullYear(),base.getUTCMonth()-offset,1)).toISOString().slice(0,7).replace('-','');
         const cache=path.join(root,'data/raw/kline/daily',stock.id+'_'+month+'.json');let envelope;
         if(dailyInput)envelope=await read(path.join(dailyInput,stock.id+'_'+month+'.json'));
-        else{if(offset>0){try{envelope=await read(cache);}catch(e){if(e.code!=='ENOENT')throw e;}}if(!envelope)envelope=await get(`https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=${month}01&stockNo=${stock.id}`);}
+        else{
+          if(offset>0){try{const cached=await read(cache);if(canReuseDailyMonth(cached,month,asOf,checkedAt))envelope=cached;}catch(e){if(e.code!=='ENOENT')throw e;}}
+          if(!envelope)envelope=await get(`https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=${month}01&stockNo=${stock.id}`);
+        }
         envelope.url??=envelope.sourceUrl;
-        daily.push(...parsePriceMonth(envelope,stock.id,month,asOf));await save(cache,envelope);
+        daily.push(...parsePriceMonth(envelope,stock.id,month,asOf));cacheWrites.push({cache,envelope});
       }
       const quote=market.stocks.find(s=>s.id===stock.id).quote;
       if(daily.length<800||daily.at(-1).date!==quote.tradingDate||daily.at(-1).close!==quote.close)throw new Error(stock.id+' 長期日K不足或與正式收盤基準不符');
+      assertDailyPriceMatch(stock.id,daily,prices.stocks.find(s=>s.id===stock.id)?.history);
     }
     if(!daily?.length)throw new Error(stock.id+' 缺少已核對日K歷史');
     const url=`https://query1.finance.yahoo.com/v8/finance/chart/${stock.id}.TW?interval=5m&range=1mo`;
@@ -58,6 +65,8 @@ try{
   }
   const dateSets=stocks.map(s=>s.daily.map(r=>r.date).join(','));
   if(new Set(dateSets).size!==1)throw new Error('三股長期日K日期覆蓋不一致，須核對停牌或缺資料');
+  // Do not finalize an incomplete response into a reusable cache on a failed run.
+  for(const {cache,envelope} of cacheWrites)await save(cache,envelope);
   const result={asOf,checkedAt,dailyCheckedAt:intradayOnly?prior.dailyCheckedAt:checkedAt,adjustment:'unadjusted',timezone:'Asia/Taipei',stocks};
   await save(path.join(site,'lib/kline-history.json'),result);
   await save(path.join(root,'data/kline',checkedAt.replaceAll(':','-')+'.json'),result);
